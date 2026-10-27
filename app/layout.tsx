@@ -4,6 +4,8 @@ import { fontVars } from "./fonts";
 import { getDict } from "@/lib/i18n/server";
 import { I18nProvider } from "@/lib/i18n/client";
 import { ServiceWorker } from "@/components/ServiceWorker";
+import { DistrictProvider } from "@/lib/client/district";
+import { Suspense } from "react";
 
 export async function generateMetadata(): Promise<Metadata> {
   const { t } = await getDict();
@@ -29,7 +31,11 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   return (
     <html lang={locale} className={fontVars}>
       <body>
-        <I18nProvider locale={locale}>{children}</I18nProvider>
+        <I18nProvider locale={locale}>
+          <Suspense fallback={null}>
+            <DistrictProvider>{children}</DistrictProvider>
+          </Suspense>
+        </I18nProvider>
         <ServiceWorker />
       </body>
     </html>

@@ -3,6 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
+  devIndicators: false,
   // PGlite (local dev database) ships WASM; keep it out of the server bundle.
   serverExternalPackages: ["@electric-sql/pglite"],
   // Route handlers that read files from public/ at runtime need them traced into the function bundle.

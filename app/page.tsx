@@ -1,3 +1,6 @@
+import { Journey } from "@/components/journey/Journey";
+
+/** The opening: a continuous scroll descent from orbit to the aquifer. */
 export default function Home() {
-  return <main id="main" className="page"><h1>Neerakshi</h1></main>;
+  return <Journey />;
 }

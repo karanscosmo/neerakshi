@@ -602,3 +602,57 @@ table.data td.n {
     scroll-behavior: auto !important;
   }
 }
+
+/* ─── Shared illustration motion (CSS loops; transform/opacity only) ─── */
+.nk-sway {
+  animation: nkSway 5.5s ease-in-out infinite alternate;
+}
+@keyframes nkSway {
+  from {
+    transform: rotate(-1.6deg);
+  }
+  to {
+    transform: rotate(1.6deg);
+  }
+}
+.nk-shimmer path {
+  animation: nkShimmer 3.2s ease-in-out infinite;
+}
+@keyframes nkShimmer {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  30% {
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateY(-80px);
+    opacity: 0;
+  }
+}
+.nk-wave {
+  animation: nkWave 6s linear infinite;
+}
+@keyframes nkWave {
+  to {
+    transform: translateX(40px);
+  }
+}
+.nk-ripple {
+  transform-origin: 500px 500px;
+  animation: nkRipple 4s ease-out infinite;
+}
+@keyframes nkRipple {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  to {
+    transform: scale(1.1);
+    opacity: 0;
+  }
+}
