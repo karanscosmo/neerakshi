@@ -17,7 +17,9 @@
     "telegram:set-webhook": "tsx scripts/set-telegram-webhook.ts",
     "postinstall": "node scripts/copy-vendor.mjs",
     "predev": "node scripts/copy-vendor.mjs",
-    "prebuild": "node scripts/copy-vendor.mjs"
+    "prebuild": "node scripts/copy-vendor.mjs",
+    "export:advisories": "tsx scripts/export-advisories.ts",
+    "pipeline": "python -m pipeline.run_all"
   },
   "engines": {
     "node": ">=20"

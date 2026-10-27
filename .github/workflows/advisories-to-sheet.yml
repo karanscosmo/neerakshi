@@ -1,0 +1,21 @@
+# Optional: daily copy of the anonymised advisories export to a Google Sheet (for a live Tableau Public dashboard).
+# Does nothing until the four secrets below are set. See docs/TABLEAU_GUIDE.md.
+name: advisories-to-sheet
+on:
+  schedule:
+    - cron: "15 2 * * *"
+  workflow_dispatch:
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/advisories-to-sheet.mjs
+        env:
+          NEERAKSHI_EXPORT_URL: ${{ secrets.NEERAKSHI_EXPORT_URL }}
+          ADMIN_PASSCODE: ${{ secrets.ADMIN_PASSCODE }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          ADVISORIES_SHEET_ID: ${{ secrets.ADVISORIES_SHEET_ID }}

@@ -1,0 +1,22 @@
+{
+  "name": "Neerakshi — Every drop, seen from the sky",
+  "short_name": "Neerakshi",
+  "description": "Agricultural water-stress atlas of India and a field-level irrigation advisor.",
+  "start_url": "/hub",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#141B2D",
+  "theme_color": "#141B2D",
+  "lang": "en-IN",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "shortcuts": [
+    { "name": "My Field", "url": "/field", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Water Stress Atlas", "url": "/atlas", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
