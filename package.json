@@ -1,0 +1,63 @@
+{
+  "name": "neerakshi",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Neerakshi — satellite-driven irrigation advisory and agricultural water-stress atlas for India",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "tsx scripts/migrate.ts",
+    "db:load": "tsx scripts/load-prepared.ts",
+    "atlas:build": "tsx scripts/build-atlas-assets.ts",
+    "telegram:set-webhook": "tsx scripts/set-telegram-webhook.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@electric-sql/pglite": "^0.5.12",
+    "@fontsource/fraunces": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@fontsource/ibm-plex-sans": "^5.3.0",
+    "@fontsource/noto-sans-devanagari": "^5.3.0",
+    "@fontsource/noto-sans-kannada": "^5.3.0",
+    "@fontsource/tiro-devanagari-hindi": "^5.3.0",
+    "@fontsource/tiro-kannada": "^5.3.0",
+    "@neondatabase/serverless": "^1.2.0",
+    "d3": "^7.9.0",
+    "drizzle-orm": "^0.45.4",
+    "gsap": "^3.15.0",
+    "maplibre-gl": "^6.16.0",
+    "next": "^16.4.3",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "satellite.js": "^7.1.0",
+    "server-only": "^0.0.1",
+    "terra-draw": "^1.38.0",
+    "terra-draw-maplibre-gl-adapter": "^1.5.0",
+    "topojson-client": "^3.1.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/d3": "^7.4.3",
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/topojson-client": "^3.1.5",
+    "@types/topojson-server": "^3.0.4",
+    "@types/topojson-specification": "^1.0.5",
+    "drizzle-kit": "^0.31.11",
+    "mapshaper": "^0.7.98",
+    "topojson-server": "^3.0.1",
+    "tsx": "^4.23.15",
+    "typescript": "5.9",
+    "vitest": "^5.0.5"
+  }
+}
