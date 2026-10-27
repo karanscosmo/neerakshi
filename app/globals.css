@@ -60,10 +60,17 @@
 html[lang="hi"] {
   --ff-display: var(--font-deva-display), var(--font-display), serif;
   --ff-sans: var(--font-deva), var(--font-sans), system-ui, sans-serif;
+  --ff-mono: var(--font-mono), var(--font-deva), ui-monospace, monospace;
 }
 html[lang="kn"] {
   --ff-display: var(--font-kn-display), var(--font-display), serif;
   --ff-sans: var(--font-kn), var(--font-sans), system-ui, sans-serif;
+  --ff-mono: var(--font-mono), var(--font-kn), ui-monospace, monospace;
+}
+html[lang="hi"] .annot,
+html[lang="kn"] .annot {
+  letter-spacing: 0.02em;
+  text-transform: none;
 }
 
 *,

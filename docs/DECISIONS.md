@@ -45,5 +45,5 @@ Every default chosen without asking, with the reason. Newest sections at the bot
 
 ## Platform
 
-- **Local database**: when `DATABASE_URL` is empty in development, the app uses embedded PGlite (`.data/pglite`) with the same Drizzle schema and migrations. Production must use Neon.
+- **Local database**: when `DATABASE_URL` is empty in development, the app uses embedded PGlite (`~/.cache/neerakshi/pglite`) with the same Drizzle schema and migrations. Production must use Neon.
 - **Next.js 16 / React 19 / Drizzle 0.45 / MapLibre 6 / Vitest 5** — current versions at build time.

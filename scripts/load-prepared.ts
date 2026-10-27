@@ -38,7 +38,7 @@ type Spec<T extends z.ZodTypeAny> = { file: string; table: PgTable; schema: T };
 
 async function main() {
   const db = await createDb({ migrate: true });
-  console.log(process.env.DATABASE_URL ? "→ Neon (DATABASE_URL)" : "→ local PGlite (.data/pglite)");
+  console.log(process.env.DATABASE_URL ? "→ Neon (DATABASE_URL)" : "→ local PGlite (~/.cache/neerakshi/pglite)");
 
   const specs: Spec<z.ZodTypeAny>[] = [
     {

@@ -9,7 +9,7 @@ const MIGRATIONS = path.join(process.cwd(), "db", "migrations");
 
 /**
  * Neon serverless Postgres over HTTP when DATABASE_URL is set; otherwise an
- * embedded PGlite database in ./.data/pglite for local development (never on Vercel).
+ * embedded PGlite database in ~/.cache/neerakshi/pglite for local development (never on Vercel).
  */
 export async function createDb(opts: { migrate?: boolean } = {}): Promise<DB> {
   const url = process.env.DATABASE_URL;
@@ -27,7 +27,10 @@ export async function createDb(opts: { migrate?: boolean } = {}): Promise<DB> {
   const { PGlite } = await import("@electric-sql/pglite");
   const { drizzle } = await import("drizzle-orm/pglite");
   const { migrate } = await import("drizzle-orm/pglite/migrator");
-  const dir = process.env.PGLITE_DIR ?? path.join(process.cwd(), ".data", "pglite");
+  // Outside the project tree: the dev server watches the project, and PGlite's
+  // writes would otherwise trigger endless recompiles and page reloads.
+  const os = await import("node:os");
+  const dir = process.env.PGLITE_DIR ?? path.join(os.homedir(), ".cache", "neerakshi", "pglite");
   (await import("node:fs")).mkdirSync(dir, { recursive: true });
   const client = new PGlite(dir);
   const db = drizzle(client, { schema });
