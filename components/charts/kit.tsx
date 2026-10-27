@@ -161,7 +161,7 @@ export function DivergingBars({
   data: { x: number; y: number | null }[];
   yLabel: string;
   height?: number;
-  colorFor: (y: number) => string;
+  colorFor: (y: number, x: number) => string;
   format: (d: { x: number; y: number }) => string;
   label: string;
 }) {
@@ -191,7 +191,8 @@ export function DivergingBars({
             width={Math.max(1, x.bandwidth())}
             y={Math.min(y(0), y(d.y))}
             height={Math.max(0.5, Math.abs(y(d.y) - y(0)))}
-            fill={colorFor(d.y)}
+            fill={colorFor(d.y, d.x)}
+            style={{ transition: "fill 250ms" }}
             onMouseMove={(e) => setTip({ x: e.clientX, y: e.clientY, text: format(d) })}
             onMouseLeave={() => setTip(null)}
           />

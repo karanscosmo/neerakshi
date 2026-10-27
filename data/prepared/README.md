@@ -32,7 +32,7 @@ Source D1 (APY, DES MoA&FW). Crops: rice, wheat, maize, sugarcane.
 | production_t | tonnes | null if every part is null |
 | yield_t_per_ha | t/ha | production_t / area_ha, only when area > 0 and production known |
 
-**Aggregation:** sum `area_ha` and `production_t` across seasons/districts, then divide — never average `yield_t_per_ha`.
+**Aggregation:** sum `area_ha` and `production_t` across seasons/districts, then divide — never average `yield_t_per_ha`. When some rows have unknown production (360 rows in total), the app sums production over the rows that report it, divides by *their* area for yield, and shows the share of area covered. Unknown production is never counted as zero.
 
 ## crop_district_annual.csv — year × district × crop
 Seasons summed (safe: the source has no "Total" rows). `production_t` and `yield_t_per_ha` are null when any season has area but unknown production. Extra column `seasons` = number of seasons reported.
