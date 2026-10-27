@@ -656,3 +656,8 @@ table.data td.n {
     opacity: 0;
   }
 }
+
+input[type="range"] {
+  accent-color: var(--teal-text);
+  min-height: 44px;
+}

@@ -4,14 +4,9 @@ import { useJson } from "@/lib/client/useJson";
 import { formatLatLon, nearestDistrict, nextImagingPass, subPoint, type Tle } from "@/lib/client/orbit";
 import type { DistrictLite } from "@/lib/client/district";
 import type { LiveState } from "./FieldNote";
+import type { DistrictSummary } from "@/lib/server/atlas";
 
-export type Summary = {
-  district: { id: string; name: string; state: string; lat: number; lon: number };
-  stress: { stressIndex0100: number | null; rankNational: number | null; rankState: number | null; total: number; stateTotal: number; rainPeriod: string | null; gwYear: number | null; componentsUsed: number } | null;
-  monsoon: { latest: { year: number; departurePct: number | null } | null; last30: { year: number; departurePct: number | null }[]; normalPeriod: string };
-  groundwater: { year: number; medianDepthMbgl: number | null; changeVsBaselineM: number | null; wellCount: number } | null;
-  ndvi: { month: string; ndviMedian: number | null; validPixelPct: number | null } | null;
-};
+export type Summary = DistrictSummary;
 
 function toLive<T, R>(s: { data: T | null; error: string | null; loading: boolean }, pick: (d: T) => R | null, none?: string): LiveState<R> {
   if (s.loading) return { status: "loading" };

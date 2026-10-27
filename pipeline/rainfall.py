@@ -161,6 +161,20 @@ def run(report: Report, districts: pd.DataFrame) -> dict[str, pd.DataFrame]:
         c = c[~c["unit_id"].isin(EXCLUDED_STATE_UNITS)]
         st = c[["unit_id", "year", "rain_jjas_mm", "rain_jjas_normal_mm", "rain_jjas_dep_pct"]].rename(columns={"rain_jjas_mm": "jjas_mm", "rain_jjas_normal_mm": "normal_mm", "rain_jjas_dep_pct": "departure_pct"})
         ms.append(pd.DataFrame({"region_type": "state", "region_id": st["unit_id"], "region_name": st["unit_id"], "year": st["year"], "jjas_mm": st["jjas_mm"].round(1), "normal_mm": st["normal_mm"].round(1), "departure_pct": st["departure_pct"].round(1), "source": "imd_grid_state_hssling"}))
+        # All-India from state units, area-weighted (Census 2011 district areas summed per unit); years with ≥ 90 % area.
+        ua = d.assign(unit_id=d["state_code"].map(lambda s_: STATE_UNIT.get(s_, s_))).groupby("unit_id")["area_km2"].sum()
+        tot_area = ua[ua.index.isin(st["unit_id"].unique())].sum()
+        rows2 = []
+        for y, g in st.dropna(subset=["jjas_mm"]).groupby("year"):
+            w = g["unit_id"].map(ua)
+            cov = w.sum() / tot_area
+            if cov >= 0.9:
+                rows2.append((int(y), float((g["jjas_mm"] * w).sum() / w.sum()), round(cov * 100, 1)))
+        ig = pd.DataFrame(rows2, columns=["year", "jjas_mm", "cov"])
+        nb2 = ig[(ig["year"] >= 1981) & (ig["year"] <= 2010)]["jjas_mm"].mean()
+        ig["departure_pct"] = (100 * (ig["jjas_mm"] - nb2) / nb2).round(1)
+        ms.append(pd.DataFrame({"region_type": "india_grid", "region_id": "IN", "region_name": "All India (IMD grid, state-weighted)", "year": ig["year"], "jjas_mm": ig["jjas_mm"].round(1), "normal_mm": round(nb2, 1), "departure_pct": ig["departure_pct"], "source": "imd_grid_state_area_weighted"}))
+        report.note("Rainfall", f"All-India JJAS from state units (area-weighted) {int(ig['year'].min())}–{int(ig['year'].max())}; 1981–2010 mean = {nb2:.0f} mm. Latest: {int(ig['year'].iloc[-1])} = {ig['departure_pct'].iloc[-1]:+.1f}%.")
         report.note("Rainfall", f"State JJAS (IMD grid, area-weighted): {c['unit_id'].nunique()} units, {c['year'].min()}–{c['year'].max()}; excluded {EXCLUDED_STATE_UNITS}.")
         report.source("D3_state_jjas", "loaded", rows=len(st), years=f"{c['year'].min()}–{c['year'].max()}")
     if ms:

@@ -64,6 +64,7 @@ The underlying sub-divisional series. Normal 1951–2000 (≥ 40 years required)
 | india | IN | subdivisions area-weighted by Census 2011 area; years with ≥ 90 % area reporting |
 | subdivision | IMD subdivision name | IMD sub-divisional 1901–2015 |
 | state | state unit (AP_TG = Andhra Pradesh + Telangana, DNH_DD = Dadra & Nagar Haveli + Daman & Diu) | IMD grid aggregated to states 1981–2025 |
+| india_grid | IN | state units area-weighted (Census 2011 areas), 1981–2025, normal 1981–2010 |
 Columns: `jjas_mm`, `normal_mm`, `departure_pct`. Deficit year: `departure_pct ≤ −10`; excess: `≥ +10`.
 
 ## groundwater_district.csv — year × season × district

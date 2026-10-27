@@ -2,7 +2,7 @@
   "name": "neerakshi",
   "version": "0.1.0",
   "private": true,
-  "description": "Neerakshi — satellite-driven irrigation advisory and agricultural water-stress atlas for India",
+  "description": "Neerakshi \u2014 satellite-driven irrigation advisory and agricultural water-stress atlas for India",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -14,7 +14,10 @@
     "db:migrate": "tsx scripts/migrate.ts",
     "db:load": "tsx scripts/load-prepared.ts",
     "atlas:build": "tsx scripts/build-atlas-assets.ts",
-    "telegram:set-webhook": "tsx scripts/set-telegram-webhook.ts"
+    "telegram:set-webhook": "tsx scripts/set-telegram-webhook.ts",
+    "postinstall": "node scripts/copy-vendor.mjs",
+    "predev": "node scripts/copy-vendor.mjs",
+    "prebuild": "node scripts/copy-vendor.mjs"
   },
   "engines": {
     "node": ">=20"
