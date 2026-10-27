@@ -5,6 +5,12 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   // PGlite (local dev database) ships WASM; keep it out of the server bundle.
   serverExternalPackages: ["@electric-sql/pglite"],
+  // Route handlers that read files from public/ at runtime need them traced into the function bundle.
+  outputFileTracingIncludes: {
+    "/api/fields": ["./public/data/districts.topo.json"],
+    "/api/atlas/district-at": ["./public/data/districts.topo.json"],
+    "/api/**": ["./db/migrations/**"],
+  },
   async headers() {
     return [
       {

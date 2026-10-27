@@ -1,0 +1,1351 @@
+[
+ {
+  "name": "mid_season_no_rain_irrigate_now",
+  "note": "Hand check: Kc 1.2, ET0 5 \u2192 ETc 6.0; p = 0.55+0.04(5\u22126) = 0.51; TAW = 1000\u00b70.13\u00b71.35 = 175.5; RAW = 89.5. Dr after 15 dry days = 90.0 \u2265 RAW \u2192 irrigate now, net 90.0 mm, gross 150 mm at 60 %, 0.5 ha \u2192 750 000 L.",
+  "crop": {
+   "crop": "maize",
+   "lIni": 20,
+   "lDev": 35,
+   "lMid": 40,
+   "lLate": 30,
+   "kcIni": 0.3,
+   "kcMid": 1.2,
+   "kcEnd": 0.35,
+   "zrMin": 0.15,
+   "zrMax": 1.35,
+   "p": 0.55
+  },
+  "soil": {
+   "soil": "loam",
+   "thetaFc": 0.25,
+   "thetaWp": 0.12
+  },
+  "sowingDate": "2025-06-01",
+  "startDate": "2025-07-27",
+  "today": "2025-08-10",
+  "areaHa": 0.5,
+  "efficiency": 0.6,
+  "weather": [
+   {
+    "date": "2025-07-27",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-07-28",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-07-29",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-07-30",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-07-31",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-01",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-02",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-03",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-04",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-05",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-06",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-07",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-08",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-09",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-10",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-11",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-12",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-13",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-14",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-15",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-16",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-17",
+    "et0": 5.0,
+    "precip": 0.0
+   }
+  ],
+  "expected": {
+   "type": "irrigate_now",
+   "dr": 90.0,
+   "raw": 89.5,
+   "taw": 175.5,
+   "netDepthMm": 90.0,
+   "grossDepthMm": 150.0,
+   "grossLitres": 750000
+  }
+ },
+ {
+  "name": "mid_season_irrigate_in_3",
+  "note": "Hand check: Dr on day 12 = 72.0; projected 78, 84, 90 \u2192 crosses RAW (89.5) on day 3 \u2192 irrigate in 3 days, 90 mm.",
+  "crop": {
+   "crop": "maize",
+   "lIni": 20,
+   "lDev": 35,
+   "lMid": 40,
+   "lLate": 30,
+   "kcIni": 0.3,
+   "kcMid": 1.2,
+   "kcEnd": 0.35,
+   "zrMin": 0.15,
+   "zrMax": 1.35,
+   "p": 0.55
+  },
+  "soil": {
+   "soil": "loam",
+   "thetaFc": 0.25,
+   "thetaWp": 0.12
+  },
+  "sowingDate": "2025-06-01",
+  "startDate": "2025-07-27",
+  "today": "2025-08-07",
+  "areaHa": 1.0,
+  "efficiency": 0.9,
+  "weather": [
+   {
+    "date": "2025-07-27",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-07-28",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-07-29",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-07-30",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-07-31",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-01",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-02",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-03",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-04",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-05",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-06",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-07",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-08",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-09",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-10",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-11",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-12",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-13",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-14",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-15",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-16",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-17",
+    "et0": 5.0,
+    "precip": 0.0
+   }
+  ],
+  "expected": {
+   "type": "irrigate_in",
+   "inDays": 3,
+   "dr": 72.0,
+   "netDepthMm": 90.0,
+   "grossDepthMm": 100.0,
+   "grossLitres": 1000000
+  }
+ },
+ {
+  "name": "mid_season_wait_for_rain",
+  "note": "Hand check: Dr 90.0 \u2265 RAW, 12 mm forecast tomorrow (\u2265 10 mm within 48 h) \u2192 wait, re-check in 2 days.",
+  "crop": {
+   "crop": "maize",
+   "lIni": 20,
+   "lDev": 35,
+   "lMid": 40,
+   "lLate": 30,
+   "kcIni": 0.3,
+   "kcMid": 1.2,
+   "kcEnd": 0.35,
+   "zrMin": 0.15,
+   "zrMax": 1.35,
+   "p": 0.55
+  },
+  "soil": {
+   "soil": "loam",
+   "thetaFc": 0.25,
+   "thetaWp": 0.12
+  },
+  "sowingDate": "2025-06-01",
+  "startDate": "2025-07-27",
+  "today": "2025-08-10",
+  "areaHa": 0.5,
+  "efficiency": 0.6,
+  "weather": [
+   {
+    "date": "2025-07-27",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-07-28",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-07-29",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-07-30",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-07-31",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-01",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-02",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-03",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-04",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-05",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-06",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-07",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-08",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-09",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-10",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-11",
+    "et0": 5.0,
+    "precip": 12.0
+   },
+   {
+    "date": "2025-08-12",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-13",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-14",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-15",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-16",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-17",
+    "et0": 5.0,
+    "precip": 0.0
+   }
+  ],
+  "expected": {
+   "type": "wait_rain",
+   "nextCheck": "2025-08-12",
+   "dr": 90.0
+  }
+ },
+ {
+  "name": "ks_reduces_et_after_raw",
+  "note": "Hand check, day 16 (2025-08-11): Dr_start 90.0 > RAW 89.5 \u2192 Ks = (175.5\u221290)/((1\u22120.51)\u00b7175.5) = 0.994; ETc,adj = 5.97; Dr = 95.97.",
+  "crop": {
+   "crop": "maize",
+   "lIni": 20,
+   "lDev": 35,
+   "lMid": 40,
+   "lLate": 30,
+   "kcIni": 0.3,
+   "kcMid": 1.2,
+   "kcEnd": 0.35,
+   "zrMin": 0.15,
+   "zrMax": 1.35,
+   "p": 0.55
+  },
+  "soil": {
+   "soil": "loam",
+   "thetaFc": 0.25,
+   "thetaWp": 0.12
+  },
+  "sowingDate": "2025-06-01",
+  "startDate": "2025-07-27",
+  "today": "2025-08-11",
+  "areaHa": 0.5,
+  "efficiency": 0.6,
+  "weather": [
+   {
+    "date": "2025-07-27",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-07-28",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-07-29",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-07-30",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-07-31",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-01",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-02",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-03",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-04",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-05",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-06",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-07",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-08",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-09",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-10",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-11",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-12",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-13",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-14",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-15",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-16",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-17",
+    "et0": 5.0,
+    "precip": 0.0
+   }
+  ],
+  "expected": {
+   "type": "irrigate_now",
+   "dr": 95.97,
+   "ks": 0.994
+  }
+ },
+ {
+  "name": "recorded_irrigation_refills",
+  "note": "Refill to field capacity on 2025-08-05 (depth null) resets Dr; afterwards 6 mm/day \u2192 Dr on 2025-08-10 = 36.0 \u2192 no irrigation needed.",
+  "crop": {
+   "crop": "maize",
+   "lIni": 20,
+   "lDev": 35,
+   "lMid": 40,
+   "lLate": 30,
+   "kcIni": 0.3,
+   "kcMid": 1.2,
+   "kcEnd": 0.35,
+   "zrMin": 0.15,
+   "zrMax": 1.35,
+   "p": 0.55
+  },
+  "soil": {
+   "soil": "loam",
+   "thetaFc": 0.25,
+   "thetaWp": 0.12
+  },
+  "sowingDate": "2025-06-01",
+  "startDate": "2025-07-27",
+  "today": "2025-08-10",
+  "areaHa": 0.5,
+  "efficiency": 0.6,
+  "irrigations": [
+   {
+    "date": "2025-08-05",
+    "depthMm": null
+   }
+  ],
+  "weather": [
+   {
+    "date": "2025-07-27",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-07-28",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-07-29",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-07-30",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-07-31",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-01",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-02",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-03",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-04",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-05",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-06",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-07",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-08",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-09",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-10",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-11",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-12",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-13",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-14",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-15",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-16",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-17",
+    "et0": 5.0,
+    "precip": 0.0
+   }
+  ],
+  "expected": {
+   "type": "no_need",
+   "dr": 36.0
+  }
+ },
+ {
+  "name": "small_rain_ignored",
+  "note": "0.8 mm rain with ET0 5 is below 0.2\u00b7ET0 = 1.0 mm \u2192 ignored; 3 mm \u2192 2.4 mm effective.",
+  "crop": {
+   "crop": "maize",
+   "lIni": 20,
+   "lDev": 35,
+   "lMid": 40,
+   "lLate": 30,
+   "kcIni": 0.3,
+   "kcMid": 1.2,
+   "kcEnd": 0.35,
+   "zrMin": 0.15,
+   "zrMax": 1.35,
+   "p": 0.55
+  },
+  "soil": {
+   "soil": "loam",
+   "thetaFc": 0.25,
+   "thetaWp": 0.12
+  },
+  "sowingDate": "2025-06-01",
+  "startDate": "2025-07-27",
+  "today": "2025-07-29",
+  "areaHa": 0.5,
+  "efficiency": 0.6,
+  "weather": [
+   {
+    "date": "2025-07-27",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-07-28",
+    "et0": 5.0,
+    "precip": 0.8
+   },
+   {
+    "date": "2025-07-29",
+    "et0": 5.0,
+    "precip": 3.0
+   },
+   {
+    "date": "2025-07-30",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-07-31",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-01",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-02",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-03",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-04",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-05",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-06",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-07",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-08",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-09",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-10",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-11",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-12",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-13",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-14",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-15",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-16",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-17",
+    "et0": 5.0,
+    "precip": 0.0
+   }
+  ],
+  "expected": {
+   "type": "no_need",
+   "dr": 15.6
+  }
+ },
+ {
+  "name": "development_stage_wheat_clay",
+  "note": "Wheat in development: Kc and Zr interpolate daily; compared across TypeScript and Python only.",
+  "crop": {
+   "crop": "wheat",
+   "lIni": 15,
+   "lDev": 25,
+   "lMid": 50,
+   "lLate": 30,
+   "kcIni": 0.3,
+   "kcMid": 1.15,
+   "kcEnd": 0.3,
+   "zrMin": 0.15,
+   "zrMax": 1.25,
+   "p": 0.55
+  },
+  "soil": {
+   "soil": "clay",
+   "thetaFc": 0.36,
+   "thetaWp": 0.22
+  },
+  "sowingDate": "2025-11-15",
+  "startDate": "2025-11-25",
+  "today": "2025-12-20",
+  "areaHa": 0.25,
+  "efficiency": 0.6,
+  "weather": [
+   {
+    "date": "2025-11-25",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-11-26",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-11-27",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-11-28",
+    "et0": 3.2,
+    "precip": 6.0
+   },
+   {
+    "date": "2025-11-29",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-11-30",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-01",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-02",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-03",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-04",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-05",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-06",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-07",
+    "et0": 3.2,
+    "precip": 15.0
+   },
+   {
+    "date": "2025-12-08",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-09",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-10",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-11",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-12",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-13",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-14",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-15",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-16",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-17",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-18",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-19",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-20",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-21",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-22",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-23",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-24",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-25",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-26",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-27",
+    "et0": 3.2,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-28",
+    "et0": 3.2,
+    "precip": 0.0
+   }
+  ],
+  "expected": {}
+ },
+ {
+  "name": "not_sown",
+  "crop": {
+   "crop": "wheat",
+   "lIni": 15,
+   "lDev": 25,
+   "lMid": 50,
+   "lLate": 30,
+   "kcIni": 0.3,
+   "kcMid": 1.15,
+   "kcEnd": 0.3,
+   "zrMin": 0.15,
+   "zrMax": 1.25,
+   "p": 0.55
+  },
+  "soil": {
+   "soil": "clay",
+   "thetaFc": 0.36,
+   "thetaWp": 0.22
+  },
+  "sowingDate": "2026-01-15",
+  "startDate": "2025-12-20",
+  "today": "2026-01-01",
+  "areaHa": 0.25,
+  "efficiency": 0.6,
+  "weather": [
+   {
+    "date": "2025-12-20",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-21",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-22",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-23",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-24",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-25",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-26",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-27",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-28",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-29",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-30",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-12-31",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2026-01-01",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2026-01-02",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2026-01-03",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2026-01-04",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2026-01-05",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2026-01-06",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2026-01-07",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2026-01-08",
+    "et0": 5.0,
+    "precip": 0.0
+   }
+  ],
+  "expected": {
+   "type": "unavailable",
+   "reason": "not_sown"
+  }
+ },
+ {
+  "name": "missing_weather",
+  "crop": {
+   "crop": "maize",
+   "lIni": 20,
+   "lDev": 35,
+   "lMid": 40,
+   "lLate": 30,
+   "kcIni": 0.3,
+   "kcMid": 1.2,
+   "kcEnd": 0.35,
+   "zrMin": 0.15,
+   "zrMax": 1.35,
+   "p": 0.55
+  },
+  "soil": {
+   "soil": "loam",
+   "thetaFc": 0.25,
+   "thetaWp": 0.12
+  },
+  "sowingDate": "2025-06-01",
+  "startDate": "2025-07-27",
+  "today": "2025-08-10",
+  "areaHa": 0.5,
+  "efficiency": 0.6,
+  "weather": [
+   {
+    "date": "2025-07-27",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-07-28",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-07-29",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-07-30",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-07-31",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-01",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-02",
+    "et0": null,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-03",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-04",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-05",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-06",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-07",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-08",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-09",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-10",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-11",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-12",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-13",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-14",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-15",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-16",
+    "et0": 5.0,
+    "precip": 0.0
+   },
+   {
+    "date": "2025-08-17",
+    "et0": 5.0,
+    "precip": 0.0
+   }
+  ],
+  "expected": {
+   "type": "unavailable",
+   "reason": "weather"
+  }
+ }
+]
