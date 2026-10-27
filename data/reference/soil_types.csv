@@ -1,0 +1,5 @@
+soil,label,fao56_texture,theta_fc,theta_wp,taw_mm_per_m,source,note
+sandy,Sandy,Sandy loam,0.23,0.11,120,"FAO-56 Table 19 (sandy loam: θFC 0.18–0.28, θWP 0.06–0.16; midpoints)","Farmer-described 'sandy' soils in India are mostly sandy loam; pure sand (θFC 0.07–0.17) would hold less."
+loam,Loam,Loam,0.25,0.12,130,"FAO-56 Table 19 (loam: θFC 0.20–0.30, θWP 0.07–0.17; midpoints)",
+clay_loam,Clay loam,Silty clay loam,0.335,0.205,130,"FAO-56 Table 19 (silty clay loam: θFC 0.30–0.37, θWP 0.17–0.24; midpoints)","Table 19 has no 'clay loam' row; the closest listed texture (silty clay loam) is used."
+clay,Clay,Clay,0.36,0.22,140,"FAO-56 Table 19 (clay: θFC 0.32–0.40, θWP 0.20–0.24; midpoints)","Black cotton soils (vertisols) behave like clay here."

@@ -1,0 +1,4 @@
+method,label,application_efficiency,source
+flood,Flood / basin,0.60,"Brouwer et al. (1989), FAO Irrigation Water Management Training Manual No. 4, §6: field application efficiency, surface irrigation 60 %"
+furrow,Furrow,0.60,"Brouwer et al. (1989), FAO Training Manual No. 4: surface irrigation (furrow) 60 %"
+drip,Drip,0.90,"Brouwer et al. (1989), FAO Training Manual No. 4: drip irrigation 90 %"

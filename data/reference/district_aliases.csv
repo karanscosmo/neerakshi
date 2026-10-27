@@ -1,0 +1,228 @@
+source,census_state,source_name,census_district,method
+apy,Andaman & Nicobar Island,Nicobars,Nicobar,rename
+apy,Andaman & Nicobar Island,South Andamans,South Andaman,rename
+apy,Andhra Pradesh,Ananthapuramu,Anantapur,rename
+apy,Andhra Pradesh,Y.S.R. Kadapa,Y.s.r.,rename
+apy,Andhra Pradesh,Mahabubnagar,Mahbubnagar,rename
+apy,Andhra Pradesh,Alluri Sitharama Raju,Visakhapatnam,carved_principal_parent
+apy,Andhra Pradesh,Anakapalli,Visakhapatnam,carved_principal_parent
+apy,Andhra Pradesh,Annamayya,Y.s.r.,carved_principal_parent
+apy,Andhra Pradesh,Bapatla,Guntur,carved_principal_parent
+apy,Andhra Pradesh,Dr. B.R. Ambedkar Konaseema,East Godavari,carved_principal_parent
+apy,Andhra Pradesh,Eluru,West Godavari,carved_principal_parent
+apy,Andhra Pradesh,Kakinada,East Godavari,carved_principal_parent
+apy,Andhra Pradesh,Nandyal,Kurnool,carved_principal_parent
+apy,Andhra Pradesh,Ntr,Krishna,carved_principal_parent
+apy,Andhra Pradesh,Palnadu,Guntur,carved_principal_parent
+apy,Andhra Pradesh,Parvathipuram Manyam,Vizianagaram,carved_principal_parent
+apy,Andhra Pradesh,Sri Sathya Sai,Anantapur,carved_principal_parent
+apy,Andhra Pradesh,Tirupati,Chittoor,carved_principal_parent
+apy,Andhra Pradesh,Bhadradri Kothagudem,Khammam,carved_principal_parent
+apy,Andhra Pradesh,Hanumakonda,Warangal,carved_principal_parent
+apy,Andhra Pradesh,Jagitial,Karimnagar,carved_principal_parent
+apy,Andhra Pradesh,Jangoan,Warangal,carved_principal_parent
+apy,Andhra Pradesh,Jayashankar Bhupalapally,Warangal,carved_principal_parent
+apy,Andhra Pradesh,Jogulamba Gadwal,Mahbubnagar,carved_principal_parent
+apy,Andhra Pradesh,Kamareddy,Nizamabad,carved_principal_parent
+apy,Andhra Pradesh,Kumuram Bheem Asifabad,Adilabad,carved_principal_parent
+apy,Andhra Pradesh,Mahabubabad,Warangal,carved_principal_parent
+apy,Andhra Pradesh,Mancherial,Adilabad,carved_principal_parent
+apy,Andhra Pradesh,Medchal Malkajgiri,Rangareddy,carved_principal_parent
+apy,Andhra Pradesh,Mulugu,Warangal,carved_principal_parent
+apy,Andhra Pradesh,Nagarkurnool,Mahbubnagar,carved_principal_parent
+apy,Andhra Pradesh,Narayanpet,Mahbubnagar,carved_principal_parent
+apy,Andhra Pradesh,Nirmal,Adilabad,carved_principal_parent
+apy,Andhra Pradesh,Peddapalli,Karimnagar,carved_principal_parent
+apy,Andhra Pradesh,Rajanna Sircilla,Karimnagar,carved_principal_parent
+apy,Andhra Pradesh,Sangareddy,Medak,carved_principal_parent
+apy,Andhra Pradesh,Siddipet,Medak,carved_principal_parent
+apy,Andhra Pradesh,Suryapet,Nalgonda,carved_principal_parent
+apy,Andhra Pradesh,Vikarabad,Rangareddy,carved_principal_parent
+apy,Andhra Pradesh,Wanaparthy,Mahbubnagar,carved_principal_parent
+apy,Andhra Pradesh,Yadadri Bhuvanagiri,Nalgonda,carved_principal_parent
+apy,Arunanchal Pradesh,Kamle,Lower Subansiri,carved_principal_parent
+apy,Arunanchal Pradesh,Kra Daadi,Kurung Kumey,carved_principal_parent
+apy,Arunanchal Pradesh,Leparada,West Siang,carved_principal_parent
+apy,Arunanchal Pradesh,Longding,Tirap,carved_principal_parent
+apy,Arunanchal Pradesh,Lower Siang,West Siang,carved_principal_parent
+apy,Arunanchal Pradesh,Namsai,Lohit,carved_principal_parent
+apy,Arunanchal Pradesh,Pakke Kessang,East Kameng,carved_principal_parent
+apy,Arunanchal Pradesh,Shi Yomi,West Siang,carved_principal_parent
+apy,Arunanchal Pradesh,Siang,West Siang,carved_principal_parent
+apy,Assam,Kamrup Metro,Kamrup Metropolitan,rename
+apy,Assam,Sribhumi,Karimganj,rename
+apy,Assam,Biswanath,Sonitpur,carved_principal_parent
+apy,Assam,Charaideo,Sivasagar,carved_principal_parent
+apy,Assam,Hojai,Nagaon,carved_principal_parent
+apy,Assam,Majuli,Jorhat,carved_principal_parent
+apy,Assam,South Salmara Mancachar,Dhubri,carved_principal_parent
+apy,Assam,West Karbi Anglong,Karbi Anglong,carved_principal_parent
+apy,Bihar,Purbi Champaran,Purba Champaran,rename
+apy,Bihar,Saran,Saran (chhapra),rename
+apy,Chhattisgarh,Korea,Koriya,rename
+apy,Chhattisgarh,Balod,Durg,carved_principal_parent
+apy,Chhattisgarh,Balodabazar-Bhatapara,Raipur,carved_principal_parent
+apy,Chhattisgarh,Balrampur-Ramanujganj,Surguja,carved_principal_parent
+apy,Chhattisgarh,Bemetara,Durg,carved_principal_parent
+apy,Chhattisgarh,Gariyaband,Raipur,carved_principal_parent
+apy,Chhattisgarh,Gaurela-Pendra-Marwahi,Bilaspur,carved_principal_parent
+apy,Chhattisgarh,Khairagarh-Chhuikhadan-Gandai,Rajnandgaon,carved_principal_parent
+apy,Chhattisgarh,Kondagaon,Bastar,carved_principal_parent
+apy,Chhattisgarh,Manendragarh-Chirmiri-Bharatpur(M C B),Koriya,carved_principal_parent
+apy,Chhattisgarh,Mohla-Manpur-Ambagarh Chouki,Rajnandgaon,carved_principal_parent
+apy,Chhattisgarh,Mungeli,Bilaspur,carved_principal_parent
+apy,Chhattisgarh,Sakti,Janjgir-champa,carved_principal_parent
+apy,Chhattisgarh,Sarangarh-Bilaigarh,Raigarh,carved_principal_parent
+apy,Chhattisgarh,Sukma,Dakshin Bastar Dantewada,carved_principal_parent
+apy,Chhattisgarh,Surajpur,Surguja,carved_principal_parent
+apy,Gujarat,Ahmedabad,Ahmadabad,rename
+apy,Gujarat,Dahod,Dohad,rename
+apy,Gujarat,Dangs,The Dangs,rename
+apy,Gujarat,Arvalli,Sabar Kantha,carved_principal_parent
+apy,Gujarat,Botad,Bhavnagar,carved_principal_parent
+apy,Gujarat,Chhotaudepur,Vadodara,carved_principal_parent
+apy,Gujarat,Devbhumi Dwarka,Jamnagar,carved_principal_parent
+apy,Gujarat,Gir Somnath,Junagadh,carved_principal_parent
+apy,Gujarat,Mahisagar,Panch Mahals,carved_principal_parent
+apy,Gujarat,Morbi,Rajkot,carved_principal_parent
+apy,Haryana,Gurugram,Gurgaon,rename
+apy,Haryana,Nuh,Mewat,rename
+apy,Haryana,Charkhi Dadri,Bhiwani,carved_principal_parent
+apy,Himachal Pradesh,Lahaul And Spiti,Lahul & Spiti,rename
+apy,Jammu & Kashmir,Bandipora,Bandipore,rename
+apy,Jammu & Kashmir,Baramulla,Baramula,rename
+apy,Jammu & Kashmir,Budgam,Badgam,rename
+apy,Jammu & Kashmir,Poonch,Punch,rename
+apy,Jammu & Kashmir,Shopian,Shupiyan,rename
+apy,Jammu & Kashmir,Leh,Leh (ladakh),rename
+apy,Jammu & Kashmir,Leh Ladakh,Leh (ladakh),rename
+apy,Jharkhand,East Singhbum,Purbi Singhbhum,rename
+apy,Jharkhand,Koderma,Kodarma,rename
+apy,Jharkhand,Sahebganj,Sahibganj,rename
+apy,Jharkhand,West Singhbhum,Pashchimi Singhbhum,rename
+apy,Karnataka,Bagalkote,Bagalkot,rename
+apy,Karnataka,Ballari,Bellary,rename
+apy,Karnataka,Belagavi,Belgaum,rename
+apy,Karnataka,Bengaluru Rural,Bangalore Rural,rename
+apy,Karnataka,Bengaluru South,Ramanagara,rename
+apy,Karnataka,Bengaluru Urban,Bangalore,rename
+apy,Karnataka,Chamarajanagar,Chamrajnagar,rename
+apy,Karnataka,Chikkamagaluru,Chikmagalur,rename
+apy,Karnataka,Kalaburagi,Gulbarga,rename
+apy,Karnataka,Mysuru,Mysore,rename
+apy,Karnataka,Shivamogga,Shimoga,rename
+apy,Karnataka,Tumakuru,Tumkur,rename
+apy,Karnataka,Vijayapura,Bijapur,rename
+apy,Karnataka,Vijayanagara,Bellary,carved_principal_parent
+apy,Madhya Pradesh,Khandwa (East Nimar),East Nimar,rename
+apy,Madhya Pradesh,Khargone (West Nimar),West Nimar,rename
+apy,Madhya Pradesh,Narmadapuram,Hoshangabad,rename
+apy,Madhya Pradesh,Agar-Malwa,Shajapur,carved_principal_parent
+apy,Madhya Pradesh,Niwari,Tikamgarh,carved_principal_parent
+apy,Maharashtra,Ahilyanagar,Ahmadnagar,rename
+apy,Maharashtra,Beed,Bid,rename
+apy,Maharashtra,Buldhana,Buldana,rename
+apy,Maharashtra,Chhatrapati Sambhajinagar,Aurangabad,rename
+apy,Maharashtra,Dharashiv,Osmanabad,rename
+apy,Maharashtra,Gadchiroli,Garhchiroli,rename
+apy,Maharashtra,Gondia,Gondiya,rename
+apy,Maharashtra,Raigad,Raigarh,rename
+apy,Maharashtra,Palghar,Thane,carved_principal_parent
+apy,Meghalaya,East Jaintia Hills,Jaintia Hills,carved_principal_parent
+apy,Meghalaya,North Garo Hills,East Garo Hills,carved_principal_parent
+apy,Meghalaya,South West Garo Hills,West Garo Hills,carved_principal_parent
+apy,Meghalaya,South West Khasi Hills,West Khasi Hills,carved_principal_parent
+apy,Meghalaya,West Jaintia Hills,Jaintia Hills,carved_principal_parent
+apy,Mizoram,Lawngtlai,Lawangtlai,rename
+apy,Mizoram,Siaha,Saiha,rename
+apy,Mizoram,Hnahthial,Lunglei,carved_principal_parent
+apy,Mizoram,Khawzawl,Champhai,carved_principal_parent
+apy,Mizoram,Saitual,Aizawl,carved_principal_parent
+apy,Nagaland,Chumoukedima,Dimapur,carved_principal_parent
+apy,Nagaland,Niuland,Dimapur,carved_principal_parent
+apy,Nagaland,Noklak,Tuensang,carved_principal_parent
+apy,Nagaland,Shamator,Tuensang,carved_principal_parent
+apy,Nagaland,Tseminyu,Kohima,carved_principal_parent
+apy,Odisha,Angul,Anugul,rename
+apy,Odisha,Balasore,Baleshwar,rename
+apy,Odisha,Boudh,Bauda,rename
+apy,Odisha,Deogarh,Debagarh,rename
+apy,Odisha,Jajpur,Jajapur,rename
+apy,Odisha,Keonjhar,Kendujhar,rename
+apy,Odisha,Nabarangpur,Nabarangapur,rename
+apy,Odisha,Sonepur,Subarnapur,rename
+apy,Punjab,Ferozepur,Firozpur,rename
+apy,Punjab,S.A.S Nagar,Sahibzada Ajit Singh Nagar,rename
+apy,Punjab,Sri Muktsar Sahib,Muktsar,rename
+apy,Punjab,Fazilka,Firozpur,carved_principal_parent
+apy,Punjab,Malerkotla,Sangrur,carved_principal_parent
+apy,Punjab,Pathankot,Gurdaspur,carved_principal_parent
+apy,Rajasthan,Chittorgarh,Chittaurgarh,rename
+apy,Rajasthan,Dholpur,Dhaulpur,rename
+apy,Rajasthan,Jalore,Jalor,rename
+apy,Rajasthan,Jhunjhunu,Jhunjhunun,rename
+apy,Sikkim,Gangtok,East,rename
+apy,Sikkim,Gyalshing,West,rename
+apy,Sikkim,Mangan,North,rename
+apy,Sikkim,Namchi,South,rename
+apy,Sikkim,Pakyong,East,carved_principal_parent
+apy,Sikkim,Soreng,West,carved_principal_parent
+apy,Tamil Nadu,Nagapattinam,Nagappattinam,rename
+apy,Tamil Nadu,Virudhunagar,Virudunagar,rename
+apy,Tamil Nadu,Chengalpattu,Kancheepuram,carved_principal_parent
+apy,Tamil Nadu,Kallakurichi,Viluppuram,carved_principal_parent
+apy,Tamil Nadu,Mayiladuthurai,Nagappattinam,carved_principal_parent
+apy,Tamil Nadu,Ranipet,Vellore,carved_principal_parent
+apy,Tamil Nadu,Tenkasi,Tirunelveli,carved_principal_parent
+apy,Tamil Nadu,Tirupathur,Vellore,carved_principal_parent
+apy,Dadara & Nagar Havelli,Dadra And Nagar Haveli,Dadra & Nagar Haveli,rename
+apy,Tripura,Gomati,South Tripura,carved_principal_parent
+apy,Tripura,Khowai,West Tripura,carved_principal_parent
+apy,Tripura,Sepahijala,West Tripura,carved_principal_parent
+apy,Tripura,Unakoti,North Tripura,carved_principal_parent
+apy,Uttar Pradesh,Amroha,Jyotiba Phule Nagar,rename
+apy,Uttar Pradesh,Ayodhya,Faizabad,rename
+apy,Uttar Pradesh,Bhadohi,Sant Ravi Das Nagar(bhadohi),rename
+apy,Uttar Pradesh,Hathras,Mahamaya Nagar,rename
+apy,Uttar Pradesh,Kasganj,Kansiram Nagar,rename
+apy,Uttar Pradesh,Mahrajganj,Maharajganj,rename
+apy,Uttar Pradesh,Prayagraj,Allahabad,rename
+apy,Uttar Pradesh,Amethi,Sultanpur,carved_principal_parent
+apy,Uttar Pradesh,Hapur,Ghaziabad,carved_principal_parent
+apy,Uttar Pradesh,Sambhal,Moradabad,carved_principal_parent
+apy,Uttar Pradesh,Shamli,Muzaffarnagar,carved_principal_parent
+apy,Uttarakhand,Haridwar,Hardwar,rename
+apy,Uttarakhand,Pauri Garhwal,Garhwal,rename
+apy,West Bengal,Cooch Behar,Koch Bihar,rename
+apy,West Bengal,Darjeeling,Darjiling,rename
+apy,West Bengal,Hooghly,Hugli,rename
+apy,West Bengal,Howrah,Haora,rename
+apy,West Bengal,Malda,Maldah,rename
+apy,West Bengal,Paschim Medinipur,Pashchim Medinipur,rename
+apy,West Bengal,Purulia,Puruliya,rename
+apy,West Bengal,Alipurduar,Jalpaiguri,carved_principal_parent
+apy,West Bengal,Jhargram,Pashchim Medinipur,carved_principal_parent
+apy,West Bengal,Kalimpong,Darjiling,carved_principal_parent
+apy,West Bengal,Paschim Bardhaman,Barddhaman,carved_principal_parent
+apy,West Bengal,Purba Bardhaman,Barddhaman,carved_principal_parent
+hssling,Jammu & Kashmir,Baramulla,Baramula,rename
+hssling,Jammu & Kashmir,Poonch,Punch,rename
+hssling,Karnataka,Chikballapura,Chikkaballapura,rename
+hssling,Chhattisgarh,Dantewada,Dakshin Bastar Dantewada,rename
+hssling,Gujarat,Dahod,Dohad,rename
+hssling,Uttar Pradesh,Hathras,Mahamaya Nagar,rename
+hssling,Uttar Pradesh,Amroha,Jyotiba Phule Nagar,rename
+hssling,Bihar,Kaimur,Kaimur (bhabua),rename
+hssling,Uttar Pradesh,Kasganj,Kansiram Nagar,rename
+hssling,Uttar Pradesh,Lakhimpur Kheri,Kheri,rename
+hssling,Assam,Morigaon,Marigaon,rename
+hssling,Maharashtra,Mumbai City,Mumbai,rename
+hssling,Andhra Pradesh,Nellore,Sri Potti Sriramulu Nellore,rename
+hssling,Uttar Pradesh,Sant Ravi Das Nagar,Sant Ravi Das Nagar(bhadohi),rename
+hssling,Bihar,Saran,Saran (chhapra),rename
+hssling,Uttar Pradesh,Shravasti,Shrawasti,rename
+hssling,Andaman & Nicobar Island,Nicobar Islands,Nicobar,rename
+hssling,Sikkim,East Sikkim,East,rename
+hssling,Sikkim,North Sikkim,North,rename
+hssling,Sikkim,South Sikkim,South,rename
+hssling,Sikkim,West Sikkim,West,rename

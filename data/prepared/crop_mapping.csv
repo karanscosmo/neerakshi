@@ -1,0 +1,13 @@
+source,source_crop,crop,unit_production,note
+apy,Rice,rice,tonnes (rice),"APY reports rice production as rice, not paddy; never mixed with paddy figures"
+apy,Wheat,wheat,tonnes,
+apy,Maize,maize,tonnes,
+apy,Sugarcane,sugarcane,tonnes (cane),
+icrisat,RICE,rice,,ICRISAT DLD irrigated area column prefix
+icrisat,WHEAT,wheat,,
+icrisat,MAIZE,maize,,
+icrisat,SUGARCANE,sugarcane,,
+fao56,Rice,rice,,FAO-56 Table 12 'Rice'
+fao56,Wheat,wheat,,FAO-56 Table 12 'Spring Wheat'
+fao56,Maize,maize,,FAO-56 Table 12 'Maize (grain)'
+fao56,Sugarcane,sugarcane,,FAO-56 Table 12 'Sugarcane'

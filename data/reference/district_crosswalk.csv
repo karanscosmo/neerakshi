@@ -1,0 +1,1930 @@
+source,source_state,source_district,district_id,method
+hssling,Andaman and Nicobar,Nicobar Islands,d638,rename
+hssling,Andaman and Nicobar,North and Middle Andaman,d639,exact_normalised
+hssling,Andaman and Nicobar,South Andaman,d640,exact_normalised
+hssling,Andhra Pradesh,Anantapur,d553,exact_normalised
+hssling,Andhra Pradesh,Chittoor,d554,exact_normalised
+hssling,Andhra Pradesh,East Godavari,d545,exact_normalised
+hssling,Andhra Pradesh,Guntur,d548,exact_normalised
+hssling,Andhra Pradesh,Krishna,d547,exact_normalised
+hssling,Andhra Pradesh,Kurnool,d552,exact_normalised
+hssling,Andhra Pradesh,Nellore,d550,rename
+hssling,Andhra Pradesh,Prakasam,d549,exact_normalised
+hssling,Andhra Pradesh,Srikakulam,d542,exact_normalised
+hssling,Andhra Pradesh,Visakhapatnam,d544,exact_normalised
+hssling,Andhra Pradesh,Vizianagaram,d543,exact_normalised
+hssling,Andhra Pradesh,West Godavari,d546,exact_normalised
+hssling,Andhra Pradesh,Y.S.R.,d551,exact_normalised
+hssling,Arunachal Pradesh,Anjaw,d260,exact_normalised
+hssling,Arunachal Pradesh,Changlang,d253,exact_normalised
+hssling,Arunachal Pradesh,Dibang Valley,d257,exact_normalised
+hssling,Arunachal Pradesh,East Kameng,d247,exact_normalised
+hssling,Arunachal Pradesh,East Siang,d251,exact_normalised
+hssling,Arunachal Pradesh,Kurung Kumey,d256,exact_normalised
+hssling,Arunachal Pradesh,Lohit,d259,exact_normalised
+hssling,Arunachal Pradesh,Lower Dibang Valley,d258,exact_normalised
+hssling,Arunachal Pradesh,Lower Subansiri,d255,exact_normalised
+hssling,Arunachal Pradesh,Papum Pare,d248,exact_normalised
+hssling,Arunachal Pradesh,Tawang,d245,exact_normalised
+hssling,Arunachal Pradesh,Tirap,d254,exact_normalised
+hssling,Arunachal Pradesh,Upper Siang,d252,exact_normalised
+hssling,Arunachal Pradesh,Upper Subansiri,d249,exact_normalised
+hssling,Arunachal Pradesh,West Kameng,d246,exact_normalised
+hssling,Arunachal Pradesh,West Siang,d250,exact_normalised
+hssling,Assam,Baksa,d324,exact_normalised
+hssling,Assam,Barpeta,d303,exact_normalised
+hssling,Assam,Bongaigaon,d319,exact_normalised
+hssling,Assam,Cachar,d316,exact_normalised
+hssling,Assam,Chirang,d320,exact_normalised
+hssling,Assam,Darrang,d325,exact_normalised
+hssling,Assam,Dhemaji,d308,exact_normalised
+hssling,Assam,Dhubri,d301,exact_normalised
+hssling,Assam,Dibrugarh,d310,exact_normalised
+hssling,Assam,Dima Hasao,d315,exact_normalised
+hssling,Assam,Goalpara,d302,exact_normalised
+hssling,Assam,Golaghat,d313,exact_normalised
+hssling,Assam,Hailakandi,d318,exact_normalised
+hssling,Assam,Jorhat,d312,exact_normalised
+hssling,Assam,Kamrup,d321,exact_normalised
+hssling,Assam,Kamrup Metropolitan,d322,exact_normalised
+hssling,Assam,Karbi Anglong,d314,exact_normalised
+hssling,Assam,Karimganj,d317,exact_normalised
+hssling,Assam,Kokrajhar,d300,exact_normalised
+hssling,Assam,Lakhimpur,d307,exact_normalised
+hssling,Assam,Morigaon,d304,rename
+hssling,Assam,Nagaon,d305,exact_normalised
+hssling,Assam,Nalbari,d323,exact_normalised
+hssling,Assam,Sivasagar,d311,exact_normalised
+hssling,Assam,Sonitpur,d306,exact_normalised
+hssling,Assam,Tinsukia,d309,exact_normalised
+hssling,Assam,Udalguri,d326,exact_normalised
+hssling,Bihar,Araria,d209,exact_normalised
+hssling,Bihar,Arwal,d240,exact_normalised
+hssling,Bihar,Aurangabad,d235,exact_normalised
+hssling,Bihar,Banka,d225,exact_normalised
+hssling,Bihar,Begusarai,d222,exact_normalised
+hssling,Bihar,Bhagalpur,d224,exact_normalised
+hssling,Bihar,Bhojpur,d231,exact_normalised
+hssling,Bihar,Buxar,d232,exact_normalised
+hssling,Bihar,Darbhanga,d215,exact_normalised
+hssling,Bihar,Gaya,d236,exact_normalised
+hssling,Bihar,Gopalganj,d217,exact_normalised
+hssling,Bihar,Jamui,d238,exact_normalised
+hssling,Bihar,Jehanabad,d239,exact_normalised
+hssling,Bihar,Kaimur,d233,rename
+hssling,Bihar,Katihar,d212,exact_normalised
+hssling,Bihar,Khagaria,d223,exact_normalised
+hssling,Bihar,Kishanganj,d210,exact_normalised
+hssling,Bihar,Lakhisarai,d227,exact_normalised
+hssling,Bihar,Madhepura,d213,exact_normalised
+hssling,Bihar,Madhubani,d207,exact_normalised
+hssling,Bihar,Munger,d226,exact_normalised
+hssling,Bihar,Muzaffarpur,d216,exact_normalised
+hssling,Bihar,Nalanda,d229,exact_normalised
+hssling,Bihar,Nawada,d237,exact_normalised
+hssling,Bihar,Pashchim Champaran,d203,exact_normalised
+hssling,Bihar,Patna,d230,exact_normalised
+hssling,Bihar,Purba Champaran,d204,exact_normalised
+hssling,Bihar,Purnia,d211,exact_normalised
+hssling,Bihar,Rohtas,d234,exact_normalised
+hssling,Bihar,Saharsa,d214,exact_normalised
+hssling,Bihar,Samastipur,d221,exact_normalised
+hssling,Bihar,Saran,d219,rename
+hssling,Bihar,Sheikhpura,d228,exact_normalised
+hssling,Bihar,Sheohar,d205,exact_normalised
+hssling,Bihar,Sitamarhi,d206,exact_normalised
+hssling,Bihar,Siwan,d218,exact_normalised
+hssling,Bihar,Supaul,d208,exact_normalised
+hssling,Bihar,Vaishali,d220,exact_normalised
+hssling,Chandigarh,Chandigarh,d55,exact_normalised
+hssling,Chhattisgarh,Bastar,d414,exact_normalised
+hssling,Chhattisgarh,Bijapur,d417,exact_normalised
+hssling,Chhattisgarh,Bilaspur,d406,exact_normalised
+hssling,Chhattisgarh,Dantewada,d416,rename
+hssling,Chhattisgarh,Dhamtari,d412,exact_normalised
+hssling,Chhattisgarh,Durg,d409,exact_normalised
+hssling,Chhattisgarh,Janjgir-Champa,d405,exact_normalised
+hssling,Chhattisgarh,Jashpur,d402,exact_normalised
+hssling,Chhattisgarh,Kabeerdham,d407,exact_normalised
+hssling,Chhattisgarh,Korba,d404,exact_normalised
+hssling,Chhattisgarh,Koriya,d400,exact_normalised
+hssling,Chhattisgarh,Mahasamund,d411,exact_normalised
+hssling,Chhattisgarh,Narayanpur,d415,exact_normalised
+hssling,Chhattisgarh,Raigarh,d403,exact_normalised
+hssling,Chhattisgarh,Raipur,d410,exact_normalised
+hssling,Chhattisgarh,Rajnandgaon,d408,exact_normalised
+hssling,Chhattisgarh,Surguja,d401,exact_normalised
+hssling,Chhattisgarh,Uttar Bastar Kanker,d413,exact_normalised
+hssling,Dadra and Nagar Haveli,Dadra and Nagar Haveli,d496,exact_normalised
+hssling,Daman and Diu,Daman,d495,exact_normalised
+hssling,Daman and Diu,Diu,d494,exact_normalised
+hssling,Goa,North Goa,d585,exact_normalised
+hssling,Goa,South Goa,d586,exact_normalised
+hssling,Gujarat,Ahmadabad,d474,exact_normalised
+hssling,Gujarat,Amreli,d480,exact_normalised
+hssling,Gujarat,Anand,d482,exact_normalised
+hssling,Gujarat,Banas Kantha,d469,exact_normalised
+hssling,Gujarat,Bharuch,d488,exact_normalised
+hssling,Gujarat,Bhavnagar,d481,exact_normalised
+hssling,Gujarat,Dahod,d485,rename
+hssling,Gujarat,Gandhinagar,d473,exact_normalised
+hssling,Gujarat,Jamnagar,d477,exact_normalised
+hssling,Gujarat,Junagadh,d479,exact_normalised
+hssling,Gujarat,Kachchh,d468,exact_normalised
+hssling,Gujarat,Kheda,d483,exact_normalised
+hssling,Gujarat,Mahesana,d471,exact_normalised
+hssling,Gujarat,Narmada,d487,exact_normalised
+hssling,Gujarat,Navsari,d490,exact_normalised
+hssling,Gujarat,Panch Mahals,d484,exact_normalised
+hssling,Gujarat,Patan,d470,exact_normalised
+hssling,Gujarat,Porbandar,d478,exact_normalised
+hssling,Gujarat,Rajkot,d476,exact_normalised
+hssling,Gujarat,Sabar Kantha,d472,exact_normalised
+hssling,Gujarat,Surat,d492,exact_normalised
+hssling,Gujarat,Surendranagar,d475,exact_normalised
+hssling,Gujarat,Tapi,d493,exact_normalised
+hssling,Gujarat,The Dangs,d489,exact_normalised
+hssling,Gujarat,Vadodara,d486,exact_normalised
+hssling,Gujarat,Valsad,d491,exact_normalised
+hssling,Haryana,Ambala,d70,exact_normalised
+hssling,Haryana,Bhiwani,d81,exact_normalised
+hssling,Haryana,Faridabad,d88,exact_normalised
+hssling,Haryana,Fatehabad,d78,exact_normalised
+hssling,Haryana,Gurgaon,d86,exact_normalised
+hssling,Haryana,Hisar,d80,exact_normalised
+hssling,Haryana,Jhajjar,d83,exact_normalised
+hssling,Haryana,Jind,d77,exact_normalised
+hssling,Haryana,Kaithal,d73,exact_normalised
+hssling,Haryana,Karnal,d74,exact_normalised
+hssling,Haryana,Kurukshetra,d72,exact_normalised
+hssling,Haryana,Mahendragarh,d84,exact_normalised
+hssling,Haryana,Mewat,d87,exact_normalised
+hssling,Haryana,Palwal,d89,exact_normalised
+hssling,Haryana,Panchkula,d69,exact_normalised
+hssling,Haryana,Panipat,d75,exact_normalised
+hssling,Haryana,Rewari,d85,exact_normalised
+hssling,Haryana,Rohtak,d82,exact_normalised
+hssling,Haryana,Sirsa,d79,exact_normalised
+hssling,Haryana,Sonipat,d76,exact_normalised
+hssling,Haryana,Yamunanagar,d71,exact_normalised
+hssling,Himachal Pradesh,Bilaspur,d30,exact_normalised
+hssling,Himachal Pradesh,Chamba,d23,exact_normalised
+hssling,Himachal Pradesh,Hamirpur,d28,exact_normalised
+hssling,Himachal Pradesh,Kangra,d24,exact_normalised
+hssling,Himachal Pradesh,Kinnaur,d34,exact_normalised
+hssling,Himachal Pradesh,Kullu,d26,exact_normalised
+hssling,Himachal Pradesh,Lahul & Spiti,d25,exact_normalised
+hssling,Himachal Pradesh,Mandi,d27,exact_normalised
+hssling,Himachal Pradesh,Shimla,d33,exact_normalised
+hssling,Himachal Pradesh,Sirmaur,d32,exact_normalised
+hssling,Himachal Pradesh,Solan,d31,exact_normalised
+hssling,Himachal Pradesh,Una,d29,exact_normalised
+hssling,Jammu and Kashmir,Anantnag,d14,exact_normalised
+hssling,Jammu and Kashmir,Badgam,d2,exact_normalised
+hssling,Jammu and Kashmir,Bandipore,d9,exact_normalised
+hssling,Jammu and Kashmir,Baramulla,d8,rename
+hssling,Jammu and Kashmir,Doda,d16,exact_normalised
+hssling,Jammu and Kashmir,Ganderbal,d11,exact_normalised
+hssling,Jammu and Kashmir,Jammu,d21,exact_normalised
+hssling,Jammu and Kashmir,Kargil,d4,exact_normalised
+hssling,Jammu and Kashmir,Kathua,d7,exact_normalised
+hssling,Jammu and Kashmir,Kishtwar,d18,exact_normalised
+hssling,Jammu and Kashmir,Kulgam,d15,exact_normalised
+hssling,Jammu and Kashmir,Kupwara,d1,exact_normalised
+hssling,Jammu and Kashmir,Leh (Ladakh),d3,exact_normalised
+hssling,Jammu and Kashmir,Poonch,d5,rename
+hssling,Jammu and Kashmir,Pulwama,d12,exact_normalised
+hssling,Jammu and Kashmir,Rajouri,d6,exact_normalised
+hssling,Jammu and Kashmir,Ramban,d17,exact_normalised
+hssling,Jammu and Kashmir,Reasi,d20,exact_normalised
+hssling,Jammu and Kashmir,Samba,d22,exact_normalised
+hssling,Jammu and Kashmir,Shupiyan,d13,exact_normalised
+hssling,Jammu and Kashmir,Srinagar,d10,exact_normalised
+hssling,Jammu and Kashmir,Udhampur,d19,exact_normalised
+hssling,Jharkhand,Bokaro,d355,exact_normalised
+hssling,Jharkhand,Chatra,d347,exact_normalised
+hssling,Jharkhand,Deoghar,d350,exact_normalised
+hssling,Jharkhand,Dhanbad,d354,exact_normalised
+hssling,Jharkhand,Dumka,d362,exact_normalised
+hssling,Jharkhand,Garhwa,d346,exact_normalised
+hssling,Jharkhand,Giridih,d349,exact_normalised
+hssling,Jharkhand,Godda,d351,exact_normalised
+hssling,Jharkhand,Gumla,d366,exact_normalised
+hssling,Jharkhand,Hazaribagh,d360,exact_normalised
+hssling,Jharkhand,Jamtara,d363,exact_normalised
+hssling,Jharkhand,Khunti,d365,exact_normalised
+hssling,Jharkhand,Kodarma,d348,exact_normalised
+hssling,Jharkhand,Latehar,d359,exact_normalised
+hssling,Jharkhand,Lohardaga,d356,exact_normalised
+hssling,Jharkhand,Pakur,d353,exact_normalised
+hssling,Jharkhand,Palamu,d358,exact_normalised
+hssling,Jharkhand,Pashchimi Singhbhum,d368,exact_normalised
+hssling,Jharkhand,Purbi Singhbhum,d357,exact_normalised
+hssling,Jharkhand,Ramgarh,d361,exact_normalised
+hssling,Jharkhand,Ranchi,d364,exact_normalised
+hssling,Jharkhand,Sahibganj,d352,exact_normalised
+hssling,Jharkhand,Saraikela-kharsawan,d369,exact_normalised
+hssling,Jharkhand,Simdega,d367,exact_normalised
+hssling,Karnataka,Bagalkot,d556,exact_normalised
+hssling,Karnataka,Bangalore,d572,exact_normalised
+hssling,Karnataka,Bangalore Rural,d583,exact_normalised
+hssling,Karnataka,Belgaum,d555,exact_normalised
+hssling,Karnataka,Bellary,d565,exact_normalised
+hssling,Karnataka,Bidar,d558,exact_normalised
+hssling,Karnataka,Bijapur,d557,exact_normalised
+hssling,Karnataka,Chamrajnagar,d578,exact_normalised
+hssling,Karnataka,Chikballapura,d582,rename
+hssling,Karnataka,Chikmagalur,d570,exact_normalised
+hssling,Karnataka,Chitradurga,d566,exact_normalised
+hssling,Karnataka,Dakshina Kannada,d575,exact_normalised
+hssling,Karnataka,Davanagere,d567,exact_normalised
+hssling,Karnataka,Dharwad,d562,exact_normalised
+hssling,Karnataka,Gadag,d561,exact_normalised
+hssling,Karnataka,Gulbarga,d579,exact_normalised
+hssling,Karnataka,Hassan,d574,exact_normalised
+hssling,Karnataka,Haveri,d564,exact_normalised
+hssling,Karnataka,Kodagu,d576,exact_normalised
+hssling,Karnataka,Kolar,d581,exact_normalised
+hssling,Karnataka,Koppal,d560,exact_normalised
+hssling,Karnataka,Mandya,d573,exact_normalised
+hssling,Karnataka,Mysore,d577,exact_normalised
+hssling,Karnataka,Raichur,d559,exact_normalised
+hssling,Karnataka,Ramanagara,d584,exact_normalised
+hssling,Karnataka,Shimoga,d568,exact_normalised
+hssling,Karnataka,Tumkur,d571,exact_normalised
+hssling,Karnataka,Udupi,d569,exact_normalised
+hssling,Karnataka,Uttara Kannada,d563,exact_normalised
+hssling,Karnataka,Yadgir,d580,exact_normalised
+hssling,Kerala,Alappuzha,d598,exact_normalised
+hssling,Kerala,Ernakulam,d595,exact_normalised
+hssling,Kerala,Idukki,d596,exact_normalised
+hssling,Kerala,Kannur,d589,exact_normalised
+hssling,Kerala,Kasaragod,d588,exact_normalised
+hssling,Kerala,Kollam,d600,exact_normalised
+hssling,Kerala,Kottayam,d597,exact_normalised
+hssling,Kerala,Kozhikode,d591,exact_normalised
+hssling,Kerala,Malappuram,d592,exact_normalised
+hssling,Kerala,Palakkad,d593,exact_normalised
+hssling,Kerala,Pathanamthitta,d599,exact_normalised
+hssling,Kerala,Thiruvananthapuram,d601,exact_normalised
+hssling,Kerala,Thrissur,d594,exact_normalised
+hssling,Kerala,Wayanad,d590,exact_normalised
+hssling,Lakshadweep,Lakshadweep,d587,exact_normalised
+hssling,Madhya Pradesh,Alirajpur,d465,exact_normalised
+hssling,Madhya Pradesh,Anuppur,d461,exact_normalised
+hssling,Madhya Pradesh,Ashoknagar,d459,exact_normalised
+hssling,Madhya Pradesh,Balaghat,d457,exact_normalised
+hssling,Madhya Pradesh,Barwani,d441,exact_normalised
+hssling,Madhya Pradesh,Betul,d447,exact_normalised
+hssling,Madhya Pradesh,Bhind,d420,exact_normalised
+hssling,Madhya Pradesh,Bhopal,d444,exact_normalised
+hssling,Madhya Pradesh,Burhanpur,d467,exact_normalised
+hssling,Madhya Pradesh,Chhatarpur,d425,exact_normalised
+hssling,Madhya Pradesh,Chhindwara,d455,exact_normalised
+hssling,Madhya Pradesh,Damoh,d428,exact_normalised
+hssling,Madhya Pradesh,Datia,d422,exact_normalised
+hssling,Madhya Pradesh,Dewas,d437,exact_normalised
+hssling,Madhya Pradesh,Dhar,d438,exact_normalised
+hssling,Madhya Pradesh,Dindori,d453,exact_normalised
+hssling,Madhya Pradesh,East Nimar,d466,exact_normalised
+hssling,Madhya Pradesh,Guna,d458,exact_normalised
+hssling,Madhya Pradesh,Gwalior,d421,exact_normalised
+hssling,Madhya Pradesh,Harda,d448,exact_normalised
+hssling,Madhya Pradesh,Hoshangabad,d449,exact_normalised
+hssling,Madhya Pradesh,Indore,d439,exact_normalised
+hssling,Madhya Pradesh,Jabalpur,d451,exact_normalised
+hssling,Madhya Pradesh,Jhabua,d464,exact_normalised
+hssling,Madhya Pradesh,Katni,d450,exact_normalised
+hssling,Madhya Pradesh,Mandla,d454,exact_normalised
+hssling,Madhya Pradesh,Mandsaur,d433,exact_normalised
+hssling,Madhya Pradesh,Morena,d419,exact_normalised
+hssling,Madhya Pradesh,Narsimhapur,d452,exact_normalised
+hssling,Madhya Pradesh,Neemuch,d432,exact_normalised
+hssling,Madhya Pradesh,Panna,d426,exact_normalised
+hssling,Madhya Pradesh,Raisen,d446,exact_normalised
+hssling,Madhya Pradesh,Rajgarh,d442,exact_normalised
+hssling,Madhya Pradesh,Ratlam,d434,exact_normalised
+hssling,Madhya Pradesh,Rewa,d430,exact_normalised
+hssling,Madhya Pradesh,Sagar,d427,exact_normalised
+hssling,Madhya Pradesh,Satna,d429,exact_normalised
+hssling,Madhya Pradesh,Sehore,d445,exact_normalised
+hssling,Madhya Pradesh,Seoni,d456,exact_normalised
+hssling,Madhya Pradesh,Shahdol,d460,exact_normalised
+hssling,Madhya Pradesh,Shajapur,d436,exact_normalised
+hssling,Madhya Pradesh,Sheopur,d418,exact_normalised
+hssling,Madhya Pradesh,Shivpuri,d423,exact_normalised
+hssling,Madhya Pradesh,Sidhi,d462,exact_normalised
+hssling,Madhya Pradesh,Singrauli,d463,exact_normalised
+hssling,Madhya Pradesh,Tikamgarh,d424,exact_normalised
+hssling,Madhya Pradesh,Ujjain,d435,exact_normalised
+hssling,Madhya Pradesh,Umaria,d431,exact_normalised
+hssling,Madhya Pradesh,Vidisha,d443,exact_normalised
+hssling,Madhya Pradesh,West Nimar,d440,exact_normalised
+hssling,Maharashtra,Ahmadnagar,d522,exact_normalised
+hssling,Maharashtra,Akola,d501,exact_normalised
+hssling,Maharashtra,Amravati,d503,exact_normalised
+hssling,Maharashtra,Aurangabad,d515,exact_normalised
+hssling,Maharashtra,Bhandara,d506,exact_normalised
+hssling,Maharashtra,Bid,d523,exact_normalised
+hssling,Maharashtra,Buldana,d500,exact_normalised
+hssling,Maharashtra,Chandrapur,d509,exact_normalised
+hssling,Maharashtra,Dhule,d498,exact_normalised
+hssling,Maharashtra,Garhchiroli,d508,exact_normalised
+hssling,Maharashtra,Gondiya,d507,exact_normalised
+hssling,Maharashtra,Hingoli,d512,exact_normalised
+hssling,Maharashtra,Jalgaon,d499,exact_normalised
+hssling,Maharashtra,Jalna,d514,exact_normalised
+hssling,Maharashtra,Kolhapur,d530,exact_normalised
+hssling,Maharashtra,Latur,d524,exact_normalised
+hssling,Maharashtra,Mumbai City,d519,rename
+hssling,Maharashtra,Mumbai Suburban,d518,exact_normalised
+hssling,Maharashtra,Nagpur,d505,exact_normalised
+hssling,Maharashtra,Nanded,d511,exact_normalised
+hssling,Maharashtra,Nandurbar,d497,exact_normalised
+hssling,Maharashtra,Nashik,d516,exact_normalised
+hssling,Maharashtra,Osmanabad,d525,exact_normalised
+hssling,Maharashtra,Parbhani,d513,exact_normalised
+hssling,Maharashtra,Pune,d521,exact_normalised
+hssling,Maharashtra,Raigarh,d520,exact_normalised
+hssling,Maharashtra,Ratnagiri,d528,exact_normalised
+hssling,Maharashtra,Sangli,d531,exact_normalised
+hssling,Maharashtra,Satara,d527,exact_normalised
+hssling,Maharashtra,Sindhudurg,d529,exact_normalised
+hssling,Maharashtra,Solapur,d526,exact_normalised
+hssling,Maharashtra,Thane,d517,exact_normalised
+hssling,Maharashtra,Wardha,d504,exact_normalised
+hssling,Maharashtra,Washim,d502,exact_normalised
+hssling,Maharashtra,Yavatmal,d510,exact_normalised
+hssling,Manipur,Bishnupur,d275,exact_normalised
+hssling,Manipur,Chandel,d280,exact_normalised
+hssling,Manipur,Churachandpur,d274,exact_normalised
+hssling,Manipur,Imphal East,d278,exact_normalised
+hssling,Manipur,Imphal West,d277,exact_normalised
+hssling,Manipur,Senapati,d272,exact_normalised
+hssling,Manipur,Tamenglong,d273,exact_normalised
+hssling,Manipur,Thoubal,d276,exact_normalised
+hssling,Manipur,Ukhrul,d279,exact_normalised
+hssling,Meghalaya,East Garo Hills,d294,exact_normalised
+hssling,Meghalaya,East Khasi Hills,d298,exact_normalised
+hssling,Meghalaya,Jaintia Hills,d299,exact_normalised
+hssling,Meghalaya,Ri Bhoi,d297,exact_normalised
+hssling,Meghalaya,South Garo Hills,d295,exact_normalised
+hssling,Meghalaya,West Garo Hills,d293,exact_normalised
+hssling,Meghalaya,West Khasi Hills,d296,exact_normalised
+hssling,Mizoram,Aizawl,d283,exact_normalised
+hssling,Mizoram,Champhai,d284,exact_normalised
+hssling,Mizoram,Kolasib,d282,exact_normalised
+hssling,Mizoram,Lawangtlai,d287,exact_normalised
+hssling,Mizoram,Lunglei,d286,exact_normalised
+hssling,Mizoram,Mamit,d281,exact_normalised
+hssling,Mizoram,Saiha,d288,exact_normalised
+hssling,Mizoram,Serchhip,d285,exact_normalised
+hssling,NCT of Delhi,West,d96,exact_normalised
+hssling,Nagaland,Dimapur,d265,exact_normalised
+hssling,Nagaland,Kiphire,d269,exact_normalised
+hssling,Nagaland,Kohima,d270,exact_normalised
+hssling,Nagaland,Longleng,d268,exact_normalised
+hssling,Nagaland,Mokokchung,d262,exact_normalised
+hssling,Nagaland,Mon,d261,exact_normalised
+hssling,Nagaland,Peren,d271,exact_normalised
+hssling,Nagaland,Phek,d266,exact_normalised
+hssling,Nagaland,Tuensang,d267,exact_normalised
+hssling,Nagaland,Wokha,d264,exact_normalised
+hssling,Nagaland,Zunheboto,d263,exact_normalised
+hssling,Odisha,Anugul,d384,exact_normalised
+hssling,Odisha,Balangir,d393,exact_normalised
+hssling,Odisha,Baleshwar,d377,exact_normalised
+hssling,Odisha,Bargarh,d370,exact_normalised
+hssling,Odisha,Bauda,d391,exact_normalised
+hssling,Odisha,Bhadrak,d378,exact_normalised
+hssling,Odisha,Cuttack,d381,exact_normalised
+hssling,Odisha,Debagarh,d373,exact_normalised
+hssling,Odisha,Dhenkanal,d383,exact_normalised
+hssling,Odisha,Gajapati,d389,exact_normalised
+hssling,Odisha,Ganjam,d388,exact_normalised
+hssling,Odisha,Jagatsinghapur,d380,exact_normalised
+hssling,Odisha,Jajapur,d382,exact_normalised
+hssling,Odisha,Jharsuguda,d371,exact_normalised
+hssling,Odisha,Kalahandi,d395,exact_normalised
+hssling,Odisha,Kandhamal,d390,exact_normalised
+hssling,Odisha,Kendrapara,d379,exact_normalised
+hssling,Odisha,Kendujhar,d375,exact_normalised
+hssling,Odisha,Khordha,d386,exact_normalised
+hssling,Odisha,Koraput,d398,exact_normalised
+hssling,Odisha,Malkangiri,d399,exact_normalised
+hssling,Odisha,Mayurbhanj,d376,exact_normalised
+hssling,Odisha,Nabarangapur,d397,exact_normalised
+hssling,Odisha,Nayagarh,d385,exact_normalised
+hssling,Odisha,Nuapada,d394,exact_normalised
+hssling,Odisha,Puri,d387,exact_normalised
+hssling,Odisha,Rayagada,d396,exact_normalised
+hssling,Odisha,Sambalpur,d372,exact_normalised
+hssling,Odisha,Subarnapur,d392,exact_normalised
+hssling,Odisha,Sundargarh,d374,exact_normalised
+hssling,Puducherry,Karaikal,d637,exact_normalised
+hssling,Puducherry,Mahe,d636,exact_normalised
+hssling,Puducherry,Puducherry,d635,exact_normalised
+hssling,Puducherry,Yanam,d634,exact_normalised
+hssling,Punjab,Amritsar,d49,exact_normalised
+hssling,Punjab,Barnala,d54,exact_normalised
+hssling,Punjab,Bathinda,d46,exact_normalised
+hssling,Punjab,Faridkot,d45,exact_normalised
+hssling,Punjab,Fatehgarh Sahib,d40,exact_normalised
+hssling,Punjab,Firozpur,d43,exact_normalised
+hssling,Punjab,Gurdaspur,d35,exact_normalised
+hssling,Punjab,Hoshiarpur,d38,exact_normalised
+hssling,Punjab,Jalandhar,d37,exact_normalised
+hssling,Punjab,Kapurthala,d36,exact_normalised
+hssling,Punjab,Ludhiana,d41,exact_normalised
+hssling,Punjab,Mansa,d47,exact_normalised
+hssling,Punjab,Moga,d42,exact_normalised
+hssling,Punjab,Muktsar,d44,exact_normalised
+hssling,Punjab,Patiala,d48,exact_normalised
+hssling,Punjab,Rupnagar,d51,exact_normalised
+hssling,Punjab,Sahibzada Ajit Singh Nagar,d52,exact_normalised
+hssling,Punjab,Sangrur,d53,exact_normalised
+hssling,Punjab,Shahid Bhagat Singh Nagar,d39,exact_normalised
+hssling,Punjab,Tarn Taran,d50,exact_normalised
+hssling,Rajasthan,Ajmer,d119,exact_normalised
+hssling,Rajasthan,Alwar,d104,exact_normalised
+hssling,Rajasthan,Banswara,d125,exact_normalised
+hssling,Rajasthan,Baran,d128,exact_normalised
+hssling,Rajasthan,Barmer,d115,exact_normalised
+hssling,Rajasthan,Bharatpur,d105,exact_normalised
+hssling,Rajasthan,Bhilwara,d122,exact_normalised
+hssling,Rajasthan,Bikaner,d101,exact_normalised
+hssling,Rajasthan,Bundi,d121,exact_normalised
+hssling,Rajasthan,Chittaurgarh,d126,exact_normalised
+hssling,Rajasthan,Churu,d102,exact_normalised
+hssling,Rajasthan,Dausa,d109,exact_normalised
+hssling,Rajasthan,Dhaulpur,d106,exact_normalised
+hssling,Rajasthan,Dungarpur,d124,exact_normalised
+hssling,Rajasthan,Ganganagar,d99,exact_normalised
+hssling,Rajasthan,Hanumangarh,d100,exact_normalised
+hssling,Rajasthan,Jaipur,d110,exact_normalised
+hssling,Rajasthan,Jaisalmer,d114,exact_normalised
+hssling,Rajasthan,Jalor,d116,exact_normalised
+hssling,Rajasthan,Jhalawar,d129,exact_normalised
+hssling,Rajasthan,Jhunjhunun,d103,exact_normalised
+hssling,Rajasthan,Jodhpur,d113,exact_normalised
+hssling,Rajasthan,Karauli,d107,exact_normalised
+hssling,Rajasthan,Kota,d127,exact_normalised
+hssling,Rajasthan,Nagaur,d112,exact_normalised
+hssling,Rajasthan,Pali,d118,exact_normalised
+hssling,Rajasthan,Pratapgarh,d131,exact_normalised
+hssling,Rajasthan,Rajsamand,d123,exact_normalised
+hssling,Rajasthan,Sawai Madhopur,d108,exact_normalised
+hssling,Rajasthan,Sikar,d111,exact_normalised
+hssling,Rajasthan,Sirohi,d117,exact_normalised
+hssling,Rajasthan,Tonk,d120,exact_normalised
+hssling,Rajasthan,Udaipur,d130,exact_normalised
+hssling,Sikkim,East Sikkim,d244,rename
+hssling,Sikkim,North Sikkim,d241,rename
+hssling,Sikkim,South Sikkim,d243,rename
+hssling,Sikkim,West Sikkim,d242,rename
+hssling,Tamil Nadu,Ariyalur,d616,exact_normalised
+hssling,Tamil Nadu,Chennai,d603,exact_normalised
+hssling,Tamil Nadu,Coimbatore,d632,exact_normalised
+hssling,Tamil Nadu,Cuddalore,d617,exact_normalised
+hssling,Tamil Nadu,Dharmapuri,d630,exact_normalised
+hssling,Tamil Nadu,Dindigul,d612,exact_normalised
+hssling,Tamil Nadu,Erode,d610,exact_normalised
+hssling,Tamil Nadu,Kancheepuram,d604,exact_normalised
+hssling,Tamil Nadu,Kanniyakumari,d629,exact_normalised
+hssling,Tamil Nadu,Karur,d613,exact_normalised
+hssling,Tamil Nadu,Krishnagiri,d631,exact_normalised
+hssling,Tamil Nadu,Madurai,d623,exact_normalised
+hssling,Tamil Nadu,Nagappattinam,d618,exact_normalised
+hssling,Tamil Nadu,Namakkal,d609,exact_normalised
+hssling,Tamil Nadu,Perambalur,d615,exact_normalised
+hssling,Tamil Nadu,Pudukkottai,d621,exact_normalised
+hssling,Tamil Nadu,Ramanathapuram,d626,exact_normalised
+hssling,Tamil Nadu,Salem,d608,exact_normalised
+hssling,Tamil Nadu,Sivaganga,d622,exact_normalised
+hssling,Tamil Nadu,Thanjavur,d620,exact_normalised
+hssling,Tamil Nadu,The Nilgiris,d611,exact_normalised
+hssling,Tamil Nadu,Theni,d624,exact_normalised
+hssling,Tamil Nadu,Thiruvallur,d602,exact_normalised
+hssling,Tamil Nadu,Thiruvarur,d619,exact_normalised
+hssling,Tamil Nadu,Thoothukkudi,d627,exact_normalised
+hssling,Tamil Nadu,Tiruchirappalli,d614,exact_normalised
+hssling,Tamil Nadu,Tirunelveli,d628,exact_normalised
+hssling,Tamil Nadu,Tiruppur,d633,exact_normalised
+hssling,Tamil Nadu,Tiruvannamalai,d606,exact_normalised
+hssling,Tamil Nadu,Vellore,d605,exact_normalised
+hssling,Tamil Nadu,Viluppuram,d607,exact_normalised
+hssling,Tamil Nadu,Virudunagar,d625,exact_normalised
+hssling,Telangana,Adilabad,d532,exact_normalised
+hssling,Telangana,Hyderabad,d536,exact_normalised
+hssling,Telangana,Karimnagar,d534,exact_normalised
+hssling,Telangana,Khammam,d541,exact_normalised
+hssling,Telangana,Mahbubnagar,d538,exact_normalised
+hssling,Telangana,Medak,d535,exact_normalised
+hssling,Telangana,Nalgonda,d539,exact_normalised
+hssling,Telangana,Nizamabad,d533,exact_normalised
+hssling,Telangana,Ranga Reddy,d537,exact_normalised
+hssling,Telangana,Warangal,d540,exact_normalised
+hssling,Tripura,Dhalai,d291,exact_normalised
+hssling,Tripura,North Tripura,d292,exact_normalised
+hssling,Tripura,South Tripura,d290,exact_normalised
+hssling,Tripura,West Tripura,d289,exact_normalised
+hssling,Uttar Pradesh,Agra,d146,exact_normalised
+hssling,Uttar Pradesh,Aligarh,d143,exact_normalised
+hssling,Uttar Pradesh,Allahabad,d175,exact_normalised
+hssling,Uttar Pradesh,Ambedkar Nagar,d178,exact_normalised
+hssling,Uttar Pradesh,Amroha,d137,rename
+hssling,Uttar Pradesh,Auraiya,d162,exact_normalised
+hssling,Uttar Pradesh,Azamgarh,d191,exact_normalised
+hssling,Uttar Pradesh,Baghpat,d139,exact_normalised
+hssling,Uttar Pradesh,Bahraich,d180,exact_normalised
+hssling,Uttar Pradesh,Ballia,d193,exact_normalised
+hssling,Uttar Pradesh,Balrampur,d182,exact_normalised
+hssling,Uttar Pradesh,Banda,d170,exact_normalised
+hssling,Uttar Pradesh,Barabanki,d176,exact_normalised
+hssling,Uttar Pradesh,Bareilly,d150,exact_normalised
+hssling,Uttar Pradesh,Basti,d185,exact_normalised
+hssling,Uttar Pradesh,Bijnor,d134,exact_normalised
+hssling,Uttar Pradesh,Budaun,d149,exact_normalised
+hssling,Uttar Pradesh,Bulandshahr,d142,exact_normalised
+hssling,Uttar Pradesh,Chandauli,d196,exact_normalised
+hssling,Uttar Pradesh,Chitrakoot,d171,exact_normalised
+hssling,Uttar Pradesh,Deoria,d190,exact_normalised
+hssling,Uttar Pradesh,Etah,d201,exact_normalised
+hssling,Uttar Pradesh,Etawah,d161,exact_normalised
+hssling,Uttar Pradesh,Faizabad,d177,exact_normalised
+hssling,Uttar Pradesh,Farrukhabad,d159,exact_normalised
+hssling,Uttar Pradesh,Fatehpur,d172,exact_normalised
+hssling,Uttar Pradesh,Firozabad,d147,exact_normalised
+hssling,Uttar Pradesh,Gautam Buddha Nagar,d141,exact_normalised
+hssling,Uttar Pradesh,Ghaziabad,d140,exact_normalised
+hssling,Uttar Pradesh,Ghazipur,d195,exact_normalised
+hssling,Uttar Pradesh,Gonda,d183,exact_normalised
+hssling,Uttar Pradesh,Gorakhpur,d188,exact_normalised
+hssling,Uttar Pradesh,Hamirpur,d168,exact_normalised
+hssling,Uttar Pradesh,Hardoi,d155,exact_normalised
+hssling,Uttar Pradesh,Hathras,d144,rename
+hssling,Uttar Pradesh,Jalaun,d165,exact_normalised
+hssling,Uttar Pradesh,Jaunpur,d194,exact_normalised
+hssling,Uttar Pradesh,Jhansi,d166,exact_normalised
+hssling,Uttar Pradesh,Kannauj,d160,exact_normalised
+hssling,Uttar Pradesh,Kanpur Dehat,d163,exact_normalised
+hssling,Uttar Pradesh,Kanpur Nagar,d164,exact_normalised
+hssling,Uttar Pradesh,Kasganj,d202,rename
+hssling,Uttar Pradesh,Kaushambi,d174,exact_normalised
+hssling,Uttar Pradesh,Kushinagar,d189,exact_normalised
+hssling,Uttar Pradesh,Lakhimpur Kheri,d153,rename
+hssling,Uttar Pradesh,Lalitpur,d167,exact_normalised
+hssling,Uttar Pradesh,Lucknow,d157,exact_normalised
+hssling,Uttar Pradesh,Maharajganj,d187,exact_normalised
+hssling,Uttar Pradesh,Mahoba,d169,exact_normalised
+hssling,Uttar Pradesh,Mainpuri,d148,exact_normalised
+hssling,Uttar Pradesh,Mathura,d145,exact_normalised
+hssling,Uttar Pradesh,Mau,d192,exact_normalised
+hssling,Uttar Pradesh,Meerut,d138,exact_normalised
+hssling,Uttar Pradesh,Mirzapur,d199,exact_normalised
+hssling,Uttar Pradesh,Moradabad,d135,exact_normalised
+hssling,Uttar Pradesh,Muzaffarnagar,d133,exact_normalised
+hssling,Uttar Pradesh,Pilibhit,d151,exact_normalised
+hssling,Uttar Pradesh,Pratapgarh,d173,exact_normalised
+hssling,Uttar Pradesh,Rae Bareli,d158,exact_normalised
+hssling,Uttar Pradesh,Rampur,d136,exact_normalised
+hssling,Uttar Pradesh,Saharanpur,d132,exact_normalised
+hssling,Uttar Pradesh,Sant Kabir Nagar,d186,exact_normalised
+hssling,Uttar Pradesh,Sant Ravi Das Nagar,d198,rename
+hssling,Uttar Pradesh,Shahjahanpur,d152,exact_normalised
+hssling,Uttar Pradesh,Shravasti,d181,rename
+hssling,Uttar Pradesh,Siddharth Nagar,d184,exact_normalised
+hssling,Uttar Pradesh,Sitapur,d154,exact_normalised
+hssling,Uttar Pradesh,Sonbhadra,d200,exact_normalised
+hssling,Uttar Pradesh,Sultanpur,d179,exact_normalised
+hssling,Uttar Pradesh,Unnao,d156,exact_normalised
+hssling,Uttar Pradesh,Varanasi,d197,exact_normalised
+hssling,Uttarakhand,Almora,d64,exact_normalised
+hssling,Uttarakhand,Bageshwar,d63,exact_normalised
+hssling,Uttarakhand,Chamoli,d57,exact_normalised
+hssling,Uttarakhand,Champawat,d65,exact_normalised
+hssling,Uttarakhand,Dehradun,d60,exact_normalised
+hssling,Uttarakhand,Garhwal,d61,exact_normalised
+hssling,Uttarakhand,Hardwar,d68,exact_normalised
+hssling,Uttarakhand,Nainital,d66,exact_normalised
+hssling,Uttarakhand,Pithoragarh,d62,exact_normalised
+hssling,Uttarakhand,Rudraprayag,d58,exact_normalised
+hssling,Uttarakhand,Tehri Garhwal,d59,exact_normalised
+hssling,Uttarakhand,Udham Singh Nagar,d67,exact_normalised
+hssling,Uttarakhand,Uttarkashi,d56,exact_normalised
+hssling,West Bengal,Bankura,d339,exact_normalised
+hssling,West Bengal,Barddhaman,d335,exact_normalised
+hssling,West Bengal,Birbhum,d334,exact_normalised
+hssling,West Bengal,Dakshin Dinajpur,d331,exact_normalised
+hssling,West Bengal,Darjiling,d327,exact_normalised
+hssling,West Bengal,Haora,d341,exact_normalised
+hssling,West Bengal,Hugli,d338,exact_normalised
+hssling,West Bengal,Jalpaiguri,d328,exact_normalised
+hssling,West Bengal,Koch Bihar,d329,exact_normalised
+hssling,West Bengal,Kolkata,d342,exact_normalised
+hssling,West Bengal,Maldah,d332,exact_normalised
+hssling,West Bengal,Murshidabad,d333,exact_normalised
+hssling,West Bengal,Nadia,d336,exact_normalised
+hssling,West Bengal,North 24 Parganas,d337,exact_normalised
+hssling,West Bengal,Pashchim Medinipur,d344,exact_normalised
+hssling,West Bengal,Purba Medinipur,d345,exact_normalised
+hssling,West Bengal,Puruliya,d340,exact_normalised
+hssling,West Bengal,South 24 Parganas,d343,exact_normalised
+hssling,West Bengal,Uttar Dinajpur,d330,exact_normalised
+hssling,Arunachal Pradesh,Longding,,unmatched
+hssling,Arunachal Pradesh,Namsai,,unmatched
+hssling,Chhattisgarh,Balod,,unmatched
+hssling,Chhattisgarh,Baloda Bazar,,unmatched
+hssling,Chhattisgarh,Balrampur,,unmatched
+hssling,Chhattisgarh,Bemetara,,unmatched
+hssling,Chhattisgarh,Gariaband,,unmatched
+hssling,Chhattisgarh,Kondagaon,,unmatched
+hssling,Chhattisgarh,Mungeli,,unmatched
+hssling,Chhattisgarh,Sukma,,unmatched
+hssling,Chhattisgarh,Surajpur,,unmatched
+hssling,Gujarat,Aravalli,,unmatched
+hssling,Gujarat,Botad,,unmatched
+hssling,Gujarat,Chhota Udaipur,,unmatched
+hssling,Gujarat,Devbhumi Dwarka,,unmatched
+hssling,Gujarat,Gir Somnath,,unmatched
+hssling,Gujarat,Mahisagar,,unmatched
+hssling,Gujarat,Morbi,,unmatched
+hssling,Madhya Pradesh,Agar Malwa,,unmatched
+hssling,Maharashtra,Palghar,,unmatched
+hssling,Meghalaya,North Garo Hills,,unmatched
+hssling,Meghalaya,South West Garo Hills,,unmatched
+hssling,Meghalaya,South West Khasi Hills,,unmatched
+hssling,Punjab,Fazilka,,unmatched
+hssling,Punjab,Pathankot,,unmatched
+hssling,Tripura,Gomati,,unmatched
+hssling,Tripura,Khowai,,unmatched
+hssling,Tripura,Sipahijala,,unmatched
+hssling,Tripura,Unokoti,,unmatched
+hssling,Uttar Pradesh,Amethi,,unmatched
+hssling,Uttar Pradesh,Hapur,,unmatched
+hssling,Uttar Pradesh,Sambhal,,unmatched
+hssling,Uttar Pradesh,Shamli,,unmatched
+hssling,West Bengal,Alipurduar,,unmatched
+apy,Andaman And Nicobar Islands,Nicobars,d638,rename
+apy,Andaman And Nicobar Islands,North And Middle Andaman,d639,exact_normalised
+apy,Andaman And Nicobar Islands,South Andamans,d640,rename
+apy,Andhra Pradesh,Alluri Sitharama Raju,d544,carved_principal_parent
+apy,Andhra Pradesh,Anakapalli,d544,carved_principal_parent
+apy,Andhra Pradesh,Ananthapuramu,d553,rename
+apy,Andhra Pradesh,Annamayya,d551,carved_principal_parent
+apy,Andhra Pradesh,Bapatla,d548,carved_principal_parent
+apy,Andhra Pradesh,Chittoor,d554,exact_normalised
+apy,Andhra Pradesh,Dr. B.R. Ambedkar Konaseema,d545,carved_principal_parent
+apy,Andhra Pradesh,East Godavari,d545,exact_normalised
+apy,Andhra Pradesh,Eluru,d546,carved_principal_parent
+apy,Andhra Pradesh,Guntur,d548,exact_normalised
+apy,Andhra Pradesh,Kakinada,d545,carved_principal_parent
+apy,Andhra Pradesh,Krishna,d547,exact_normalised
+apy,Andhra Pradesh,Kurnool,d552,exact_normalised
+apy,Andhra Pradesh,Nandyal,d552,carved_principal_parent
+apy,Andhra Pradesh,Ntr,d547,carved_principal_parent
+apy,Andhra Pradesh,Palnadu,d548,carved_principal_parent
+apy,Andhra Pradesh,Parvathipuram Manyam,d543,carved_principal_parent
+apy,Andhra Pradesh,Prakasam,d549,exact_normalised
+apy,Andhra Pradesh,Sri Potti Sriramulu Nellore,d550,exact_normalised
+apy,Andhra Pradesh,Sri Sathya Sai,d553,carved_principal_parent
+apy,Andhra Pradesh,Srikakulam,d542,exact_normalised
+apy,Andhra Pradesh,Tirupati,d554,carved_principal_parent
+apy,Andhra Pradesh,Visakhapatnam,d544,exact_normalised
+apy,Andhra Pradesh,Vizianagaram,d543,exact_normalised
+apy,Andhra Pradesh,West Godavari,d546,exact_normalised
+apy,Andhra Pradesh,Y.S.R. Kadapa,d551,rename
+apy,Arunachal Pradesh,Anjaw,d260,exact_normalised
+apy,Arunachal Pradesh,Changlang,d253,exact_normalised
+apy,Arunachal Pradesh,Dibang Valley,d257,exact_normalised
+apy,Arunachal Pradesh,East Kameng,d247,exact_normalised
+apy,Arunachal Pradesh,East Siang,d251,exact_normalised
+apy,Arunachal Pradesh,Kamle,d255,carved_principal_parent
+apy,Arunachal Pradesh,Kra Daadi,d256,carved_principal_parent
+apy,Arunachal Pradesh,Kurung Kumey,d256,exact_normalised
+apy,Arunachal Pradesh,Leparada,d250,carved_principal_parent
+apy,Arunachal Pradesh,Lohit,d259,exact_normalised
+apy,Arunachal Pradesh,Longding,d254,carved_principal_parent
+apy,Arunachal Pradesh,Lower Dibang Valley,d258,exact_normalised
+apy,Arunachal Pradesh,Lower Siang,d250,carved_principal_parent
+apy,Arunachal Pradesh,Lower Subansiri,d255,exact_normalised
+apy,Arunachal Pradesh,Namsai,d259,carved_principal_parent
+apy,Arunachal Pradesh,Pakke Kessang,d247,carved_principal_parent
+apy,Arunachal Pradesh,Papum Pare,d248,exact_normalised
+apy,Arunachal Pradesh,Shi Yomi,d250,carved_principal_parent
+apy,Arunachal Pradesh,Siang,d250,carved_principal_parent
+apy,Arunachal Pradesh,Tawang,d245,exact_normalised
+apy,Arunachal Pradesh,Tirap,d254,exact_normalised
+apy,Arunachal Pradesh,Upper Siang,d252,exact_normalised
+apy,Arunachal Pradesh,Upper Subansiri,d249,exact_normalised
+apy,Arunachal Pradesh,West Kameng,d246,exact_normalised
+apy,Arunachal Pradesh,West Siang,d250,exact_normalised
+apy,Assam,Baksa,d324,exact_normalised
+apy,Assam,Barpeta,d303,exact_normalised
+apy,Assam,Biswanath,d306,carved_principal_parent
+apy,Assam,Bongaigaon,d319,exact_normalised
+apy,Assam,Cachar,d316,exact_normalised
+apy,Assam,Charaideo,d311,carved_principal_parent
+apy,Assam,Chirang,d320,exact_normalised
+apy,Assam,Darrang,d325,exact_normalised
+apy,Assam,Dhemaji,d308,exact_normalised
+apy,Assam,Dhubri,d301,exact_normalised
+apy,Assam,Dibrugarh,d310,exact_normalised
+apy,Assam,Dima Hasao,d315,exact_normalised
+apy,Assam,Goalpara,d302,exact_normalised
+apy,Assam,Golaghat,d313,exact_normalised
+apy,Assam,Hailakandi,d318,exact_normalised
+apy,Assam,Hojai,d305,carved_principal_parent
+apy,Assam,Jorhat,d312,exact_normalised
+apy,Assam,Kamrup,d321,exact_normalised
+apy,Assam,Kamrup Metro,d322,rename
+apy,Assam,Karbi Anglong,d314,exact_normalised
+apy,Assam,Kokrajhar,d300,exact_normalised
+apy,Assam,Lakhimpur,d307,exact_normalised
+apy,Assam,Majuli,d312,carved_principal_parent
+apy,Assam,Marigaon,d304,exact_normalised
+apy,Assam,Nagaon,d305,exact_normalised
+apy,Assam,Nalbari,d323,exact_normalised
+apy,Assam,Sivasagar,d311,exact_normalised
+apy,Assam,Sonitpur,d306,exact_normalised
+apy,Assam,South Salmara Mancachar,d301,carved_principal_parent
+apy,Assam,Sribhumi,d317,rename
+apy,Assam,Tinsukia,d309,exact_normalised
+apy,Assam,Udalguri,d326,exact_normalised
+apy,Assam,West Karbi Anglong,d314,carved_principal_parent
+apy,Bihar,Araria,d209,exact_normalised
+apy,Bihar,Arwal,d240,exact_normalised
+apy,Bihar,Aurangabad,d235,exact_normalised
+apy,Bihar,Banka,d225,exact_normalised
+apy,Bihar,Begusarai,d222,exact_normalised
+apy,Bihar,Bhagalpur,d224,exact_normalised
+apy,Bihar,Bhojpur,d231,exact_normalised
+apy,Bihar,Buxar,d232,exact_normalised
+apy,Bihar,Darbhanga,d215,exact_normalised
+apy,Bihar,Gaya,d236,exact_normalised
+apy,Bihar,Gopalganj,d217,exact_normalised
+apy,Bihar,Jamui,d238,exact_normalised
+apy,Bihar,Jehanabad,d239,exact_normalised
+apy,Bihar,Kaimur (Bhabua),d233,exact_normalised
+apy,Bihar,Katihar,d212,exact_normalised
+apy,Bihar,Khagaria,d223,exact_normalised
+apy,Bihar,Kishanganj,d210,exact_normalised
+apy,Bihar,Lakhisarai,d227,exact_normalised
+apy,Bihar,Madhepura,d213,exact_normalised
+apy,Bihar,Madhubani,d207,exact_normalised
+apy,Bihar,Munger,d226,exact_normalised
+apy,Bihar,Muzaffarpur,d216,exact_normalised
+apy,Bihar,Nalanda,d229,exact_normalised
+apy,Bihar,Nawada,d237,exact_normalised
+apy,Bihar,Pashchim Champaran,d203,exact_normalised
+apy,Bihar,Patna,d230,exact_normalised
+apy,Bihar,Purbi Champaran,d204,rename
+apy,Bihar,Purnia,d211,exact_normalised
+apy,Bihar,Rohtas,d234,exact_normalised
+apy,Bihar,Saharsa,d214,exact_normalised
+apy,Bihar,Samastipur,d221,exact_normalised
+apy,Bihar,Saran,d219,rename
+apy,Bihar,Sheikhpura,d228,exact_normalised
+apy,Bihar,Sheohar,d205,exact_normalised
+apy,Bihar,Sitamarhi,d206,exact_normalised
+apy,Bihar,Siwan,d218,exact_normalised
+apy,Bihar,Supaul,d208,exact_normalised
+apy,Bihar,Vaishali,d220,exact_normalised
+apy,Chandigarh,Chandigarh,d55,exact_normalised
+apy,Chhattisgarh,Balod,d409,carved_principal_parent
+apy,Chhattisgarh,Balodabazar-Bhatapara,d410,carved_principal_parent
+apy,Chhattisgarh,Balrampur-Ramanujganj,d401,carved_principal_parent
+apy,Chhattisgarh,Bastar,d414,exact_normalised
+apy,Chhattisgarh,Bemetara,d409,carved_principal_parent
+apy,Chhattisgarh,Bijapur,d417,exact_normalised
+apy,Chhattisgarh,Bilaspur,d406,exact_normalised
+apy,Chhattisgarh,Dakshin Bastar Dantewada,d416,exact_normalised
+apy,Chhattisgarh,Dhamtari,d412,exact_normalised
+apy,Chhattisgarh,Durg,d409,exact_normalised
+apy,Chhattisgarh,Gariyaband,d410,carved_principal_parent
+apy,Chhattisgarh,Gaurela-Pendra-Marwahi,d406,carved_principal_parent
+apy,Chhattisgarh,Janjgir-Champa,d405,exact_normalised
+apy,Chhattisgarh,Jashpur,d402,exact_normalised
+apy,Chhattisgarh,Kabeerdham,d407,exact_normalised
+apy,Chhattisgarh,Khairagarh-Chhuikhadan-Gandai,d408,carved_principal_parent
+apy,Chhattisgarh,Kondagaon,d414,carved_principal_parent
+apy,Chhattisgarh,Korba,d404,exact_normalised
+apy,Chhattisgarh,Korea,d400,rename
+apy,Chhattisgarh,Mahasamund,d411,exact_normalised
+apy,Chhattisgarh,Manendragarh-Chirmiri-Bharatpur(M C B),d400,carved_principal_parent
+apy,Chhattisgarh,Mohla-Manpur-Ambagarh Chouki,d408,carved_principal_parent
+apy,Chhattisgarh,Mungeli,d406,carved_principal_parent
+apy,Chhattisgarh,Narayanpur,d415,exact_normalised
+apy,Chhattisgarh,Raigarh,d403,exact_normalised
+apy,Chhattisgarh,Raipur,d410,exact_normalised
+apy,Chhattisgarh,Rajnandgaon,d408,exact_normalised
+apy,Chhattisgarh,Sakti,d405,carved_principal_parent
+apy,Chhattisgarh,Sarangarh-Bilaigarh,d403,carved_principal_parent
+apy,Chhattisgarh,Sukma,d416,carved_principal_parent
+apy,Chhattisgarh,Surajpur,d401,carved_principal_parent
+apy,Chhattisgarh,Surguja,d401,exact_normalised
+apy,Chhattisgarh,Uttar Bastar Kanker,d413,exact_normalised
+apy,Goa,North Goa,d585,exact_normalised
+apy,Goa,South Goa,d586,exact_normalised
+apy,Gujarat,Ahmedabad,d474,rename
+apy,Gujarat,Amreli,d480,exact_normalised
+apy,Gujarat,Anand,d482,exact_normalised
+apy,Gujarat,Arvalli,d472,carved_principal_parent
+apy,Gujarat,Banas Kantha,d469,exact_normalised
+apy,Gujarat,Bharuch,d488,exact_normalised
+apy,Gujarat,Bhavnagar,d481,exact_normalised
+apy,Gujarat,Botad,d481,carved_principal_parent
+apy,Gujarat,Chhotaudepur,d486,carved_principal_parent
+apy,Gujarat,Dahod,d485,rename
+apy,Gujarat,Dangs,d489,rename
+apy,Gujarat,Devbhumi Dwarka,d477,carved_principal_parent
+apy,Gujarat,Gandhinagar,d473,exact_normalised
+apy,Gujarat,Gir Somnath,d479,carved_principal_parent
+apy,Gujarat,Jamnagar,d477,exact_normalised
+apy,Gujarat,Junagadh,d479,exact_normalised
+apy,Gujarat,Kachchh,d468,exact_normalised
+apy,Gujarat,Kheda,d483,exact_normalised
+apy,Gujarat,Mahesana,d471,exact_normalised
+apy,Gujarat,Mahisagar,d484,carved_principal_parent
+apy,Gujarat,Morbi,d476,carved_principal_parent
+apy,Gujarat,Narmada,d487,exact_normalised
+apy,Gujarat,Navsari,d490,exact_normalised
+apy,Gujarat,Panch Mahals,d484,exact_normalised
+apy,Gujarat,Patan,d470,exact_normalised
+apy,Gujarat,Porbandar,d478,exact_normalised
+apy,Gujarat,Rajkot,d476,exact_normalised
+apy,Gujarat,Sabar Kantha,d472,exact_normalised
+apy,Gujarat,Surat,d492,exact_normalised
+apy,Gujarat,Surendranagar,d475,exact_normalised
+apy,Gujarat,Tapi,d493,exact_normalised
+apy,Gujarat,Vadodara,d486,exact_normalised
+apy,Gujarat,Valsad,d491,exact_normalised
+apy,Haryana,Ambala,d70,exact_normalised
+apy,Haryana,Bhiwani,d81,exact_normalised
+apy,Haryana,Charkhi Dadri,d81,carved_principal_parent
+apy,Haryana,Faridabad,d88,exact_normalised
+apy,Haryana,Fatehabad,d78,exact_normalised
+apy,Haryana,Gurugram,d86,rename
+apy,Haryana,Hisar,d80,exact_normalised
+apy,Haryana,Jhajjar,d83,exact_normalised
+apy,Haryana,Jind,d77,exact_normalised
+apy,Haryana,Kaithal,d73,exact_normalised
+apy,Haryana,Karnal,d74,exact_normalised
+apy,Haryana,Kurukshetra,d72,exact_normalised
+apy,Haryana,Mahendragarh,d84,exact_normalised
+apy,Haryana,Nuh,d87,rename
+apy,Haryana,Palwal,d89,exact_normalised
+apy,Haryana,Panchkula,d69,exact_normalised
+apy,Haryana,Panipat,d75,exact_normalised
+apy,Haryana,Rewari,d85,exact_normalised
+apy,Haryana,Rohtak,d82,exact_normalised
+apy,Haryana,Sirsa,d79,exact_normalised
+apy,Haryana,Sonipat,d76,exact_normalised
+apy,Haryana,Yamunanagar,d71,exact_normalised
+apy,Himachal Pradesh,Bilaspur,d30,exact_normalised
+apy,Himachal Pradesh,Chamba,d23,exact_normalised
+apy,Himachal Pradesh,Hamirpur,d28,exact_normalised
+apy,Himachal Pradesh,Kangra,d24,exact_normalised
+apy,Himachal Pradesh,Kinnaur,d34,exact_normalised
+apy,Himachal Pradesh,Kullu,d26,exact_normalised
+apy,Himachal Pradesh,Lahaul And Spiti,d25,rename
+apy,Himachal Pradesh,Mandi,d27,exact_normalised
+apy,Himachal Pradesh,Shimla,d33,exact_normalised
+apy,Himachal Pradesh,Sirmaur,d32,exact_normalised
+apy,Himachal Pradesh,Solan,d31,exact_normalised
+apy,Himachal Pradesh,Una,d29,exact_normalised
+apy,Jammu And Kashmir,Anantnag,d14,exact_normalised
+apy,Jammu And Kashmir,Bandipora,d9,rename
+apy,Jammu And Kashmir,Baramulla,d8,rename
+apy,Jammu And Kashmir,Budgam,d2,rename
+apy,Jammu And Kashmir,Doda,d16,exact_normalised
+apy,Jammu And Kashmir,Ganderbal,d11,exact_normalised
+apy,Jammu And Kashmir,Jammu,d21,exact_normalised
+apy,Jammu And Kashmir,Kathua,d7,exact_normalised
+apy,Jammu And Kashmir,Kishtwar,d18,exact_normalised
+apy,Jammu And Kashmir,Kulgam,d15,exact_normalised
+apy,Jammu And Kashmir,Kupwara,d1,exact_normalised
+apy,Jammu And Kashmir,Poonch,d5,rename
+apy,Jammu And Kashmir,Pulwama,d12,exact_normalised
+apy,Jammu And Kashmir,Rajouri,d6,exact_normalised
+apy,Jammu And Kashmir,Ramban,d17,exact_normalised
+apy,Jammu And Kashmir,Reasi,d20,exact_normalised
+apy,Jammu And Kashmir,Samba,d22,exact_normalised
+apy,Jammu And Kashmir,Shopian,d13,rename
+apy,Jammu And Kashmir,Srinagar,d10,exact_normalised
+apy,Jammu And Kashmir,Udhampur,d19,exact_normalised
+apy,Jharkhand,Bokaro,d355,exact_normalised
+apy,Jharkhand,Chatra,d347,exact_normalised
+apy,Jharkhand,Deoghar,d350,exact_normalised
+apy,Jharkhand,Dhanbad,d354,exact_normalised
+apy,Jharkhand,Dumka,d362,exact_normalised
+apy,Jharkhand,East Singhbum,d357,rename
+apy,Jharkhand,Garhwa,d346,exact_normalised
+apy,Jharkhand,Giridih,d349,exact_normalised
+apy,Jharkhand,Godda,d351,exact_normalised
+apy,Jharkhand,Gumla,d366,exact_normalised
+apy,Jharkhand,Hazaribagh,d360,exact_normalised
+apy,Jharkhand,Jamtara,d363,exact_normalised
+apy,Jharkhand,Khunti,d365,exact_normalised
+apy,Jharkhand,Koderma,d348,rename
+apy,Jharkhand,Latehar,d359,exact_normalised
+apy,Jharkhand,Lohardaga,d356,exact_normalised
+apy,Jharkhand,Pakur,d353,exact_normalised
+apy,Jharkhand,Palamu,d358,exact_normalised
+apy,Jharkhand,Ramgarh,d361,exact_normalised
+apy,Jharkhand,Ranchi,d364,exact_normalised
+apy,Jharkhand,Sahebganj,d352,rename
+apy,Jharkhand,Saraikela Kharsawan,d369,exact_normalised
+apy,Jharkhand,Simdega,d367,exact_normalised
+apy,Jharkhand,West Singhbhum,d368,rename
+apy,Karnataka,Bagalkote,d556,rename
+apy,Karnataka,Ballari,d565,rename
+apy,Karnataka,Belagavi,d555,rename
+apy,Karnataka,Bengaluru Rural,d583,rename
+apy,Karnataka,Bengaluru South,d584,rename
+apy,Karnataka,Bengaluru Urban,d572,rename
+apy,Karnataka,Bidar,d558,exact_normalised
+apy,Karnataka,Chamarajanagar,d578,rename
+apy,Karnataka,Chikkaballapura,d582,exact_normalised
+apy,Karnataka,Chikkamagaluru,d570,rename
+apy,Karnataka,Chitradurga,d566,exact_normalised
+apy,Karnataka,Dakshina Kannada,d575,exact_normalised
+apy,Karnataka,Davanagere,d567,exact_normalised
+apy,Karnataka,Dharwad,d562,exact_normalised
+apy,Karnataka,Gadag,d561,exact_normalised
+apy,Karnataka,Hassan,d574,exact_normalised
+apy,Karnataka,Haveri,d564,exact_normalised
+apy,Karnataka,Kalaburagi,d579,rename
+apy,Karnataka,Kodagu,d576,exact_normalised
+apy,Karnataka,Kolar,d581,exact_normalised
+apy,Karnataka,Koppal,d560,exact_normalised
+apy,Karnataka,Mandya,d573,exact_normalised
+apy,Karnataka,Mysuru,d577,rename
+apy,Karnataka,Raichur,d559,exact_normalised
+apy,Karnataka,Shivamogga,d568,rename
+apy,Karnataka,Tumakuru,d571,rename
+apy,Karnataka,Udupi,d569,exact_normalised
+apy,Karnataka,Uttara Kannada,d563,exact_normalised
+apy,Karnataka,Vijayanagara,d565,carved_principal_parent
+apy,Karnataka,Vijayapura,d557,rename
+apy,Karnataka,Yadgir,d580,exact_normalised
+apy,Kerala,Alappuzha,d598,exact_normalised
+apy,Kerala,Ernakulam,d595,exact_normalised
+apy,Kerala,Idukki,d596,exact_normalised
+apy,Kerala,Kannur,d589,exact_normalised
+apy,Kerala,Kasaragod,d588,exact_normalised
+apy,Kerala,Kollam,d600,exact_normalised
+apy,Kerala,Kottayam,d597,exact_normalised
+apy,Kerala,Kozhikode,d591,exact_normalised
+apy,Kerala,Malappuram,d592,exact_normalised
+apy,Kerala,Palakkad,d593,exact_normalised
+apy,Kerala,Pathanamthitta,d599,exact_normalised
+apy,Kerala,Thiruvananthapuram,d601,exact_normalised
+apy,Kerala,Thrissur,d594,exact_normalised
+apy,Kerala,Wayanad,d590,exact_normalised
+apy,Ladakh,Kargil,d4,exact_normalised
+apy,Ladakh,Leh Ladakh,d3,rename
+apy,Madhya Pradesh,Agar-Malwa,d436,carved_principal_parent
+apy,Madhya Pradesh,Alirajpur,d465,exact_normalised
+apy,Madhya Pradesh,Anuppur,d461,exact_normalised
+apy,Madhya Pradesh,Ashoknagar,d459,exact_normalised
+apy,Madhya Pradesh,Balaghat,d457,exact_normalised
+apy,Madhya Pradesh,Barwani,d441,exact_normalised
+apy,Madhya Pradesh,Betul,d447,exact_normalised
+apy,Madhya Pradesh,Bhind,d420,exact_normalised
+apy,Madhya Pradesh,Bhopal,d444,exact_normalised
+apy,Madhya Pradesh,Burhanpur,d467,exact_normalised
+apy,Madhya Pradesh,Chhatarpur,d425,exact_normalised
+apy,Madhya Pradesh,Chhindwara,d455,exact_normalised
+apy,Madhya Pradesh,Damoh,d428,exact_normalised
+apy,Madhya Pradesh,Datia,d422,exact_normalised
+apy,Madhya Pradesh,Dewas,d437,exact_normalised
+apy,Madhya Pradesh,Dhar,d438,exact_normalised
+apy,Madhya Pradesh,Dindori,d453,exact_normalised
+apy,Madhya Pradesh,Guna,d458,exact_normalised
+apy,Madhya Pradesh,Gwalior,d421,exact_normalised
+apy,Madhya Pradesh,Harda,d448,exact_normalised
+apy,Madhya Pradesh,Indore,d439,exact_normalised
+apy,Madhya Pradesh,Jabalpur,d451,exact_normalised
+apy,Madhya Pradesh,Jhabua,d464,exact_normalised
+apy,Madhya Pradesh,Katni,d450,exact_normalised
+apy,Madhya Pradesh,Khandwa (East Nimar),d466,rename
+apy,Madhya Pradesh,Khargone (West Nimar),d440,rename
+apy,Madhya Pradesh,Mandla,d454,exact_normalised
+apy,Madhya Pradesh,Mandsaur,d433,exact_normalised
+apy,Madhya Pradesh,Morena,d419,exact_normalised
+apy,Madhya Pradesh,Narmadapuram,d449,rename
+apy,Madhya Pradesh,Narsimhapur,d452,exact_normalised
+apy,Madhya Pradesh,Neemuch,d432,exact_normalised
+apy,Madhya Pradesh,Niwari,d424,carved_principal_parent
+apy,Madhya Pradesh,Panna,d426,exact_normalised
+apy,Madhya Pradesh,Raisen,d446,exact_normalised
+apy,Madhya Pradesh,Rajgarh,d442,exact_normalised
+apy,Madhya Pradesh,Ratlam,d434,exact_normalised
+apy,Madhya Pradesh,Rewa,d430,exact_normalised
+apy,Madhya Pradesh,Sagar,d427,exact_normalised
+apy,Madhya Pradesh,Satna,d429,exact_normalised
+apy,Madhya Pradesh,Sehore,d445,exact_normalised
+apy,Madhya Pradesh,Seoni,d456,exact_normalised
+apy,Madhya Pradesh,Shahdol,d460,exact_normalised
+apy,Madhya Pradesh,Shajapur,d436,exact_normalised
+apy,Madhya Pradesh,Sheopur,d418,exact_normalised
+apy,Madhya Pradesh,Shivpuri,d423,exact_normalised
+apy,Madhya Pradesh,Sidhi,d462,exact_normalised
+apy,Madhya Pradesh,Singrauli,d463,exact_normalised
+apy,Madhya Pradesh,Tikamgarh,d424,exact_normalised
+apy,Madhya Pradesh,Ujjain,d435,exact_normalised
+apy,Madhya Pradesh,Umaria,d431,exact_normalised
+apy,Madhya Pradesh,Vidisha,d443,exact_normalised
+apy,Maharashtra,Ahilyanagar,d522,rename
+apy,Maharashtra,Akola,d501,exact_normalised
+apy,Maharashtra,Amravati,d503,exact_normalised
+apy,Maharashtra,Beed,d523,rename
+apy,Maharashtra,Bhandara,d506,exact_normalised
+apy,Maharashtra,Buldhana,d500,rename
+apy,Maharashtra,Chandrapur,d509,exact_normalised
+apy,Maharashtra,Chhatrapati Sambhajinagar,d515,rename
+apy,Maharashtra,Dharashiv,d525,rename
+apy,Maharashtra,Dhule,d498,exact_normalised
+apy,Maharashtra,Gadchiroli,d508,rename
+apy,Maharashtra,Gondia,d507,rename
+apy,Maharashtra,Hingoli,d512,exact_normalised
+apy,Maharashtra,Jalgaon,d499,exact_normalised
+apy,Maharashtra,Jalna,d514,exact_normalised
+apy,Maharashtra,Kolhapur,d530,exact_normalised
+apy,Maharashtra,Latur,d524,exact_normalised
+apy,Maharashtra,Mumbai,d519,exact_normalised
+apy,Maharashtra,Mumbai Suburban,d518,exact_normalised
+apy,Maharashtra,Nagpur,d505,exact_normalised
+apy,Maharashtra,Nanded,d511,exact_normalised
+apy,Maharashtra,Nandurbar,d497,exact_normalised
+apy,Maharashtra,Nashik,d516,exact_normalised
+apy,Maharashtra,Palghar,d517,carved_principal_parent
+apy,Maharashtra,Parbhani,d513,exact_normalised
+apy,Maharashtra,Pune,d521,exact_normalised
+apy,Maharashtra,Raigad,d520,rename
+apy,Maharashtra,Ratnagiri,d528,exact_normalised
+apy,Maharashtra,Sangli,d531,exact_normalised
+apy,Maharashtra,Satara,d527,exact_normalised
+apy,Maharashtra,Sindhudurg,d529,exact_normalised
+apy,Maharashtra,Solapur,d526,exact_normalised
+apy,Maharashtra,Thane,d517,exact_normalised
+apy,Maharashtra,Wardha,d504,exact_normalised
+apy,Maharashtra,Washim,d502,exact_normalised
+apy,Maharashtra,Yavatmal,d510,exact_normalised
+apy,Manipur,Bishnupur,d275,exact_normalised
+apy,Manipur,Chandel,d280,exact_normalised
+apy,Manipur,Churachandpur,d274,exact_normalised
+apy,Manipur,Imphal East,d278,exact_normalised
+apy,Manipur,Imphal West,d277,exact_normalised
+apy,Manipur,Senapati,d272,exact_normalised
+apy,Manipur,Tamenglong,d273,exact_normalised
+apy,Manipur,Thoubal,d276,exact_normalised
+apy,Manipur,Ukhrul,d279,exact_normalised
+apy,Meghalaya,East Garo Hills,d294,exact_normalised
+apy,Meghalaya,East Jaintia Hills,d299,carved_principal_parent
+apy,Meghalaya,East Khasi Hills,d298,exact_normalised
+apy,Meghalaya,North Garo Hills,d294,carved_principal_parent
+apy,Meghalaya,Ri Bhoi,d297,exact_normalised
+apy,Meghalaya,South Garo Hills,d295,exact_normalised
+apy,Meghalaya,South West Garo Hills,d293,carved_principal_parent
+apy,Meghalaya,South West Khasi Hills,d296,carved_principal_parent
+apy,Meghalaya,West Garo Hills,d293,exact_normalised
+apy,Meghalaya,West Jaintia Hills,d299,carved_principal_parent
+apy,Meghalaya,West Khasi Hills,d296,exact_normalised
+apy,Mizoram,Aizawl,d283,exact_normalised
+apy,Mizoram,Champhai,d284,exact_normalised
+apy,Mizoram,Hnahthial,d286,carved_principal_parent
+apy,Mizoram,Khawzawl,d284,carved_principal_parent
+apy,Mizoram,Kolasib,d282,exact_normalised
+apy,Mizoram,Lawngtlai,d287,rename
+apy,Mizoram,Lunglei,d286,exact_normalised
+apy,Mizoram,Mamit,d281,exact_normalised
+apy,Mizoram,Saitual,d283,carved_principal_parent
+apy,Mizoram,Serchhip,d285,exact_normalised
+apy,Mizoram,Siaha,d288,rename
+apy,Nagaland,Chumoukedima,d265,carved_principal_parent
+apy,Nagaland,Dimapur,d265,exact_normalised
+apy,Nagaland,Kiphire,d269,exact_normalised
+apy,Nagaland,Kohima,d270,exact_normalised
+apy,Nagaland,Longleng,d268,exact_normalised
+apy,Nagaland,Mokokchung,d262,exact_normalised
+apy,Nagaland,Mon,d261,exact_normalised
+apy,Nagaland,Niuland,d265,carved_principal_parent
+apy,Nagaland,Noklak,d267,carved_principal_parent
+apy,Nagaland,Peren,d271,exact_normalised
+apy,Nagaland,Phek,d266,exact_normalised
+apy,Nagaland,Shamator,d267,carved_principal_parent
+apy,Nagaland,Tseminyu,d270,carved_principal_parent
+apy,Nagaland,Tuensang,d267,exact_normalised
+apy,Nagaland,Wokha,d264,exact_normalised
+apy,Nagaland,Zunheboto,d263,exact_normalised
+apy,Odisha,Angul,d384,rename
+apy,Odisha,Balangir,d393,exact_normalised
+apy,Odisha,Balasore,d377,rename
+apy,Odisha,Bargarh,d370,exact_normalised
+apy,Odisha,Bhadrak,d378,exact_normalised
+apy,Odisha,Boudh,d391,rename
+apy,Odisha,Cuttack,d381,exact_normalised
+apy,Odisha,Deogarh,d373,rename
+apy,Odisha,Dhenkanal,d383,exact_normalised
+apy,Odisha,Gajapati,d389,exact_normalised
+apy,Odisha,Ganjam,d388,exact_normalised
+apy,Odisha,Jagatsinghapur,d380,exact_normalised
+apy,Odisha,Jajpur,d382,rename
+apy,Odisha,Jharsuguda,d371,exact_normalised
+apy,Odisha,Kalahandi,d395,exact_normalised
+apy,Odisha,Kandhamal,d390,exact_normalised
+apy,Odisha,Kendrapara,d379,exact_normalised
+apy,Odisha,Keonjhar,d375,rename
+apy,Odisha,Khordha,d386,exact_normalised
+apy,Odisha,Koraput,d398,exact_normalised
+apy,Odisha,Malkangiri,d399,exact_normalised
+apy,Odisha,Mayurbhanj,d376,exact_normalised
+apy,Odisha,Nabarangpur,d397,rename
+apy,Odisha,Nayagarh,d385,exact_normalised
+apy,Odisha,Nuapada,d394,exact_normalised
+apy,Odisha,Puri,d387,exact_normalised
+apy,Odisha,Rayagada,d396,exact_normalised
+apy,Odisha,Sambalpur,d372,exact_normalised
+apy,Odisha,Sonepur,d392,rename
+apy,Odisha,Sundargarh,d374,exact_normalised
+apy,Puducherry,Karaikal,d637,exact_normalised
+apy,Puducherry,Puducherry,d635,exact_normalised
+apy,Punjab,Amritsar,d49,exact_normalised
+apy,Punjab,Barnala,d54,exact_normalised
+apy,Punjab,Bathinda,d46,exact_normalised
+apy,Punjab,Faridkot,d45,exact_normalised
+apy,Punjab,Fatehgarh Sahib,d40,exact_normalised
+apy,Punjab,Fazilka,d43,carved_principal_parent
+apy,Punjab,Ferozepur,d43,rename
+apy,Punjab,Gurdaspur,d35,exact_normalised
+apy,Punjab,Hoshiarpur,d38,exact_normalised
+apy,Punjab,Jalandhar,d37,exact_normalised
+apy,Punjab,Kapurthala,d36,exact_normalised
+apy,Punjab,Ludhiana,d41,exact_normalised
+apy,Punjab,Malerkotla,d53,carved_principal_parent
+apy,Punjab,Mansa,d47,exact_normalised
+apy,Punjab,Moga,d42,exact_normalised
+apy,Punjab,Pathankot,d35,carved_principal_parent
+apy,Punjab,Patiala,d48,exact_normalised
+apy,Punjab,Rupnagar,d51,exact_normalised
+apy,Punjab,S.A.S Nagar,d52,rename
+apy,Punjab,Sangrur,d53,exact_normalised
+apy,Punjab,Shahid Bhagat Singh Nagar,d39,exact_normalised
+apy,Punjab,Sri Muktsar Sahib,d44,rename
+apy,Punjab,Tarn Taran,d50,exact_normalised
+apy,Rajasthan,Ajmer,d119,exact_normalised
+apy,Rajasthan,Alwar,d104,exact_normalised
+apy,Rajasthan,Banswara,d125,exact_normalised
+apy,Rajasthan,Baran,d128,exact_normalised
+apy,Rajasthan,Barmer,d115,exact_normalised
+apy,Rajasthan,Bharatpur,d105,exact_normalised
+apy,Rajasthan,Bhilwara,d122,exact_normalised
+apy,Rajasthan,Bikaner,d101,exact_normalised
+apy,Rajasthan,Bundi,d121,exact_normalised
+apy,Rajasthan,Chittorgarh,d126,rename
+apy,Rajasthan,Churu,d102,exact_normalised
+apy,Rajasthan,Dausa,d109,exact_normalised
+apy,Rajasthan,Dholpur,d106,rename
+apy,Rajasthan,Dungarpur,d124,exact_normalised
+apy,Rajasthan,Ganganagar,d99,exact_normalised
+apy,Rajasthan,Hanumangarh,d100,exact_normalised
+apy,Rajasthan,Jaipur,d110,exact_normalised
+apy,Rajasthan,Jaisalmer,d114,exact_normalised
+apy,Rajasthan,Jalore,d116,rename
+apy,Rajasthan,Jhalawar,d129,exact_normalised
+apy,Rajasthan,Jhunjhunu,d103,rename
+apy,Rajasthan,Jodhpur,d113,exact_normalised
+apy,Rajasthan,Karauli,d107,exact_normalised
+apy,Rajasthan,Kota,d127,exact_normalised
+apy,Rajasthan,Nagaur,d112,exact_normalised
+apy,Rajasthan,Pali,d118,exact_normalised
+apy,Rajasthan,Pratapgarh,d131,exact_normalised
+apy,Rajasthan,Rajsamand,d123,exact_normalised
+apy,Rajasthan,Sawai Madhopur,d108,exact_normalised
+apy,Rajasthan,Sikar,d111,exact_normalised
+apy,Rajasthan,Sirohi,d117,exact_normalised
+apy,Rajasthan,Tonk,d120,exact_normalised
+apy,Rajasthan,Udaipur,d130,exact_normalised
+apy,Sikkim,Gangtok,d244,rename
+apy,Sikkim,Gyalshing,d242,rename
+apy,Sikkim,Mangan,d241,rename
+apy,Sikkim,Namchi,d243,rename
+apy,Sikkim,Pakyong,d244,carved_principal_parent
+apy,Sikkim,Soreng,d242,carved_principal_parent
+apy,Tamil Nadu,Ariyalur,d616,exact_normalised
+apy,Tamil Nadu,Chengalpattu,d604,carved_principal_parent
+apy,Tamil Nadu,Chennai,d603,exact_normalised
+apy,Tamil Nadu,Coimbatore,d632,exact_normalised
+apy,Tamil Nadu,Cuddalore,d617,exact_normalised
+apy,Tamil Nadu,Dharmapuri,d630,exact_normalised
+apy,Tamil Nadu,Dindigul,d612,exact_normalised
+apy,Tamil Nadu,Erode,d610,exact_normalised
+apy,Tamil Nadu,Kallakurichi,d607,carved_principal_parent
+apy,Tamil Nadu,Kancheepuram,d604,exact_normalised
+apy,Tamil Nadu,Kanniyakumari,d629,exact_normalised
+apy,Tamil Nadu,Karur,d613,exact_normalised
+apy,Tamil Nadu,Krishnagiri,d631,exact_normalised
+apy,Tamil Nadu,Madurai,d623,exact_normalised
+apy,Tamil Nadu,Mayiladuthurai,d618,carved_principal_parent
+apy,Tamil Nadu,Nagapattinam,d618,rename
+apy,Tamil Nadu,Namakkal,d609,exact_normalised
+apy,Tamil Nadu,Perambalur,d615,exact_normalised
+apy,Tamil Nadu,Pudukkottai,d621,exact_normalised
+apy,Tamil Nadu,Ramanathapuram,d626,exact_normalised
+apy,Tamil Nadu,Ranipet,d605,carved_principal_parent
+apy,Tamil Nadu,Salem,d608,exact_normalised
+apy,Tamil Nadu,Sivaganga,d622,exact_normalised
+apy,Tamil Nadu,Tenkasi,d628,carved_principal_parent
+apy,Tamil Nadu,Thanjavur,d620,exact_normalised
+apy,Tamil Nadu,The Nilgiris,d611,exact_normalised
+apy,Tamil Nadu,Theni,d624,exact_normalised
+apy,Tamil Nadu,Thiruvallur,d602,exact_normalised
+apy,Tamil Nadu,Thiruvarur,d619,exact_normalised
+apy,Tamil Nadu,Thoothukkudi,d627,exact_normalised
+apy,Tamil Nadu,Tiruchirappalli,d614,exact_normalised
+apy,Tamil Nadu,Tirunelveli,d628,exact_normalised
+apy,Tamil Nadu,Tirupathur,d605,carved_principal_parent
+apy,Tamil Nadu,Tiruppur,d633,exact_normalised
+apy,Tamil Nadu,Tiruvannamalai,d606,exact_normalised
+apy,Tamil Nadu,Vellore,d605,exact_normalised
+apy,Tamil Nadu,Viluppuram,d607,exact_normalised
+apy,Tamil Nadu,Virudhunagar,d625,rename
+apy,Telangana,Adilabad,d532,exact_normalised
+apy,Telangana,Bhadradri Kothagudem,d541,carved_principal_parent
+apy,Telangana,Hanumakonda,d540,carved_principal_parent
+apy,Telangana,Hyderabad,d536,exact_normalised
+apy,Telangana,Jagitial,d534,carved_principal_parent
+apy,Telangana,Jangoan,d540,carved_principal_parent
+apy,Telangana,Jayashankar Bhupalapally,d540,carved_principal_parent
+apy,Telangana,Jogulamba Gadwal,d538,carved_principal_parent
+apy,Telangana,Kamareddy,d533,carved_principal_parent
+apy,Telangana,Karimnagar,d534,exact_normalised
+apy,Telangana,Khammam,d541,exact_normalised
+apy,Telangana,Kumuram Bheem Asifabad,d532,carved_principal_parent
+apy,Telangana,Mahabubabad,d540,carved_principal_parent
+apy,Telangana,Mahabubnagar,d538,rename
+apy,Telangana,Mancherial,d532,carved_principal_parent
+apy,Telangana,Medak,d535,exact_normalised
+apy,Telangana,Medchal Malkajgiri,d537,carved_principal_parent
+apy,Telangana,Mulugu,d540,carved_principal_parent
+apy,Telangana,Nagarkurnool,d538,carved_principal_parent
+apy,Telangana,Nalgonda,d539,exact_normalised
+apy,Telangana,Narayanpet,d538,carved_principal_parent
+apy,Telangana,Nirmal,d532,carved_principal_parent
+apy,Telangana,Nizamabad,d533,exact_normalised
+apy,Telangana,Peddapalli,d534,carved_principal_parent
+apy,Telangana,Rajanna Sircilla,d534,carved_principal_parent
+apy,Telangana,Ranga Reddy,d537,exact_normalised
+apy,Telangana,Sangareddy,d535,carved_principal_parent
+apy,Telangana,Siddipet,d535,carved_principal_parent
+apy,Telangana,Suryapet,d539,carved_principal_parent
+apy,Telangana,Vikarabad,d537,carved_principal_parent
+apy,Telangana,Wanaparthy,d538,carved_principal_parent
+apy,Telangana,Warangal,d540,exact_normalised
+apy,Telangana,Yadadri Bhuvanagiri,d539,carved_principal_parent
+apy,The Dadra And Nagar Haveli And Daman And Diu,Dadra And Nagar Haveli,d496,rename
+apy,The Dadra And Nagar Haveli And Daman And Diu,Daman,d495,exact_normalised
+apy,Tripura,Dhalai,d291,exact_normalised
+apy,Tripura,Gomati,d290,carved_principal_parent
+apy,Tripura,Khowai,d289,carved_principal_parent
+apy,Tripura,North Tripura,d292,exact_normalised
+apy,Tripura,Sepahijala,d289,carved_principal_parent
+apy,Tripura,South Tripura,d290,exact_normalised
+apy,Tripura,Unakoti,d292,carved_principal_parent
+apy,Tripura,West Tripura,d289,exact_normalised
+apy,Uttar Pradesh,Agra,d146,exact_normalised
+apy,Uttar Pradesh,Aligarh,d143,exact_normalised
+apy,Uttar Pradesh,Ambedkar Nagar,d178,exact_normalised
+apy,Uttar Pradesh,Amethi,d179,carved_principal_parent
+apy,Uttar Pradesh,Amroha,d137,rename
+apy,Uttar Pradesh,Auraiya,d162,exact_normalised
+apy,Uttar Pradesh,Ayodhya,d177,rename
+apy,Uttar Pradesh,Azamgarh,d191,exact_normalised
+apy,Uttar Pradesh,Baghpat,d139,exact_normalised
+apy,Uttar Pradesh,Bahraich,d180,exact_normalised
+apy,Uttar Pradesh,Ballia,d193,exact_normalised
+apy,Uttar Pradesh,Balrampur,d182,exact_normalised
+apy,Uttar Pradesh,Banda,d170,exact_normalised
+apy,Uttar Pradesh,Bara Banki,d176,exact_normalised
+apy,Uttar Pradesh,Bareilly,d150,exact_normalised
+apy,Uttar Pradesh,Basti,d185,exact_normalised
+apy,Uttar Pradesh,Bhadohi,d198,rename
+apy,Uttar Pradesh,Bijnor,d134,exact_normalised
+apy,Uttar Pradesh,Budaun,d149,exact_normalised
+apy,Uttar Pradesh,Bulandshahr,d142,exact_normalised
+apy,Uttar Pradesh,Chandauli,d196,exact_normalised
+apy,Uttar Pradesh,Chitrakoot,d171,exact_normalised
+apy,Uttar Pradesh,Deoria,d190,exact_normalised
+apy,Uttar Pradesh,Etah,d201,exact_normalised
+apy,Uttar Pradesh,Etawah,d161,exact_normalised
+apy,Uttar Pradesh,Farrukhabad,d159,exact_normalised
+apy,Uttar Pradesh,Fatehpur,d172,exact_normalised
+apy,Uttar Pradesh,Firozabad,d147,exact_normalised
+apy,Uttar Pradesh,Gautam Buddha Nagar,d141,exact_normalised
+apy,Uttar Pradesh,Ghaziabad,d140,exact_normalised
+apy,Uttar Pradesh,Ghazipur,d195,exact_normalised
+apy,Uttar Pradesh,Gonda,d183,exact_normalised
+apy,Uttar Pradesh,Gorakhpur,d188,exact_normalised
+apy,Uttar Pradesh,Hamirpur,d168,exact_normalised
+apy,Uttar Pradesh,Hapur,d140,carved_principal_parent
+apy,Uttar Pradesh,Hardoi,d155,exact_normalised
+apy,Uttar Pradesh,Hathras,d144,rename
+apy,Uttar Pradesh,Jalaun,d165,exact_normalised
+apy,Uttar Pradesh,Jaunpur,d194,exact_normalised
+apy,Uttar Pradesh,Jhansi,d166,exact_normalised
+apy,Uttar Pradesh,Kannauj,d160,exact_normalised
+apy,Uttar Pradesh,Kanpur Dehat,d163,exact_normalised
+apy,Uttar Pradesh,Kanpur Nagar,d164,exact_normalised
+apy,Uttar Pradesh,Kasganj,d202,rename
+apy,Uttar Pradesh,Kaushambi,d174,exact_normalised
+apy,Uttar Pradesh,Kheri,d153,exact_normalised
+apy,Uttar Pradesh,Kushinagar,d189,exact_normalised
+apy,Uttar Pradesh,Lalitpur,d167,exact_normalised
+apy,Uttar Pradesh,Lucknow,d157,exact_normalised
+apy,Uttar Pradesh,Mahoba,d169,exact_normalised
+apy,Uttar Pradesh,Mahrajganj,d187,rename
+apy,Uttar Pradesh,Mainpuri,d148,exact_normalised
+apy,Uttar Pradesh,Mathura,d145,exact_normalised
+apy,Uttar Pradesh,Mau,d192,exact_normalised
+apy,Uttar Pradesh,Meerut,d138,exact_normalised
+apy,Uttar Pradesh,Mirzapur,d199,exact_normalised
+apy,Uttar Pradesh,Moradabad,d135,exact_normalised
+apy,Uttar Pradesh,Muzaffarnagar,d133,exact_normalised
+apy,Uttar Pradesh,Pilibhit,d151,exact_normalised
+apy,Uttar Pradesh,Pratapgarh,d173,exact_normalised
+apy,Uttar Pradesh,Prayagraj,d175,rename
+apy,Uttar Pradesh,Rae Bareli,d158,exact_normalised
+apy,Uttar Pradesh,Rampur,d136,exact_normalised
+apy,Uttar Pradesh,Saharanpur,d132,exact_normalised
+apy,Uttar Pradesh,Sambhal,d135,carved_principal_parent
+apy,Uttar Pradesh,Sant Kabir Nagar,d186,exact_normalised
+apy,Uttar Pradesh,Shahjahanpur,d152,exact_normalised
+apy,Uttar Pradesh,Shamli,d133,carved_principal_parent
+apy,Uttar Pradesh,Shrawasti,d181,exact_normalised
+apy,Uttar Pradesh,Siddharthnagar,d184,exact_normalised
+apy,Uttar Pradesh,Sitapur,d154,exact_normalised
+apy,Uttar Pradesh,Sonbhadra,d200,exact_normalised
+apy,Uttar Pradesh,Sultanpur,d179,exact_normalised
+apy,Uttar Pradesh,Unnao,d156,exact_normalised
+apy,Uttar Pradesh,Varanasi,d197,exact_normalised
+apy,Uttarakhand,Almora,d64,exact_normalised
+apy,Uttarakhand,Bageshwar,d63,exact_normalised
+apy,Uttarakhand,Chamoli,d57,exact_normalised
+apy,Uttarakhand,Champawat,d65,exact_normalised
+apy,Uttarakhand,Dehradun,d60,exact_normalised
+apy,Uttarakhand,Haridwar,d68,rename
+apy,Uttarakhand,Nainital,d66,exact_normalised
+apy,Uttarakhand,Pauri Garhwal,d61,rename
+apy,Uttarakhand,Pithoragarh,d62,exact_normalised
+apy,Uttarakhand,Rudraprayag,d58,exact_normalised
+apy,Uttarakhand,Tehri Garhwal,d59,exact_normalised
+apy,Uttarakhand,Udham Singh Nagar,d67,exact_normalised
+apy,Uttarakhand,Uttarkashi,d56,exact_normalised
+apy,West Bengal,Alipurduar,d328,carved_principal_parent
+apy,West Bengal,Bankura,d339,exact_normalised
+apy,West Bengal,Birbhum,d334,exact_normalised
+apy,West Bengal,Cooch Behar,d329,rename
+apy,West Bengal,Dakshin Dinajpur,d331,exact_normalised
+apy,West Bengal,Darjeeling,d327,rename
+apy,West Bengal,Hooghly,d338,rename
+apy,West Bengal,Howrah,d341,rename
+apy,West Bengal,Jalpaiguri,d328,exact_normalised
+apy,West Bengal,Jhargram,d344,carved_principal_parent
+apy,West Bengal,Kalimpong,d327,carved_principal_parent
+apy,West Bengal,Malda,d332,rename
+apy,West Bengal,Murshidabad,d333,exact_normalised
+apy,West Bengal,Nadia,d336,exact_normalised
+apy,West Bengal,North 24 Parganas,d337,exact_normalised
+apy,West Bengal,Paschim Bardhaman,d335,carved_principal_parent
+apy,West Bengal,Paschim Medinipur,d344,rename
+apy,West Bengal,Purba Bardhaman,d335,carved_principal_parent
+apy,West Bengal,Purba Medinipur,d345,exact_normalised
+apy,West Bengal,Purulia,d340,rename
+apy,West Bengal,South 24 Parganas,d343,exact_normalised
+apy,West Bengal,Uttar Dinajpur,d330,exact_normalised
+cgwb,AP,Anantapur,d553,exact_normalised
+cgwb,AP,Chittoor,d554,exact_normalised
+cgwb,AP,East Godavari,d545,exact_normalised
+cgwb,AP,Guntur,d548,exact_normalised
+cgwb,AP,Krishna,d547,exact_normalised
+cgwb,AP,Kurnool,d552,exact_normalised
+cgwb,AP,Prakasam,d549,exact_normalised
+cgwb,AP,Sri Potti Sriramulu Nellore,d550,exact_normalised
+cgwb,AP,Srikakulam,d542,exact_normalised
+cgwb,AP,Visakhapatnam,d544,exact_normalised
+cgwb,AP,Vizianagaram,d543,exact_normalised
+cgwb,AP,West Godavari,d546,exact_normalised
+cgwb,AP,Y.s.r.,d551,exact_normalised
+cgwb,AR,Changlang,d253,exact_normalised
+cgwb,AR,East Siang,d251,exact_normalised
+cgwb,AR,Lohit,d259,exact_normalised
+cgwb,AR,Papum Pare,d248,exact_normalised
+cgwb,AR,Tirap,d254,exact_normalised
+cgwb,BR,Araria,d209,exact_normalised
+cgwb,BR,Arwal,d240,exact_normalised
+cgwb,BR,Aurangabad,d235,exact_normalised
+cgwb,BR,Banka,d225,exact_normalised
+cgwb,BR,Begusarai,d222,exact_normalised
+cgwb,BR,Bhagalpur,d224,exact_normalised
+cgwb,BR,Bhojpur,d231,exact_normalised
+cgwb,BR,Buxar,d232,exact_normalised
+cgwb,BR,Darbhanga,d215,exact_normalised
+cgwb,BR,Gaya,d236,exact_normalised
+cgwb,BR,Gopalganj,d217,exact_normalised
+cgwb,BR,Jamui,d238,exact_normalised
+cgwb,BR,Jehanabad,d239,exact_normalised
+cgwb,BR,Kaimur (bhabua),d233,exact_normalised
+cgwb,BR,Katihar,d212,exact_normalised
+cgwb,BR,Khagaria,d223,exact_normalised
+cgwb,BR,Kishanganj,d210,exact_normalised
+cgwb,BR,Lakhisarai,d227,exact_normalised
+cgwb,BR,Madhepura,d213,exact_normalised
+cgwb,BR,Madhubani,d207,exact_normalised
+cgwb,BR,Munger,d226,exact_normalised
+cgwb,BR,Muzaffarpur,d216,exact_normalised
+cgwb,BR,Nalanda,d229,exact_normalised
+cgwb,BR,Nawada,d237,exact_normalised
+cgwb,BR,Pashchim Champaran,d203,exact_normalised
+cgwb,BR,Patna,d230,exact_normalised
+cgwb,BR,Purba Champaran,d204,exact_normalised
+cgwb,BR,Purnia,d211,exact_normalised
+cgwb,BR,Rohtas,d234,exact_normalised
+cgwb,BR,Saharsa,d214,exact_normalised
+cgwb,BR,Samastipur,d221,exact_normalised
+cgwb,BR,Saran (chhapra),d219,exact_normalised
+cgwb,BR,Sheikhpura,d228,exact_normalised
+cgwb,BR,Sheohar,d205,exact_normalised
+cgwb,BR,Sitamarhi,d206,exact_normalised
+cgwb,BR,Siwan,d218,exact_normalised
+cgwb,BR,Supaul,d208,exact_normalised
+cgwb,BR,Vaishali,d220,exact_normalised
+cgwb,CG,Bastar,d414,exact_normalised
+cgwb,CG,Bijapur,d417,exact_normalised
+cgwb,CG,Bilaspur,d406,exact_normalised
+cgwb,CG,Dakshin Bastar Dantewada,d416,exact_normalised
+cgwb,CG,Dhamtari,d412,exact_normalised
+cgwb,CG,Durg,d409,exact_normalised
+cgwb,CG,Janjgir-champa,d405,exact_normalised
+cgwb,CG,Jashpur,d402,exact_normalised
+cgwb,CG,Kabeerdham,d407,exact_normalised
+cgwb,CG,Korba,d404,exact_normalised
+cgwb,CG,Koriya,d400,exact_normalised
+cgwb,CG,Mahasamund,d411,exact_normalised
+cgwb,CG,Narayanpur,d415,exact_normalised
+cgwb,CG,Raipur,d410,exact_normalised
+cgwb,CG,Rajnandgaon,d408,exact_normalised
+cgwb,CG,Surguja,d401,exact_normalised
+cgwb,CG,Uttar Bastar Kanker,d413,exact_normalised
+cgwb,GJ,Ahmadabad,d474,exact_normalised
+cgwb,GJ,Amreli,d480,exact_normalised
+cgwb,GJ,Anand,d482,exact_normalised
+cgwb,GJ,Banas Kantha,d469,exact_normalised
+cgwb,GJ,Bharuch,d488,exact_normalised
+cgwb,GJ,Bhavnagar,d481,exact_normalised
+cgwb,GJ,Dohad,d485,exact_normalised
+cgwb,GJ,Gandhinagar,d473,exact_normalised
+cgwb,GJ,Jamnagar,d477,exact_normalised
+cgwb,GJ,Junagadh,d479,exact_normalised
+cgwb,GJ,Kachchh,d468,exact_normalised
+cgwb,GJ,Kheda,d483,exact_normalised
+cgwb,GJ,Mahesana,d471,exact_normalised
+cgwb,GJ,Narmada,d487,exact_normalised
+cgwb,GJ,Navsari,d490,exact_normalised
+cgwb,GJ,Panch Mahals,d484,exact_normalised
+cgwb,GJ,Patan,d470,exact_normalised
+cgwb,GJ,Porbandar,d478,exact_normalised
+cgwb,GJ,Rajkot,d476,exact_normalised
+cgwb,GJ,Sabar Kantha,d472,exact_normalised
+cgwb,GJ,Surat,d492,exact_normalised
+cgwb,GJ,Surendranagar,d475,exact_normalised
+cgwb,GJ,Tapi,d493,exact_normalised
+cgwb,GJ,The Dangs,d489,exact_normalised
+cgwb,GJ,Vadodara,d486,exact_normalised
+cgwb,GJ,Valsad,d491,exact_normalised
+cgwb,HP,Kangra,d24,exact_normalised
+cgwb,HP,Kullu,d26,exact_normalised
+cgwb,HP,Mandi,d27,exact_normalised
+cgwb,HP,Sirmaur,d32,exact_normalised
+cgwb,HP,Solan,d31,exact_normalised
+cgwb,HP,Una,d29,exact_normalised
+cgwb,HR,Ambala,d70,exact_normalised
+cgwb,HR,Bhiwani,d81,exact_normalised
+cgwb,HR,Faridabad,d88,exact_normalised
+cgwb,HR,Fatehabad,d78,exact_normalised
+cgwb,HR,Gurgaon,d86,exact_normalised
+cgwb,HR,Hisar,d80,exact_normalised
+cgwb,HR,Jhajjar,d83,exact_normalised
+cgwb,HR,Jind,d77,exact_normalised
+cgwb,HR,Kaithal,d73,exact_normalised
+cgwb,HR,Karnal,d74,exact_normalised
+cgwb,HR,Kurukshetra,d72,exact_normalised
+cgwb,HR,Mahendragarh,d84,exact_normalised
+cgwb,HR,Mewat,d87,exact_normalised
+cgwb,HR,Palwal,d89,exact_normalised
+cgwb,HR,Panchkula,d69,exact_normalised
+cgwb,HR,Panipat,d75,exact_normalised
+cgwb,HR,Rewari,d85,exact_normalised
+cgwb,HR,Rohtak,d82,exact_normalised
+cgwb,HR,Sirsa,d79,exact_normalised
+cgwb,HR,Sonipat,d76,exact_normalised
+cgwb,HR,Yamunanagar,d71,exact_normalised
+cgwb,JH,Bokaro,d355,exact_normalised
+cgwb,JH,Chatra,d347,exact_normalised
+cgwb,JH,Deoghar,d350,exact_normalised
+cgwb,JH,Dhanbad,d354,exact_normalised
+cgwb,JH,Dumka,d362,exact_normalised
+cgwb,JH,Garhwa,d346,exact_normalised
+cgwb,JH,Giridih,d349,exact_normalised
+cgwb,JH,Godda,d351,exact_normalised
+cgwb,JH,Gumla,d366,exact_normalised
+cgwb,JH,Hazaribagh,d360,exact_normalised
+cgwb,JH,Jamtara,d363,exact_normalised
+cgwb,JH,Khunti,d365,exact_normalised
+cgwb,JH,Kodarma,d348,exact_normalised
+cgwb,JH,Latehar,d359,exact_normalised
+cgwb,JH,Lohardaga,d356,exact_normalised
+cgwb,JH,Pakur,d353,exact_normalised
+cgwb,JH,Palamu,d358,exact_normalised
+cgwb,JH,Pashchimi Singhbhum,d368,exact_normalised
+cgwb,JH,Purbi Singhbhum,d357,exact_normalised
+cgwb,JH,Ramgarh,d361,exact_normalised
+cgwb,JH,Ranchi,d364,exact_normalised
+cgwb,JH,Sahibganj,d352,exact_normalised
+cgwb,JH,Saraikela-kharsawan,d369,exact_normalised
+cgwb,JH,Simdega,d367,exact_normalised
+cgwb,JK,Anantnag,d14,exact_normalised
+cgwb,JK,Badgam,d2,exact_normalised
+cgwb,JK,Bandipore,d9,exact_normalised
+cgwb,JK,Baramula,d8,exact_normalised
+cgwb,JK,Jammu,d21,exact_normalised
+cgwb,JK,Kathua,d7,exact_normalised
+cgwb,JK,Kupwara,d1,exact_normalised
+cgwb,JK,Pulwama,d12,exact_normalised
+cgwb,JK,Rajouri,d6,exact_normalised
+cgwb,JK,Reasi,d20,exact_normalised
+cgwb,JK,Samba,d22,exact_normalised
+cgwb,JK,Srinagar,d10,exact_normalised
+cgwb,JK,Udhampur,d19,exact_normalised
+cgwb,KA,Bagalkot,d556,exact_normalised
+cgwb,KA,Bangalore,d572,exact_normalised
+cgwb,KA,Bangalore Rural,d583,exact_normalised
+cgwb,KA,Belgaum,d555,exact_normalised
+cgwb,KA,Bellary,d565,exact_normalised
+cgwb,KA,Bidar,d558,exact_normalised
+cgwb,KA,Bijapur,d557,exact_normalised
+cgwb,KA,Chamrajnagar,d578,exact_normalised
+cgwb,KA,Chikkaballapura,d582,exact_normalised
+cgwb,KA,Chikmagalur,d570,exact_normalised
+cgwb,KA,Chitradurga,d566,exact_normalised
+cgwb,KA,Dakshina Kannada,d575,exact_normalised
+cgwb,KA,Davanagere,d567,exact_normalised
+cgwb,KA,Dharwad,d562,exact_normalised
+cgwb,KA,Gadag,d561,exact_normalised
+cgwb,KA,Gulbarga,d579,exact_normalised
+cgwb,KA,Hassan,d574,exact_normalised
+cgwb,KA,Haveri,d564,exact_normalised
+cgwb,KA,Kodagu,d576,exact_normalised
+cgwb,KA,Kolar,d581,exact_normalised
+cgwb,KA,Koppal,d560,exact_normalised
+cgwb,KA,Mandya,d573,exact_normalised
+cgwb,KA,Mysore,d577,exact_normalised
+cgwb,KA,Raichur,d559,exact_normalised
+cgwb,KA,Ramanagara,d584,exact_normalised
+cgwb,KA,Shimoga,d568,exact_normalised
+cgwb,KA,Tumkur,d571,exact_normalised
+cgwb,KA,Udupi,d569,exact_normalised
+cgwb,KA,Uttara Kannada,d563,exact_normalised
+cgwb,KA,Yadgir,d580,exact_normalised
+cgwb,KL,Alappuzha,d598,exact_normalised
+cgwb,KL,Ernakulam,d595,exact_normalised
+cgwb,KL,Idukki,d596,exact_normalised
+cgwb,KL,Kannur,d589,exact_normalised
+cgwb,KL,Kasaragod,d588,exact_normalised
+cgwb,KL,Kollam,d600,exact_normalised
+cgwb,KL,Kottayam,d597,exact_normalised
+cgwb,KL,Kozhikode,d591,exact_normalised
+cgwb,KL,Malappuram,d592,exact_normalised
+cgwb,KL,Palakkad,d593,exact_normalised
+cgwb,KL,Pathanamthitta,d599,exact_normalised
+cgwb,KL,Thiruvananthapuram,d601,exact_normalised
+cgwb,KL,Thrissur,d594,exact_normalised
+cgwb,KL,Wayanad,d590,exact_normalised
+cgwb,ML,East Garo Hills,d294,exact_normalised
+cgwb,ML,East Khasi Hills,d298,exact_normalised
+cgwb,ML,Jaintia Hills,d299,exact_normalised
+cgwb,ML,Ri Bhoi,d297,exact_normalised
+cgwb,ML,South Garo Hills,d295,exact_normalised
+cgwb,ML,West Garo Hills,d293,exact_normalised
+cgwb,ML,West Khasi Hills,d296,exact_normalised
+cgwb,MN,Bishnupur,d275,exact_normalised
+cgwb,MN,Imphal East,d278,exact_normalised
+cgwb,MN,Senapati,d272,exact_normalised
+cgwb,MN,Thoubal,d276,exact_normalised
+cgwb,MP,Alirajpur,d465,exact_normalised
+cgwb,MP,Anuppur,d461,exact_normalised
+cgwb,MP,Ashoknagar,d459,exact_normalised
+cgwb,MP,Balaghat,d457,exact_normalised
+cgwb,MP,Barwani,d441,exact_normalised
+cgwb,MP,Betul,d447,exact_normalised
+cgwb,MP,Bhind,d420,exact_normalised
+cgwb,MP,Bhopal,d444,exact_normalised
+cgwb,MP,Burhanpur,d467,exact_normalised
+cgwb,MP,Chhatarpur,d425,exact_normalised
+cgwb,MP,Chhindwara,d455,exact_normalised
+cgwb,MP,Damoh,d428,exact_normalised
+cgwb,MP,Datia,d422,exact_normalised
+cgwb,MP,Dewas,d437,exact_normalised
+cgwb,MP,Dhar,d438,exact_normalised
+cgwb,MP,Dindori,d453,exact_normalised
+cgwb,MP,East Nimar,d466,exact_normalised
+cgwb,MP,Guna,d458,exact_normalised
+cgwb,MP,Gwalior,d421,exact_normalised
+cgwb,MP,Harda,d448,exact_normalised
+cgwb,MP,Hoshangabad,d449,exact_normalised
+cgwb,MP,Indore,d439,exact_normalised
+cgwb,MP,Jabalpur,d451,exact_normalised
+cgwb,MP,Jhabua,d464,exact_normalised
+cgwb,MP,Katni,d450,exact_normalised
+cgwb,MP,Mandla,d454,exact_normalised
+cgwb,MP,Mandsaur,d433,exact_normalised
+cgwb,MP,Morena,d419,exact_normalised
+cgwb,MP,Narsimhapur,d452,exact_normalised
+cgwb,MP,Neemuch,d432,exact_normalised
+cgwb,MP,Panna,d426,exact_normalised
+cgwb,MP,Raisen,d446,exact_normalised
+cgwb,MP,Rajgarh,d442,exact_normalised
+cgwb,MP,Ratlam,d434,exact_normalised
+cgwb,MP,Rewa,d430,exact_normalised
+cgwb,MP,Sagar,d427,exact_normalised
+cgwb,MP,Satna,d429,exact_normalised
+cgwb,MP,Sehore,d445,exact_normalised
+cgwb,MP,Seoni,d456,exact_normalised
+cgwb,MP,Shahdol,d460,exact_normalised
+cgwb,MP,Shajapur,d436,exact_normalised
+cgwb,MP,Sheopur,d418,exact_normalised
+cgwb,MP,Shivpuri,d423,exact_normalised
+cgwb,MP,Sidhi,d462,exact_normalised
+cgwb,MP,Singrauli,d463,exact_normalised
+cgwb,MP,Tikamgarh,d424,exact_normalised
+cgwb,MP,Ujjain,d435,exact_normalised
+cgwb,MP,Umaria,d431,exact_normalised
+cgwb,MP,Vidisha,d443,exact_normalised
+cgwb,MP,West Nimar,d440,exact_normalised
+cgwb,MS,Ahmadnagar,d522,exact_normalised
+cgwb,MS,Akola,d501,exact_normalised
+cgwb,MS,Amravati,d503,exact_normalised
+cgwb,MS,Aurangabad,d515,exact_normalised
+cgwb,MS,Bhandara,d506,exact_normalised
+cgwb,MS,Bid,d523,exact_normalised
+cgwb,MS,Buldana,d500,exact_normalised
+cgwb,MS,Chandrapur,d509,exact_normalised
+cgwb,MS,Dhule,d498,exact_normalised
+cgwb,MS,Garhchiroli,d508,exact_normalised
+cgwb,MS,Gondiya,d507,exact_normalised
+cgwb,MS,Hingoli,d512,exact_normalised
+cgwb,MS,Jalgaon,d499,exact_normalised
+cgwb,MS,Jalna,d514,exact_normalised
+cgwb,MS,Kolhapur,d530,exact_normalised
+cgwb,MS,Latur,d524,exact_normalised
+cgwb,MS,Mumbai,d519,exact_normalised
+cgwb,MS,Mumbai Suburban,d518,exact_normalised
+cgwb,MS,Nagpur,d505,exact_normalised
+cgwb,MS,Nanded,d511,exact_normalised
+cgwb,MS,Nandurbar,d497,exact_normalised
+cgwb,MS,Nashik,d516,exact_normalised
+cgwb,MS,Osmanabad,d525,exact_normalised
+cgwb,MS,Parbhani,d513,exact_normalised
+cgwb,MS,Pune,d521,exact_normalised
+cgwb,MS,Raigarh,d520,exact_normalised
+cgwb,MS,Ratnagiri,d528,exact_normalised
+cgwb,MS,Sangli,d531,exact_normalised
+cgwb,MS,Satara,d527,exact_normalised
+cgwb,MS,Sindhudurg,d529,exact_normalised
+cgwb,MS,Solapur,d526,exact_normalised
+cgwb,MS,Thane,d517,exact_normalised
+cgwb,MS,Wardha,d504,exact_normalised
+cgwb,MS,Washim,d502,exact_normalised
+cgwb,MS,Yavatmal,d510,exact_normalised
+cgwb,NL,Dimapur,d265,exact_normalised
+cgwb,NL,Kohima,d270,exact_normalised
+cgwb,NL,Mokokchung,d262,exact_normalised
+cgwb,NL,Mon,d261,exact_normalised
+cgwb,NL,Wokha,d264,exact_normalised
+cgwb,OD,Anugul,d384,exact_normalised
+cgwb,OD,Balangir,d393,exact_normalised
+cgwb,OD,Baleshwar,d377,exact_normalised
+cgwb,OD,Bargarh,d370,exact_normalised
+cgwb,OD,Bauda,d391,exact_normalised
+cgwb,OD,Bhadrak,d378,exact_normalised
+cgwb,OD,Cuttack,d381,exact_normalised
+cgwb,OD,Debagarh,d373,exact_normalised
+cgwb,OD,Dhenkanal,d383,exact_normalised
+cgwb,OD,Gajapati,d389,exact_normalised
+cgwb,OD,Ganjam,d388,exact_normalised
+cgwb,OD,Jagatsinghapur,d380,exact_normalised
+cgwb,OD,Jajapur,d382,exact_normalised
+cgwb,OD,Jharsuguda,d371,exact_normalised
+cgwb,OD,Kalahandi,d395,exact_normalised
+cgwb,OD,Kandhamal,d390,exact_normalised
+cgwb,OD,Kendrapara,d379,exact_normalised
+cgwb,OD,Kendujhar,d375,exact_normalised
+cgwb,OD,Khordha,d386,exact_normalised
+cgwb,OD,Koraput,d398,exact_normalised
+cgwb,OD,Malkangiri,d399,exact_normalised
+cgwb,OD,Mayurbhanj,d376,exact_normalised
+cgwb,OD,Nabarangapur,d397,exact_normalised
+cgwb,OD,Nayagarh,d385,exact_normalised
+cgwb,OD,Nuapada,d394,exact_normalised
+cgwb,OD,Puri,d387,exact_normalised
+cgwb,OD,Rayagada,d396,exact_normalised
+cgwb,OD,Sambalpur,d372,exact_normalised
+cgwb,OD,Subarnapur,d392,exact_normalised
+cgwb,OD,Sundargarh,d374,exact_normalised
+cgwb,PB,Amritsar,d49,exact_normalised
+cgwb,PB,Barnala,d54,exact_normalised
+cgwb,PB,Bathinda,d46,exact_normalised
+cgwb,PB,Faridkot,d45,exact_normalised
+cgwb,PB,Fatehgarh Sahib,d40,exact_normalised
+cgwb,PB,Firozpur,d43,exact_normalised
+cgwb,PB,Gurdaspur,d35,exact_normalised
+cgwb,PB,Hoshiarpur,d38,exact_normalised
+cgwb,PB,Jalandhar,d37,exact_normalised
+cgwb,PB,Kapurthala,d36,exact_normalised
+cgwb,PB,Ludhiana,d41,exact_normalised
+cgwb,PB,Mansa,d47,exact_normalised
+cgwb,PB,Moga,d42,exact_normalised
+cgwb,PB,Muktsar,d44,exact_normalised
+cgwb,PB,Patiala,d48,exact_normalised
+cgwb,PB,Rupnagar,d51,exact_normalised
+cgwb,PB,Sahibzada Ajit Singh Nagar,d52,exact_normalised
+cgwb,PB,Sangrur,d53,exact_normalised
+cgwb,PB,Shahid Bhagat Singh Nagar,d39,exact_normalised
+cgwb,PB,Tarn Taran,d50,exact_normalised
+cgwb,RJ,Ajmer,d119,exact_normalised
+cgwb,RJ,Alwar,d104,exact_normalised
+cgwb,RJ,Banswara,d125,exact_normalised
+cgwb,RJ,Baran,d128,exact_normalised
+cgwb,RJ,Barmer,d115,exact_normalised
+cgwb,RJ,Bharatpur,d105,exact_normalised
+cgwb,RJ,Bhilwara,d122,exact_normalised
+cgwb,RJ,Bikaner,d101,exact_normalised
+cgwb,RJ,Bundi,d121,exact_normalised
+cgwb,RJ,Chittaurgarh,d126,exact_normalised
+cgwb,RJ,Churu,d102,exact_normalised
+cgwb,RJ,Dausa,d109,exact_normalised
+cgwb,RJ,Dhaulpur,d106,exact_normalised
+cgwb,RJ,Dungarpur,d124,exact_normalised
+cgwb,RJ,Ganganagar,d99,exact_normalised
+cgwb,RJ,Hanumangarh,d100,exact_normalised
+cgwb,RJ,Jaipur,d110,exact_normalised
+cgwb,RJ,Jaisalmer,d114,exact_normalised
+cgwb,RJ,Jalor,d116,exact_normalised
+cgwb,RJ,Jhalawar,d129,exact_normalised
+cgwb,RJ,Jhunjhunun,d103,exact_normalised
+cgwb,RJ,Jodhpur,d113,exact_normalised
+cgwb,RJ,Karauli,d107,exact_normalised
+cgwb,RJ,Kota,d127,exact_normalised
+cgwb,RJ,Nagaur,d112,exact_normalised
+cgwb,RJ,Pali,d118,exact_normalised
+cgwb,RJ,Pratapgarh,d131,exact_normalised
+cgwb,RJ,Rajsamand,d123,exact_normalised
+cgwb,RJ,Sawai Madhopur,d108,exact_normalised
+cgwb,RJ,Sikar,d111,exact_normalised
+cgwb,RJ,Sirohi,d117,exact_normalised
+cgwb,RJ,Tonk,d120,exact_normalised
+cgwb,RJ,Udaipur,d130,exact_normalised
+cgwb,TG,Adilabad,d532,exact_normalised
+cgwb,TG,Hyderabad,d536,exact_normalised
+cgwb,TG,Karimnagar,d534,exact_normalised
+cgwb,TG,Khammam,d541,exact_normalised
+cgwb,TG,Mahbubnagar,d538,exact_normalised
+cgwb,TG,Medak,d535,exact_normalised
+cgwb,TG,Nalgonda,d539,exact_normalised
+cgwb,TG,Nizamabad,d533,exact_normalised
+cgwb,TG,Rangareddy,d537,exact_normalised
+cgwb,TG,Warangal,d540,exact_normalised
+cgwb,TN,Ariyalur,d616,exact_normalised
+cgwb,TN,Chennai,d603,exact_normalised
+cgwb,TN,Coimbatore,d632,exact_normalised
+cgwb,TN,Cuddalore,d617,exact_normalised
+cgwb,TN,Dharmapuri,d630,exact_normalised
+cgwb,TN,Dindigul,d612,exact_normalised
+cgwb,TN,Erode,d610,exact_normalised
+cgwb,TN,Kancheepuram,d604,exact_normalised
+cgwb,TN,Kanniyakumari,d629,exact_normalised
+cgwb,TN,Karur,d613,exact_normalised
+cgwb,TN,Krishnagiri,d631,exact_normalised
+cgwb,TN,Madurai,d623,exact_normalised
+cgwb,TN,Nagappattinam,d618,exact_normalised
+cgwb,TN,Namakkal,d609,exact_normalised
+cgwb,TN,Perambalur,d615,exact_normalised
+cgwb,TN,Pudukkottai,d621,exact_normalised
+cgwb,TN,Ramanathapuram,d626,exact_normalised
+cgwb,TN,Salem,d608,exact_normalised
+cgwb,TN,Sivaganga,d622,exact_normalised
+cgwb,TN,Thanjavur,d620,exact_normalised
+cgwb,TN,The Nilgiris,d611,exact_normalised
+cgwb,TN,Theni,d624,exact_normalised
+cgwb,TN,Thiruvallur,d602,exact_normalised
+cgwb,TN,Thiruvarur,d619,exact_normalised
+cgwb,TN,Thoothukkudi,d627,exact_normalised
+cgwb,TN,Tiruchirappalli,d614,exact_normalised
+cgwb,TN,Tirunelveli,d628,exact_normalised
+cgwb,TN,Tiruppur,d633,exact_normalised
+cgwb,TN,Tiruvannamalai,d606,exact_normalised
+cgwb,TN,Vellore,d605,exact_normalised
+cgwb,TN,Viluppuram,d607,exact_normalised
+cgwb,TN,Virudunagar,d625,exact_normalised
+cgwb,TR,Dhalai,d291,exact_normalised
+cgwb,TR,North Tripura,d292,exact_normalised
+cgwb,TR,South Tripura,d290,exact_normalised
+cgwb,TR,West Tripura,d289,exact_normalised
+cgwb,UP,Agra,d146,exact_normalised
+cgwb,UP,Aligarh,d143,exact_normalised
+cgwb,UP,Allahabad,d175,exact_normalised
+cgwb,UP,Ambedkar Nagar,d178,exact_normalised
+cgwb,UP,Auraiya,d162,exact_normalised
+cgwb,UP,Azamgarh,d191,exact_normalised
+cgwb,UP,Baghpat,d139,exact_normalised
+cgwb,UP,Bahraich,d180,exact_normalised
+cgwb,UP,Ballia,d193,exact_normalised
+cgwb,UP,Balrampur,d182,exact_normalised
+cgwb,UP,Banda,d170,exact_normalised
+cgwb,UP,Bara Banki,d176,exact_normalised
+cgwb,UP,Bareilly,d150,exact_normalised
+cgwb,UP,Basti,d185,exact_normalised
+cgwb,UP,Bijnor,d134,exact_normalised
+cgwb,UP,Budaun,d149,exact_normalised
+cgwb,UP,Bulandshahr,d142,exact_normalised
+cgwb,UP,Chandauli,d196,exact_normalised
+cgwb,UP,Chitrakoot,d171,exact_normalised
+cgwb,UP,Deoria,d190,exact_normalised
+cgwb,UP,Etah,d201,exact_normalised
+cgwb,UP,Etawah,d161,exact_normalised
+cgwb,UP,Faizabad,d177,exact_normalised
+cgwb,UP,Farrukhabad,d159,exact_normalised
+cgwb,UP,Fatehpur,d172,exact_normalised
+cgwb,UP,Gautam Buddha Nagar,d141,exact_normalised
+cgwb,UP,Ghaziabad,d140,exact_normalised
+cgwb,UP,Gonda,d183,exact_normalised
+cgwb,UP,Gorakhpur,d188,exact_normalised
+cgwb,UP,Hamirpur,d168,exact_normalised
+cgwb,UP,Hardoi,d155,exact_normalised
+cgwb,UP,Jalaun,d165,exact_normalised
+cgwb,UP,Jaunpur,d194,exact_normalised
+cgwb,UP,Jhansi,d166,exact_normalised
+cgwb,UP,Jyotiba Phule Nagar,d137,exact_normalised
+cgwb,UP,Kannauj,d160,exact_normalised
+cgwb,UP,Kanpur Dehat,d163,exact_normalised
+cgwb,UP,Kanpur Nagar,d164,exact_normalised
+cgwb,UP,Kaushambi,d174,exact_normalised
+cgwb,UP,Kheri,d153,exact_normalised
+cgwb,UP,Kushinagar,d189,exact_normalised
+cgwb,UP,Lalitpur,d167,exact_normalised
+cgwb,UP,Lucknow,d157,exact_normalised
+cgwb,UP,Mahamaya Nagar,d144,exact_normalised
+cgwb,UP,Maharajganj,d187,exact_normalised
+cgwb,UP,Mahoba,d169,exact_normalised
+cgwb,UP,Mainpuri,d148,exact_normalised
+cgwb,UP,Mathura,d145,exact_normalised
+cgwb,UP,Mau,d192,exact_normalised
+cgwb,UP,Meerut,d138,exact_normalised
+cgwb,UP,Mirzapur,d199,exact_normalised
+cgwb,UP,Moradabad,d135,exact_normalised
+cgwb,UP,Muzaffarnagar,d133,exact_normalised
+cgwb,UP,Pilibhit,d151,exact_normalised
+cgwb,UP,Pratapgarh,d173,exact_normalised
+cgwb,UP,Rae Bareli,d158,exact_normalised
+cgwb,UP,Rampur,d136,exact_normalised
+cgwb,UP,Saharanpur,d132,exact_normalised
+cgwb,UP,Sant Kabir Nagar,d186,exact_normalised
+cgwb,UP,Sant Ravi Das Nagar(bhadohi),d198,exact_normalised
+cgwb,UP,Shahjahanpur,d152,exact_normalised
+cgwb,UP,Shrawasti,d181,exact_normalised
+cgwb,UP,Siddharth Nagar,d184,exact_normalised
+cgwb,UP,Sitapur,d154,exact_normalised
+cgwb,UP,Sonbhadra,d200,exact_normalised
+cgwb,UP,Sultanpur,d179,exact_normalised
+cgwb,UP,Unnao,d156,exact_normalised
+cgwb,UP,Varanasi,d197,exact_normalised
+cgwb,WB,Bankura,d339,exact_normalised
+cgwb,WB,Barddhaman,d335,exact_normalised
+cgwb,WB,Birbhum,d334,exact_normalised
+cgwb,WB,Dakshin Dinajpur,d331,exact_normalised
+cgwb,WB,Darjiling,d327,exact_normalised
+cgwb,WB,Haora,d341,exact_normalised
+cgwb,WB,Hugli,d338,exact_normalised
+cgwb,WB,Jalpaiguri,d328,exact_normalised
+cgwb,WB,Koch Bihar,d329,exact_normalised
+cgwb,WB,Kolkata,d342,exact_normalised
+cgwb,WB,Maldah,d332,exact_normalised
+cgwb,WB,Murshidabad,d333,exact_normalised
+cgwb,WB,Nadia,d336,exact_normalised
+cgwb,WB,North 24 Parganas,d337,exact_normalised
+cgwb,WB,Pashchim Medinipur,d344,exact_normalised
+cgwb,WB,Purba Medinipur,d345,exact_normalised
+cgwb,WB,Puruliya,d340,exact_normalised
+cgwb,WB,South 24 Parganas,d343,exact_normalised
+cgwb,WB,Uttar Dinajpur,d330,exact_normalised
