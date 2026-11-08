@@ -45,6 +45,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# generated maplibre worker
+/public/vendor/maplibre/maplibre-gl-worker.mjs
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

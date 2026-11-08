@@ -259,6 +259,7 @@ export function DistrictMap({
     (async () => {
       const maplibregl = await import("maplibre-gl");
       if (cancelled || !containerRef.current) return;
+      maplibregl.setWorkerUrl("/vendor/maplibre/maplibre-gl-worker.mjs");
       const map = new maplibregl.Map({
         container: containerRef.current,
         style: {
@@ -267,9 +268,10 @@ export function DistrictMap({
             satellite: {
               type: "raster",
               tiles: [
-                "https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{x}/{y}.jpg",
+                "https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpg",
               ],
               tileSize: 256,
+              maxzoom: 14,
               attribution:
                 "Sentinel-2 cloudless © EOX | Boundaries geoBoundaries (ODbL) | NDVI NASA GIBS",
             },
@@ -277,6 +279,7 @@ export function DistrictMap({
               type: "raster",
               tiles: [NDVI_TILES],
               tileSize: 256,
+              maxzoom: 9,
               attribution: "MODIS NDVI 8-day composite · NASA GIBS",
             },
           },
@@ -307,6 +310,7 @@ export function DistrictMap({
         attributionControl: false,
         maxZoom: 11,
         minZoom: 3,
+        renderWorldCopies: false,
       });
       mapRef.current = map;
       map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");

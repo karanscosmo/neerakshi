@@ -41,7 +41,7 @@ export function AppNav() {
                       "relative inline-flex items-center rounded-full px-2.5 py-2 text-[0.78rem] transition-colors 2xl:px-3",
                       active
                         ? "bg-glacier/10 text-glacier"
-                        : "text-muted hover:text-cloud",
+                        : "text-cloud/75 hover:text-cloud",
                     )}
                     aria-current={active ? "page" : undefined}
                   >

@@ -61,6 +61,8 @@ export function FieldMap({
       ]);
       if (cancelled || !containerRef.current) return;
 
+      maplibregl.setWorkerUrl("/vendor/maplibre/maplibre-gl-worker.mjs");
+
       const map = new maplibregl.Map({
         container: containerRef.current,
         style: {
@@ -69,9 +71,10 @@ export function FieldMap({
             satellite: {
               type: "raster",
               tiles: [
-                "https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{x}/{y}.jpg",
+                "https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpg",
               ],
               tileSize: 256,
+              maxzoom: 14,
               attribution:
                 "Sentinel-2 cloudless © EOX | Search © Photon / OpenStreetMap contributors",
             },
@@ -94,6 +97,7 @@ export function FieldMap({
         zoom: 5,
         attributionControl: false,
         maxZoom: 19,
+        renderWorldCopies: false,
       });
       mapRef.current = map;
       map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");

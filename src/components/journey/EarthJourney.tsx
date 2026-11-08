@@ -253,13 +253,13 @@ export function EarthJourney({ data }: { data: JourneyData }) {
         <div className="flex items-center gap-1 sm:gap-3">
           <Link
             href="/atlas"
-            className="hidden rounded-full px-3 py-2 text-xs text-muted transition-colors hover:text-cloud sm:inline-flex"
+            className="hidden rounded-full px-3 py-2 text-xs text-cloud/80 transition-colors hover:text-cloud sm:inline-flex"
           >
             Atlas
           </Link>
           <Link
             href="/advisor"
-            className="hidden rounded-full px-3 py-2 text-xs text-muted transition-colors hover:text-cloud sm:inline-flex"
+            className="hidden rounded-full px-3 py-2 text-xs text-cloud/80 transition-colors hover:text-cloud sm:inline-flex"
           >
             Field advisor
           </Link>
@@ -342,18 +342,18 @@ export function EarthJourney({ data }: { data: JourneyData }) {
             className="object-cover opacity-70"
           />
         </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-midnight/40 via-midnight/20 to-midnight" />
+        <div className="absolute inset-0 bg-gradient-to-b from-midnight/60 via-midnight/45 to-midnight" />
         <div className="atmosphere-copy relative z-10 mx-auto w-full max-w-[1500px] px-4 py-24 sm:px-6">
           <p className="eyebrow">02 · Descent</p>
           <h2 className="display mt-5 max-w-4xl text-[clamp(2.4rem,6.5vw,5.8rem)] font-semibold text-cloud">
             THROUGH THE ATMOSPHERE
           </h2>
-          <p className="mt-6 max-w-xl text-base leading-relaxed text-cloud/65 sm:text-lg">
+          <p className="mt-6 max-w-xl text-base leading-relaxed text-cloud/85 sm:text-lg">
             The camera falls toward the subcontinent. Cloud systems, river basins and
             agricultural plains emerge from the blue — each one part of the same water
             cycle.
           </p>
-          <div className="mt-12 grid max-w-2xl gap-4 border-l border-glacier/30 pl-5 font-mono text-[0.65rem] uppercase tracking-[0.16em] text-muted sm:grid-cols-2">
+          <div className="mt-12 grid max-w-2xl gap-4 border-l border-glacier/30 pl-5 font-mono text-[0.65rem] uppercase tracking-[0.16em] text-cloud/70 sm:grid-cols-2">
             <p>Altitude · 408 km → 700 m</p>
             <p>Instrument · ISS / VIIRS true colour</p>
             <p>Cloud motion · multi-layer parallax</p>

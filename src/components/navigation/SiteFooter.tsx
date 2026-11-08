@@ -21,7 +21,7 @@ export async function SiteFooter() {
         </div>
         <div>
           <p className="eyebrow">Explore</p>
-          <ul className="mt-4 space-y-2.5 text-sm text-muted">
+          <ul className="mt-4 space-y-2.5 text-sm text-cloud/75">
             {[
               ["/atlas", t("atlas")],
               ["/monsoon", t("monsoon")],
@@ -38,7 +38,7 @@ export async function SiteFooter() {
         </div>
         <div>
           <p className="eyebrow">Use & verify</p>
-          <ul className="mt-4 space-y-2.5 text-sm text-muted">
+          <ul className="mt-4 space-y-2.5 text-sm text-cloud/75">
             <li>
               <Link className="transition-colors hover:text-cloud" href="/advisor">
                 {t("advisor")}
