@@ -27,6 +27,12 @@
 # local sqlite state
 /data/app/
 
+# python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
 # debug
 npm-debug.log*
 yarn-debug.log*
