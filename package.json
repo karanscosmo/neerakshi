@@ -10,7 +10,6 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest",
     "test:run": "vitest run",
-    "test:py": "python3 -m pytest tests/python -q",
     "pipeline": "python3 -m pipeline.run_all",
     "pipeline:offline": "python3 -m pipeline.run_all --skip-climate",
     "db:init": "tsx scripts/init-db.ts"

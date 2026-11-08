@@ -7,6 +7,7 @@ import { ArrowDown, ArrowRight, ArrowUpRight, Droplets, Radar, Satellite, Waves 
 import { Starfield } from "@/components/journey/Starfield";
 import { MonsoonBars } from "@/components/journey/MonsoonBars";
 import { Logo } from "@/components/shared/Logo";
+import { CROP_IMAGES, DEFAULT_CROP_IMAGE } from "@/lib/cropImages";
 import { formatNumber, formatPercent } from "@/lib/utils";
 
 export interface JourneyData {
@@ -21,13 +22,6 @@ export interface JourneyData {
   monthlyObservations: number;
   crops: { crop: string; cropName: string; productionTonnes: number; yieldKgHa: number | null }[];
 }
-
-const CROP_IMAGES: Record<string, string> = {
-  rice: "/images/crops/rice.jpg",
-  wheat: "/images/crops/wheat.jpg",
-  maize: "/images/crops/maize.jpg",
-  sugarcane: "/images/crops/sugarcane.jpg",
-};
 
 function subscribeToReducedMotion(callback: () => void) {
   const media = window.matchMedia("(prefers-reduced-motion: reduce)");
@@ -556,7 +550,7 @@ export function EarthJourney({ data }: { data: JourneyData }) {
               <article key={crop.crop} className="crop-card group relative overflow-hidden rounded-2xl border border-cloud/15">
                 <div className="relative h-28 sm:h-32">
                   <Image
-                    src={CROP_IMAGES[crop.crop] ?? "/images/crops/crop-rows.jpg"}
+                    src={CROP_IMAGES[crop.crop] ?? DEFAULT_CROP_IMAGE}
                     alt={crop.cropName}
                     fill
                     sizes="(max-width: 1024px) 50vw, 25vw"

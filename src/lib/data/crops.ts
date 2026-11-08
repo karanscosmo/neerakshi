@@ -1,6 +1,7 @@
 import "server-only";
 
 import { getAtlasData, getCropRows } from "@/lib/data/atlas";
+import { CROP_IMAGES, DEFAULT_CROP_IMAGE } from "@/lib/cropImages";
 
 export interface CropDistrictPoint {
   id: string;
@@ -37,13 +38,6 @@ export interface CropExplorerData {
   crops: CropExplorerCrop[];
 }
 
-const IMAGES: Record<string, string> = {
-  maize: "/images/crops/maize.jpg",
-  rice: "/images/crops/rice.jpg",
-  wheat: "/images/crops/wheat.jpg",
-  sugarcane: "/images/crops/sugarcane.jpg",
-};
-
 export async function getCropExplorerData(): Promise<CropExplorerData> {
   const [atlas, rows] = await Promise.all([getAtlasData(), getCropRows()]);
   const latestYear = atlas.crops.latestYear ?? atlas.metadata.latestYear;
@@ -64,7 +58,7 @@ export async function getCropExplorerData(): Promise<CropExplorerData> {
     return {
       key: crop.key,
       name: crop.name,
-      image: IMAGES[crop.key] ?? "/images/crops/crop-rows.jpg",
+      image: CROP_IMAGES[crop.key] ?? DEFAULT_CROP_IMAGE,
       series: atlas.crops.series
         .filter((point) => point.crop === crop.key)
         .sort((a, b) => a.year - b.year)

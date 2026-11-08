@@ -3,7 +3,11 @@ node_modules
 out
 coverage
 data/app
-pipeline/__pycache__
+data/raw
+data/reference
+docs
+tests
+pipeline
 **/__pycache__
 *.pyc
 .env*
