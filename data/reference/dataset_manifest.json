@@ -1,0 +1,23 @@
+{
+  "generated_by": "pipeline/fixtures.py",
+  "datasets": [
+    {
+      "file": "irrigation_district.csv",
+      "provenance": "demo_fixture",
+      "note": "DEMO FIXTURE — synthetic values generated for interface demonstration. Not an observation and not suitable for inference.",
+      "real_source_schema": "ICRISAT District Level Database"
+    },
+    {
+      "file": "groundwater_district.csv",
+      "provenance": "demo_fixture",
+      "note": "DEMO FIXTURE — synthetic values generated for interface demonstration. Not an observation and not suitable for inference.",
+      "real_source_schema": "CGWB via India-WRIS"
+    },
+    {
+      "file": "crop_production.csv",
+      "provenance": "demo_fixture",
+      "note": "DEMO FIXTURE — synthetic values generated for interface demonstration. Not an observation and not suitable for inference.",
+      "real_source_schema": "data.gov.in district-wise season-wise crop production"
+    }
+  ]
+}

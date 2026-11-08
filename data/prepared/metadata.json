@@ -1,0 +1,76 @@
+{
+  "generatedAt": "2026-11-07T06:10:25.259517+00:00",
+  "indexVersion": "0.1.0",
+  "districtCount": 735,
+  "rainfallDistricts": 735,
+  "datasets": {
+    "rainfall": {
+      "source": "NASA POWER / MERRA-2",
+      "provenance": "reanalysis",
+      "period": "2015-2025"
+    },
+    "groundwater": {
+      "provenance": "demo_fixture"
+    },
+    "irrigation": {
+      "provenance": "demo_fixture"
+    },
+    "crops": {
+      "provenance": "demo_fixture"
+    }
+  },
+  "files": {
+    "VALIDATION_REPORT.md": {
+      "bytes": 6258,
+      "sha256": "ab5a806c97fbfa43"
+    },
+    "advisories.csv": {
+      "bytes": 193,
+      "sha256": "c829979ed918b315"
+    },
+    "atlas.json": {
+      "bytes": 871634,
+      "sha256": "be30c5566be3ccdd"
+    },
+    "climate_summary.json": {
+      "bytes": 452226,
+      "sha256": "1b1fa6d5213d8ef5"
+    },
+    "crop_production.csv": {
+      "bytes": 4250792,
+      "sha256": "7fe4a41eff7889b8"
+    },
+    "district_crosswalk.csv": {
+      "bytes": 102929,
+      "sha256": "afcf0de4de566551"
+    },
+    "district_reference.json": {
+      "bytes": 157711,
+      "sha256": "360ea188b707d9fc"
+    },
+    "groundwater_district.csv": {
+      "bytes": 1085475,
+      "sha256": "8f51662667c3796e"
+    },
+    "irrigation_district.csv": {
+      "bytes": 1144216,
+      "sha256": "85dc1dc33e408796"
+    },
+    "metadata.json": {
+      "bytes": 1635,
+      "sha256": "2ce99792039c95d6"
+    },
+    "rainfall_district_monthly.csv": {
+      "bytes": 11664180,
+      "sha256": "219bdae556735faa"
+    },
+    "rainfall_district_season.csv": {
+      "bytes": 1110434,
+      "sha256": "13a0f4abf218e61c"
+    },
+    "water_stress_index.csv": {
+      "bytes": 203899,
+      "sha256": "5c24df43ebbee313"
+    }
+  }
+}

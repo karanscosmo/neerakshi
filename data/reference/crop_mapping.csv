@@ -1,0 +1,5 @@
+crop_code,crop_name,season,kc_ini,kc_mid,kc_end,zr_max_m,p_depletion,kc_source
+rice,Rice / Paddy,Kharif,1.05,1.2,0.9,0.6,0.2,"FAO Irrigation and Drainage Paper 56, Tables 11-12"
+wheat,Wheat,Rabi,0.3,1.15,0.4,1.5,0.55,"FAO Irrigation and Drainage Paper 56, Tables 11-12"
+maize,Maize,Kharif,0.3,1.2,0.5,1.2,0.55,"FAO Irrigation and Drainage Paper 56, Tables 11-12"
+sugarcane,Sugarcane,Whole year,0.4,1.25,0.75,1.2,0.65,"FAO Irrigation and Drainage Paper 56, Tables 11-12"
