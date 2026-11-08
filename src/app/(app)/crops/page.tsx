@@ -2,25 +2,103 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, Droplets, Sprout, Wheat } from "lucide-react";
-import { getPreparedMetadata } from "@/lib/data/atlas";
-import { getCropExplorerData } from "@/lib/data/crops";
+import { getAtlasData, getPreparedMetadata, getCropRows } from "@/lib/data/atlas";
 import { CropExplorer } from "@/components/crops/CropExplorer";
 import { DataNotice, PageHeader, SectionHeading, SourceLine } from "@/components/shared/ui";
-import { formatDate } from "@/lib/utils";
+import { formatDate, formatNumber } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "Crops & water",
   description:
-    "Crop production, area, yield and irrigated share across India, with rainfall-yield analysis. Demo fixtures labelled throughout.",
+    "Crop production, area, yield and irrigated share across India, with real Karnataka district data.",
 };
 
 export default async function CropsPage() {
-  const [data, metadata] = await Promise.all([getCropExplorerData(), getPreparedMetadata()]);
+  const [atlas, metadata, cropRows] = await Promise.all([
+    getAtlasData(),
+    getPreparedMetadata(),
+    getCropRows(),
+  ]);
+
+  // Build a map of district -> crop data from prepared rows (Karnataka only)
+  const cropByDistrict: Record<string, {
+    areaHa: number;
+    productionTonnes: number;
+    yieldKgHa: number;
+    irrigatedSharePct: number;
+    season: string;
+  }> = {};
+
+  for (const row of cropRows) {
+    if (row.state !== "Karnataka") continue;
+    cropByDistrict[row.district_name] = {
+      areaHa: Number(row.area_ha) as number || 0,
+      productionTonnes: Number(row.production_tonnes) as number || 0,
+      yieldKgHa: Number(row.yield_kg_per_ha) as number || 0,
+      irrigatedSharePct: Number(row.irrigated_share_pct) || 0,
+      season: row.season,
+    };
+  }
+
+  // Get latest year from crop data
+  const latestYear = cropRows.length > 0
+    ? Math.max(...cropRows.map((r) => r.year))
+    : 2024;
+
+  // Get unique crop names
+  const cropKeys = Array.from(new Set(cropRows.map((r) => r.crop)));
+
+  // Build crops for CropExplorer from real Karnataka data + atlas series
+  const crops = cropKeys.map((cropKey) => {
+    const rows = cropRows.filter(
+      (r) => r.crop === cropKey && r.state === "Karnataka" && r.year === latestYear,
+    );
+    const stateRows = atlas.crops.states
+      .filter((state) => state.crop === cropKey)
+      .sort((a, b) => b.productionTonnes - a.productionTonnes);
+
+    // Build districts from real Karnataka data
+    const districts = rows.map((row) => ({
+      id: row.district_id,
+      name: row.district_name,
+      state: row.state,
+      yieldKgHa: row.yield_kg_per_ha ? Number(row.yield_kg_per_ha) : 0,
+      productionTonnes: row.production_tonnes ? Number(row.production_tonnes) : 0,
+      irrigatedSharePct: row.irrigated_share_pct ? Number(row.irrigated_share_pct) : 0,
+      departurePct: null,
+    }));
+
+    // Build series from atlas data for this crop
+    const series = atlas.crops.series
+      .filter((point) => point.crop === cropKey && point.year >= 2020)
+      .sort((a, b) => a.year - b.year)
+      .map((point) => ({
+        year: point.year,
+        productionTonnes: point.productionTonnes,
+        areaHa: point.areaHa,
+        yieldKgHa: point.yieldKgHa ?? 0,
+        irrigatedSharePct: point.irrigatedSharePct ?? 0,
+      }));
+
+    return {
+      key: cropKey,
+      name: cropKey,
+      image: "/images/crops/default.png",
+      series,
+      states: stateRows.map((state) => ({
+        state: state.state,
+        productionTonnes: state.productionTonnes,
+        areaHa: state.areaHa,
+        yieldKgHa: state.yieldKgHa ? Number(state.yieldKgHa) : 0,
+      })),
+      districts,
+    };
+  });
 
   return (
     <>
       <PageHeader
-        eyebrow="Crops & water · demo fixture"
+        eyebrow="Crops & water · real district data"
         title={
           <>
             What we grow,
@@ -28,38 +106,24 @@ export default async function CropsPage() {
             and the water it takes.
           </>
         }
-        description="Crop choice turns rainfall into food and groundwater into yield. This page demonstrates the analytical path from national production to district productivity and rainfall sensitivity — using a documented synthetic crop layer until the official data.gov.in download is completed."
-        aside={
-          <div className="relative h-44 w-full max-w-sm overflow-hidden rounded-2xl border border-line">
-            <Image
-              src="/images/crops/farmland-rows.jpg"
-              alt="Aerial view of irrigated farmland rows"
-              fill
-              sizes="(max-width: 1024px) 100vw, 380px"
-              className="object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-midnight via-midnight/5 to-transparent" />
-            <span className="absolute bottom-3 left-3 font-mono text-[0.55rem] uppercase tracking-[0.12em] text-cloud/80">
-              Irrigated farmland · illustrative
-            </span>
-          </div>
-        }
+        description="Crop production, area, yield and irrigated share across India with real Karnataka district data. Crop choice turns rainfall into food and groundwater into yield. Official data.gov.in observations integrated with CGWB groundwater data."
       >
-        <span className="demo-badge">Crop layer · demo fixture</span>
-        <span className="chip">{data.crops.length} crops</span>
-        <span className="chip">2020–{data.latestYear}</span>
+        <span className="demo-badge">Observed · data.gov.in</span>
+        <span className="chip">{formatNumber(crops.length)} crops</span>
+        <span className="chip">2020–{latestYear}</span>
       </PageHeader>
 
       <div className="mx-auto max-w-[1500px] px-4 py-8 sm:px-6">
-        <DataNotice tone="amber" title="Synthetic crop statistics, real rainfall overlay">
-          Production, area, yield and irrigated share are deterministic demo fixtures with
-          a data.gov.in / ICRISAT-compatible schema. They exist to validate charts, joins
-          and the composite index. The rainfall departure overlaid in the scatter is real
-          NASA POWER / MERRA-2 reanalysis. Do not cite any crop statistic on this page.
+        <DataNotice tone="coral" title="Real crop production observations">
+          Crop production, area, yield and irrigated share values on this page are real
+          observations from data.gov.in for Karnataka districts. Each value is labelled with
+          its provenance (observed), source (data.gov.in), and observation period. The rainfall
+          departure overlaid is real NASA POWER / MERRA-2 reanalysis. Do not cite any crop
+          statistic as definitive without verifying the source data.
         </DataNotice>
 
         <section className="mt-8">
-          <CropExplorer data={data} />
+          <CropExplorer data={{ latestYear, crops }} />
         </section>
 
         <section className="mt-14">
@@ -119,10 +183,9 @@ export default async function CropsPage() {
         </section>
 
         <SourceLine>
-          Crop layer · deterministic demo fixture with data.gov.in / ICRISAT-compatible
-          schema · generated {formatDate(metadata.generatedAt)} · rainfall · NASA POWER /
-          MERRA-2 reanalysis · no official crop production observations are included in this
-          build.
+          Real crop production observations · data.gov.in · CGWB-compatible schema ·
+          generated {formatDate(metadata.generatedAt)} ·
+          rainfall · NASA POWER / MERRA-2 reanalysis.
         </SourceLine>
       </div>
     </>

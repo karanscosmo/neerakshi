@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowUpRight, Download } from "lucide-react";
-import { getAtlasData, getPreparedMetadata } from "@/lib/data/atlas";
+import { getAtlasData, getPreparedMetadata, mergeKarnatakaGwIntoAtlas, getKarnatakaGroundwaterRows } from "@/lib/data/atlas";
 import { getMapData } from "@/lib/data/map";
 import { DistrictMap } from "@/components/maps/DistrictMap";
 import { DistrictTable, type TableDistrict } from "@/components/atlas/DistrictTable";
@@ -19,14 +19,17 @@ export default async function AtlasPage({
 }: {
   searchParams: Promise<{ district?: string }>;
 }) {
-  const [atlas, mapData, metadata, params] = await Promise.all([
+  const [atlas, mapData, metadata, params, karnatakaGw] = await Promise.all([
     getAtlasData(),
     getMapData(),
     getPreparedMetadata(),
     searchParams,
+    getKarnatakaGroundwaterRows(),
   ]);
 
-  const tableDistricts: TableDistrict[] = atlas.districts.map((district) => ({
+  const mergedAtlas = mergeKarnatakaGwIntoAtlas(atlas, karnatakaGw);
+
+  const tableDistricts: TableDistrict[] = mergedAtlas.districts.map((district) => ({
     id: district.id,
     name: district.name,
     state: district.state,
@@ -56,7 +59,7 @@ export default async function AtlasPage({
         }
         description="Explore the composite Water Stress Index and each of its components. Every layer is labelled with its provenance, observation period and source. The index is analytical and project-defined, not an official classification."
       >
-        <span className="chip">{formatNumber(atlas.metadata.districtCount)} districts</span>
+        <span className="chip">{formatNumber(mergedAtlas.metadata.districtCount)} districts</span>
         <span className="chip">Rainfall 2015–2025</span>
         <span className="chip">Index v{metadata.indexVersion}</span>
         <span className="chip">Generated {formatDate(metadata.generatedAt)}</span>
@@ -101,7 +104,7 @@ export default async function AtlasPage({
                     className="mono mt-1.5 text-2xl"
                     style={{ color: STRESS_COLORS[key] }}
                   >
-                    {formatNumber(atlas.classes[key] ?? 0)}
+                    {formatNumber(mergedAtlas.classes[key] ?? 0)}
                   </p>
                   <p className="mt-0.5 text-[0.55rem] text-muted">
                     {key === "Low"
@@ -116,7 +119,7 @@ export default async function AtlasPage({
               ))}
             </div>
             <p className="mt-5 text-[0.7rem] leading-relaxed text-muted">
-              {atlas.metadata.stressDefinition}
+              {mergedAtlas.metadata.stressDefinition}
             </p>
           </div>
 
@@ -205,8 +208,10 @@ export default async function AtlasPage({
             </table>
           </div>
           <SourceLine>
-            Rainfall · NASA POWER / MERRA-2 reanalysis · groundwater and irrigation · demo
-            fixtures for schema demonstration.
+            Rainfall · NASA POWER / MERRA-2 reanalysis · groundwater and irrigation {" "}
+            {mergedAtlas.metadata.provenance.groundwater.type === "observed"
+              ? "(Karnataka CGWB observed)"
+              : "demo fixtures for schema demonstration."}
           </SourceLine>
         </section>
 
@@ -226,8 +231,10 @@ export default async function AtlasPage({
           </div>
           <SourceLine>
             Boundaries · geoBoundaries gbOpen 2021 ADM2 (ODbL) · rainfall · NASA POWER
-            PRECTOTCORR monthly reanalysis · groundwater, irrigation · deterministic demo
-            fixtures · index · percentile composite v{metadata.indexVersion}.
+            PRECTOTCORR monthly reanalysis · groundwater, irrigation {" "}
+            {mergedAtlas.metadata.provenance.groundwater.type === "observed"
+              ? "(Karnataka CGWB observed)"
+              : "deterministic demo fixtures"}. index · percentile composite v{metadata.indexVersion}.
           </SourceLine>
         </section>
       </div>

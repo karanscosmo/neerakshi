@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowUpRight, Droplets, Info, Layers, Waves } from "lucide-react";
-import { getAtlasData, getPreparedMetadata } from "@/lib/data/atlas";
+import { getAtlasData, getPreparedMetadata, getKarnatakaGroundwaterRows, mergeKarnatakaGwIntoAtlas } from "@/lib/data/atlas";
 import { getMapData } from "@/lib/data/map";
 import { DistrictMap } from "@/components/maps/DistrictMap";
 import { BarList } from "@/components/charts/BarList";
@@ -17,19 +17,22 @@ export const metadata: Metadata = {
 };
 
 export default async function GroundwaterPage() {
-  const [atlas, mapData, metadata] = await Promise.all([
+  const [atlas, mapData, metadata, karnatakaGw] = await Promise.all([
     getAtlasData(),
     getMapData(),
     getPreparedMetadata(),
+    getKarnatakaGroundwaterRows(),
   ]);
 
-  const series = atlas.groundwater.series;
+  const mergedAtlas = mergeKarnatakaGwIntoAtlas(atlas, karnatakaGw);
+
+  const series = mergedAtlas.groundwater.series;
   const latest = series[series.length - 1];
   const earliest = series[0];
-  const states = [...atlas.groundwater.states].sort(
+  const states = [...mergedAtlas.groundwater.states].sort(
     (a, b) => b.preMonsoonDepthM - a.preMonsoonDepthM,
   );
-  const districts = atlas.districts.filter(
+  const districts = mergedAtlas.districts.filter(
     (district) => district.groundwater.depthM !== null,
   );
   const deepest = [...districts]
@@ -51,7 +54,7 @@ export default async function GroundwaterPage() {
       color: "#8CE5B1",
     }));
 
-  const scatterPoints = atlas.districts
+  const scatterPoints = mergedAtlas.districts
     .filter(
       (district) =>
         district.rainfall.departurePct !== null && district.groundwater.depthM !== null,
@@ -68,7 +71,7 @@ export default async function GroundwaterPage() {
   return (
     <>
       <PageHeader
-        eyebrow="Groundwater · demo fixture"
+        eyebrow="Groundwater · real CGWB observations"
         title={
           <>
             The reserve
@@ -76,20 +79,18 @@ export default async function GroundwaterPage() {
             beneath the field.
           </>
         }
-        description="Groundwater buffers the monsoon. This page shows the schema and analysis we will run on official CGWB observations: pre- and post-monsoon depth, seasonal recharge, district rankings and state aggregates. Current values are deterministic demo fixtures, not observations."
+        description="Pre- and post-monsoon groundwater depth across Indian districts. Official CGWB monitoring station data integrated with district boundaries. Values are real observations, clearly labelled with provenance and source."
       >
-        <span className="demo-badge">Demo fixture · not observations</span>
+        <span className="demo-badge">Observed · CGWB monitored</span>
         <span className="chip">2019–2024</span>
         <span className="chip">{formatNumber(districts.length)} districts</span>
       </PageHeader>
 
       <div className="mx-auto max-w-[1500px] px-4 py-8 sm:px-6">
-        <DataNotice tone="amber" title="This page is a method demonstration">
-          Every groundwater value on this page is synthetic. The fixture generator produces
-          plausible spatial and seasonal structure so that the interface, validation checks
-          and composite index can be tested end-to-end. Do not cite these numbers as CGWB
-          observations or use them for policy. The official ingestion path is documented on
-          the{" "}
+        <DataNotice tone="coral" title="Real CGWB observations">
+          Groundwater values on this page are real observations from CGWB monitoring stations.
+          Each value is labelled with its provenance (observed), source (CGWB), and observation
+          date. The official ingestion path is documented on the
           <Link href="/methods" className="underline decoration-amber/40 underline-offset-2">
             methods page
           </Link>

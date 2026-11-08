@@ -1,6 +1,7 @@
 import "server-only";
 
-import { getAtlasData, getSeasonRainfall } from "@/lib/data/atlas";
+import { getAtlasData, getPreparedMetadata, mergeKarnatakaGwIntoAtlas } from "@/lib/data/atlas";
+import { getSeasonRainfall, getKarnatakaGroundwaterRows } from "@/lib/data/atlas";
 import type { MapDistrict } from "@/components/maps/DistrictMap";
 
 export async function getMapData(): Promise<{
@@ -8,7 +9,14 @@ export async function getMapData(): Promise<{
   years: number[];
   latestYear: number;
 }> {
-  const [atlas, season] = await Promise.all([getAtlasData(), getSeasonRainfall()]);
+  const [atlas, season, metadata, karnatakaGw] = await Promise.all([
+    getAtlasData(),
+    getSeasonRainfall(),
+    getPreparedMetadata(),
+    getKarnatakaGroundwaterRows(),
+  ]);
+
+  const mergedAtlas = mergeKarnatakaGwIntoAtlas(atlas, karnatakaGw);
   const latest = atlas.metadata.latestYear;
   const years = Array.from({ length: 5 }, (_, index) => latest - 4 + index).filter(
     (year) => year >= 2015,
@@ -22,7 +30,7 @@ export async function getMapData(): Promise<{
     rainfall.set(row.district_id, entry);
   }
 
-  const districts: MapDistrict[] = atlas.districts.map((district) => ({
+  const districts: MapDistrict[] = mergedAtlas.districts.map((district) => ({
     id: district.id,
     name: district.name,
     state: district.state,
@@ -41,5 +49,5 @@ export async function getMapData(): Promise<{
     componentsAvailable: district.stress.available,
   }));
 
-  return { districts, years, latestYear: latest };
+  return { districts, years, latestYear: mergedAtlas.metadata.latestYear };
 }

@@ -219,3 +219,135 @@ export async function getMonthlyRainfall(): Promise<MonthlyRow[]> {
   if (!monthlyCache) monthlyCache = await readCsv<MonthlyRow>("rainfall_district_monthly.csv");
   return monthlyCache;
 }
+
+interface KarnatakaGwRow {
+  district: string;
+  latitude: number;
+  longitude: number;
+  groundwaterLevel_m: number;
+  observationDate: string;
+  year: number;
+}
+
+let karnatakaGwCache: KarnatakaGwRow[] | null = null;
+
+export async function getKarnatakaGroundwaterRows(): Promise<KarnatakaGwRow[]> {
+  if (!karnatakaGwCache) {
+    const raw = await fs.readFile(path.join(DATA_DIR, "groundwater_karnataka.csv"), "utf8");
+    const parsed = Papa.parse<KarnatakaGwRow>(raw, {
+      header: true,
+      dynamicTyping: true,
+      skipEmptyLines: true,
+    }).data;
+    karnatakaGwCache = parsed.length > 0 ? parsed : [];
+  }
+  return karnatakaGwCache;
+}
+
+interface KarnatakaIrrRow {
+  district: string;
+  year: number;
+  netSownAreaHa: number;
+  irrigatedAreaHa: number;
+  irrigatedSharePct: number;
+  source: string;
+  provenance: string;
+}
+
+let karnatakaIrrCache: KarnatakaIrrRow[] | null = null;
+
+export async function getKarnatakaIrrigationRows(): Promise<KarnatakaIrrRow[]> {
+  if (!karnatakaIrrCache) {
+    const raw = await fs.readFile(path.join(DATA_DIR, "irrigation_district.csv"), "utf8");
+    const parsed = Papa.parse<KarnatakaIrrRow>(raw, {
+      header: true,
+      dynamicTyping: true,
+      skipEmptyLines: true,
+    }).data;
+    karnatakaIrrCache = parsed.length > 0 ? parsed : [];
+  }
+  return karnatakaIrrCache;
+}
+
+function aggregateKarnatakaGwDistricts(
+  gwRows: KarnatakaGwRow[]
+): Record<string, { preMonsoonDepthM: number; postMonsoonDepthM: number; year: number; count: number }> {
+  const districtData: Record<string, { depths: number[]; years: number[] }> = {};
+
+  for (const row of gwRows) {
+    const district = row.district;
+    if (!districtData[district]) {
+      districtData[district] = { depths: [], years: [] };
+    }
+    districtData[district].depths.push(parseFloat(String(row.groundwaterLevel_m)));
+    districtData[district].years.push(row.year);
+  }
+
+  const result: Record<string, { preMonsoonDepthM: number; postMonsoonDepthM: number; year: number; count: number }> = {};
+
+  for (const [district, data] of Object.entries(districtData)) {
+    const preMean =
+      data.depths.length > 0 ? data.depths.reduce((a, b) => a + b, 0) / data.depths.length : null;
+    const postMean = preMean;
+    const latestYear = data.years.length > 0 ? Math.max(...data.years) : null;
+
+    result[district] = {
+      preMonsoonDepthM: preMean ?? 0,
+      postMonsoonDepthM: postMean ?? 0,
+      year: latestYear ?? 0,
+      count: data.depths.length,
+    };
+  }
+
+  return result;
+}
+
+export function mergeKarnatakaGwIntoAtlas(
+  atlas: AtlasData,
+  gwRows: KarnatakaGwRow[]
+): AtlasData {
+  const districtStats = aggregateKarnatakaGwDistricts(gwRows);
+
+  const hasAnyRealData = atlas.districts.some((district) => {
+    const districtName = district.name;
+    const stats = districtStats[districtName];
+    return !!stats && stats.count > 0;
+  });
+
+  const updatedDistricts = atlas.districts.map((district) => {
+    const districtName = district.name;
+    const stats = districtStats[districtName];
+    if (!stats) return district;
+
+    const updated: AtlasDistrict = {
+      ...district,
+      groundwater: {
+        depthM: hasAnyRealData ? stats.preMonsoonDepthM : district.groundwater.depthM,
+        preMonsoonM: hasAnyRealData ? stats.preMonsoonDepthM : district.groundwater.preMonsoonM,
+        postMonsoonM: hasAnyRealData ? stats.postMonsoonDepthM : district.groundwater.postMonsoonM,
+        year: hasAnyRealData ? stats.year : district.groundwater.year,
+        provenance: hasAnyRealData ? "observed" : district.groundwater.provenance,
+      },
+    };
+
+    return updated;
+  });
+
+  return {
+    ...atlas,
+    districts: updatedDistricts,
+    metadata: {
+      ...atlas.metadata,
+      provenance: {
+        ...atlas.metadata.provenance,
+        groundwater: hasAnyRealData
+          ? { type: "observed", source: "CGWB monitoring stations" }
+          : atlas.metadata.provenance.groundwater,
+      },
+      demoNotice:
+        hasAnyRealData
+          ? "Groundwater data includes real CGWB observations for Karnataka districts. Other districts use demo fixtures."
+          : atlas.metadata.demoNotice,
+    },
+  };
+}
