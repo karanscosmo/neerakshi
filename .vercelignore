@@ -1,0 +1,10 @@
+node_modules
+.next
+out
+coverage
+data/app
+pipeline/__pycache__
+**/__pycache__
+*.pyc
+.env*
+.vercel
